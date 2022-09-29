@@ -1,0 +1,42 @@
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW1\109590043\HW01\Form1.cs Line 39
+FeatureEnvyDetector	WARN	 Homework01.Form1 envy Homework01.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetCategoryBookCount
+FeatureEnvyDetector	WARN		GetTabName
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW1\109590043\HW01\Form1.cs Line 37
+FeatureEnvyDetector	WARN	 Homework01.Form1 envy Homework01.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetCategoryBookCount
+FeatureEnvyDetector	WARN		GetTabName
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW1\109590043\HW01\Form1.cs Line 39
+FeatureEnvyDetector	WARN	 Homework01.Form1 envy Homework01.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW1\109590043\HW01\Form1.cs Line 39
+FeatureEnvyDetector	WARN	 Homework01.Form1 envy Homework01.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW1\109590043\HW01\Form1.cs Line 38
+FeatureEnvyDetector	WARN	 Homework01.Form1 envy Homework01.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW1\109590043\HW01\Form1.cs Line 36
+FeatureEnvyDetector	WARN	 Homework01.Form1 envy Homework01.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW1\109590043\HW01\Form1.cs Line 39
+FeatureEnvyDetector	WARN	 Homework01.Form1 envy Homework01.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookCategories
+FeatureEnvyDetector	WARN		GetBookCategories
