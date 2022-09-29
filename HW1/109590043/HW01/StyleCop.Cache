@@ -123,6 +123,12 @@
   <project key="-1425939771">
     <configuration>DEBUG;TRACE</configuration>
   </project>
+  <project key="1204288457">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
+  <project key="645601331">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
   <sourcecode name="Book.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2022/09/19 21:37:40.060</styleCop>
@@ -160,7 +166,7 @@
     <timestamps>
       <styleCop>2022/09/19 21:37:40.060</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2022/09/26 00:00:34.881</sourceFile>
+      <sourceFile>2022/09/26 01:16:35.110</sourceFile>
       <parser>2022/09/19 21:37:40.060</parser>
       <KellyPalRules.KellyPalAnalyzer>2022/09/19 21:37:40.060</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>
@@ -182,7 +188,7 @@
     <timestamps>
       <styleCop>2022/09/19 21:37:40.060</styleCop>
       <settingsFile>0001/01/01 00:00:00.000</settingsFile>
-      <sourceFile>2022/09/26 00:02:35.771</sourceFile>
+      <sourceFile>2022/09/26 21:13:01.722</sourceFile>
       <parser>2022/09/19 21:37:40.060</parser>
       <KellyPalRules.KellyPalAnalyzer>2022/09/19 21:37:40.060</KellyPalRules.KellyPalAnalyzer>
       <KellyPalRules.KellyPalAnalyzer.FilesHashCode>0</KellyPalRules.KellyPalAnalyzer.FilesHashCode>

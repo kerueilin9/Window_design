@@ -23,7 +23,6 @@ namespace Homework01
             _confirm.Enabled = false;
             _model.ReadFile();
             _model.CreateBook();
-            _model.CreateBookItem();
             SetDataGridView();
             SetView();
         }

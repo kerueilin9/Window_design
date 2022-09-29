@@ -9,7 +9,6 @@ namespace Homework01
         private int _borrowedBookCount = 0;
         private const int DIVIDE = 7;
         private string[,] _data;
-        private List<string> _resultList = new List<string>();
         private List<string> _dataList = new List<string>();
         private List<BookCategory> _bookCategories = new List<BookCategory>();
         private List<BookItem> _bookItems = new List<BookItem>();
@@ -48,31 +47,20 @@ namespace Homework01
         {
             for (int x = 1; x < _dataList.Count() / DIVIDE; x++)
             {
+                const int BOOKCOUNT = 1;
                 const int CATEGORY = 2;
                 const int NAME = 3;
                 const int ID = 4;
                 const int CONTENT = 5;
                 const int ADDRESS = 6;
                 Book book = new Book(_data[x, NAME], _data[x, ID], _data[x, CONTENT], _data[x, ADDRESS]);
-                this._books.Add(book);
-                if (!_resultList.Contains(_data[x, CATEGORY]))
+                BookItem bookItem = new BookItem(int.Parse(_data[x, BOOKCOUNT]), book);
+                this._bookItems.Add(bookItem);
+                if (this._bookCategories.Find(i => i.GetCategoryName() == _data[x, CATEGORY]) == null) 
                 {
-                    _resultList.Add(_data[x, CATEGORY]);
                     this._bookCategories.Add(new BookCategory(_data[x, CATEGORY]));
                 }
-                this._bookCategories[_resultList.IndexOf(_data[x, CATEGORY])].AddBook(book);
-            }
-        }
-
-        //CreateBookItem
-        public void CreateBookItem()
-        {
-            for (int x = 1; x < _dataList.Count() / DIVIDE; x++)
-            {
-                const int BOOKCOUNT = 1;
-                int temp = int.Parse(_data[x, BOOKCOUNT]);
-                BookItem bookItem = new BookItem(int.Parse(_data[x, BOOKCOUNT]), _books[x - 1]);
-                this._bookItems.Add(bookItem);
+                this._bookCategories.Find(i => i.GetCategoryName() == _data[x, CATEGORY]).AddBook(book);
             }
         }
 
@@ -85,9 +73,13 @@ namespace Homework01
         //GetContent
         public string GetContent(string categoryName, int id)
         {
-            this._book = _bookCategories[_resultList.IndexOf(categoryName)].GetBooks()[id];
+            BookCategory category = _bookCategories.Find(x =>
+            {
+                return x.GetCategoryName() == categoryName;
+            });
+            this._book = category.GetBooks()[id];
             this._bookItem = this._bookItems.Find(x => x.GetBook() == _book);
-            return _book.GetAllContent();
+            return this._book.GetAllContent();
         }
 
         //GetBorrowBook
