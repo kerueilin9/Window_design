@@ -71,6 +71,15 @@ namespace Homework02
             return this._bookCategories;
         }
 
+        public List<Book> GetBookCategoriesBooks(string categoryName)
+        {
+            BookCategory category = _bookCategories.Find(x =>
+            {
+                return x.GetCategoryName() == categoryName;
+            });
+            return category.GetBooks();
+        }
+
         //GetContent
         public string GetContent(string categoryName, int id)
         {

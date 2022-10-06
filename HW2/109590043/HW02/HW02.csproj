@@ -91,6 +91,9 @@
       <DependentUpon>MenuForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Model.cs" />
+    <Compile Include="PresentationModel\BackPackFormPresentationModel.cs" />
+    <Compile Include="PresentationModel\BookBorrowingFormPresentationModel.cs" />
+    <Compile Include="PresentationModel\MenuFormPresentationModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form\BackPackForm.resx">

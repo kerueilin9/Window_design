@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Homework02.PresentationModel;
+using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace Homework02
@@ -9,6 +11,7 @@ namespace Homework02
     {
         private Model _model;
         private int _bookId = 1;
+        private BookBorrowingFormPresentationModel borrowingFormPresentationModel;
 
         public BookBorrowingForm(Model model)
         {
@@ -25,12 +28,24 @@ namespace Homework02
             _model.CreateBook();
             SetDataGridView();
             SetView();
+            _tabControl1.Selecting += new TabControlCancelEventHandler(tabControl1_Selecting);
+            borrowingFormPresentationModel = new BookBorrowingFormPresentationModel(_model);
         }
 
+        void tabControl1_Selecting(object sender, TabControlCancelEventArgs e)
+        {
+            List<Book> books = _model.GetBookCategoriesBooks(this._tabControl1.SelectedTab.Text);
+            this._page.Text = String.Format("Page：{0}/{1}", "1", books.Count / 3 + 1);
+            //TabPage current = (sender as TabControl).SelectedTab;
+
+            //// Validate the current page. To cancel the select, use:
+            //e.Cancel = true;
+        }
         //SetView
         private void SetView()
         {
             List<BookCategory> bookCategories = _model.GetBookCategories();
+            this._page.Text = String.Format("Page：{0}/{1}", "1", bookCategories[0].GetBooks().Count / 3 + 1);
             foreach (BookCategory bookCategory in bookCategories)
             {
                 TabPage tabPage = new TabPage(bookCategory.GetCategoryName());
@@ -52,7 +67,7 @@ namespace Homework02
             const string BOOK = "Book ";
             Button button = new Button();
             tabPage.Controls.Add(button);
-            button.Location = new Point(POSITION + SPACING * book, POSITION);
+            button.Location = new Point(POSITION + SPACING * (book % 3), POSITION);
             button.Size = new Size(WIDTH, HEIGHT);
             button.Text = BOOK + _bookId++.ToString();
             button.Tag = book;
@@ -129,6 +144,19 @@ namespace Homework02
 
         //ConfirmClick
         private void ConfirmClick(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _nextPage_Click(object sender, EventArgs e)
+        {
+            foreach (object button in this._tabControl1.SelectedTab.Controls)
+            {
+                ((Button)button).Visible = false;
+            }
+        }
+
+        private void _previousPage_Click(object sender, EventArgs e)
         {
 
         }
