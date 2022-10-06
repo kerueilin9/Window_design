@@ -26,26 +26,21 @@ namespace Homework02
             _confirm.Enabled = false;
             _model.ReadFile();
             _model.CreateBook();
+            borrowingFormPresentationModel = new BookBorrowingFormPresentationModel(_model);
             SetDataGridView();
             SetView();
-            _tabControl1.Selecting += new TabControlCancelEventHandler(tabControl1_Selecting);
-            borrowingFormPresentationModel = new BookBorrowingFormPresentationModel(_model);
+            _tabControl1.Selecting += new TabControlCancelEventHandler(tabControl1_Selecting);   
         }
 
         void tabControl1_Selecting(object sender, TabControlCancelEventArgs e)
         {
-            List<Book> books = _model.GetBookCategoriesBooks(this._tabControl1.SelectedTab.Text);
-            this._page.Text = String.Format("Page：{0}/{1}", "1", books.Count / 3 + 1);
-            //TabPage current = (sender as TabControl).SelectedTab;
-
-            //// Validate the current page. To cancel the select, use:
-            //e.Cancel = true;
+            borrowingFormPresentationModel.ResetCurrentPage(this._tabControl1.SelectedTab.Text);
+            UpdateView();
         }
         //SetView
         private void SetView()
         {
             List<BookCategory> bookCategories = _model.GetBookCategories();
-            this._page.Text = String.Format("Page：{0}/{1}", "1", bookCategories[0].GetBooks().Count / 3 + 1);
             foreach (BookCategory bookCategory in bookCategories)
             {
                 TabPage tabPage = new TabPage(bookCategory.GetCategoryName());
@@ -55,6 +50,7 @@ namespace Homework02
                     CreateButton(tabPage, book);
                 }
             }
+            UpdateView();
         }
 
         //CreateButton
@@ -64,13 +60,15 @@ namespace Homework02
             const int WIDTH = 75;
             const int HEIGHT = 90;
             const int SPACING = 82;
-            const string BOOK = "Book ";
             Button button = new Button();
             tabPage.Controls.Add(button);
             button.Location = new Point(POSITION + SPACING * (book % 3), POSITION);
             button.Size = new Size(WIDTH, HEIGHT);
-            button.Text = BOOK + _bookId++.ToString();
             button.Tag = book;
+            button.Image = Image.FromFile(string.Format("../../../image/{0}.jpg", _bookId++));
+            button.ImageAlign = ContentAlignment.MiddleRight;
+            button.TextAlign = ContentAlignment.MiddleLeft;
+            button.FlatStyle = FlatStyle.Flat;
             button.Click += new System.EventHandler(ButtonClick);
         }
 
@@ -150,15 +148,34 @@ namespace Homework02
 
         private void _nextPage_Click(object sender, EventArgs e)
         {
-            foreach (object button in this._tabControl1.SelectedTab.Controls)
-            {
-                ((Button)button).Visible = false;
-            }
+            string currentTabName = this._tabControl1.SelectedTab.Text;
+            borrowingFormPresentationModel.SetAddCurrentPage(currentTabName);
+            UpdateView();
         }
 
         private void _previousPage_Click(object sender, EventArgs e)
         {
+            string currentTabName = this._tabControl1.SelectedTab.Text;
+            borrowingFormPresentationModel.SetMinusCurrentPage(currentTabName);
+            UpdateView();
+        }
 
+        private void UpdateView()
+        {
+            string currentTabName = this._tabControl1.SelectedTab.Text;
+            borrowingFormPresentationModel.SetNextEnable(currentTabName);
+            borrowingFormPresentationModel.SetPreviousEnable();
+            _previousPage.Enabled = borrowingFormPresentationModel.GetPreviousEnable();
+            _nextPage.Enabled = borrowingFormPresentationModel.GetNextEnable();
+            _page.Text = borrowingFormPresentationModel.GetPageText();
+            borrowingFormPresentationModel.SetVisibleList(currentTabName);
+            int BUTTONINDEX = 0;
+            List<bool> visibleList = borrowingFormPresentationModel.GetVisibleListByCategorie(currentTabName);
+            foreach (object button in this._tabControl1.SelectedTab.Controls)
+            {
+                bool i = visibleList[BUTTONINDEX];
+                ((Button)button).Visible = visibleList[BUTTONINDEX++];
+            }
         }
     }
 }

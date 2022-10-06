@@ -10,6 +10,7 @@ namespace Homework02
         private const int DIVIDE = 7;
         private string[,] _data;
         private List<string> _dataList = new List<string>();
+        private List<string> _CategoriesNames = new List<string>();
         private List<BookCategory> _bookCategories = new List<BookCategory>();
         private List<BookItem> _bookItems = new List<BookItem>();
         private List<Book> _books = new List<Book>();
@@ -115,6 +116,13 @@ namespace Homework02
         public int GetRestBookCount()
         {
             return _bookItem.GetBookCount();
+        }
+
+        public int GetCategoryIndex(string tabname)
+        {
+            foreach (BookCategory bookCategory in _bookCategories)
+                this._CategoriesNames.Add(bookCategory.GetCategoryName());
+            return this._CategoriesNames.IndexOf(tabname);
         }
     }
 }

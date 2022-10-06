@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework02.PresentationModel
 {
-    internal class MenuFormPresentationModel
+    public class MenuFormPresentationModel
     {
     }
 }
