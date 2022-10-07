@@ -43,7 +43,7 @@ namespace Homework02
             this._bookBorrowingSystem.TabIndex = 0;
             this._bookBorrowingSystem.Text = "Book Borrowing System";
             this._bookBorrowingSystem.UseVisualStyleBackColor = true;
-            this._bookBorrowingSystem.Click += new System.EventHandler(this._bookBorrowingSystem_Click);
+            this._bookBorrowingSystem.Click += new System.EventHandler(this.BookBorrowingSystemClick);
             // 
             // _bookInventorySystem
             // 
@@ -54,7 +54,7 @@ namespace Homework02
             this._bookInventorySystem.TabIndex = 1;
             this._bookInventorySystem.Text = "Book Inventory System";
             this._bookInventorySystem.UseVisualStyleBackColor = true;
-            this._bookInventorySystem.Click += new System.EventHandler(this._bookInventorySystem_Click);
+            this._bookInventorySystem.Click += new System.EventHandler(this.BookInventorySystemClick);
             // 
             // _exit
             // 
@@ -65,7 +65,7 @@ namespace Homework02
             this._exit.TabIndex = 2;
             this._exit.Text = "Exit ";
             this._exit.UseVisualStyleBackColor = true;
-            this._exit.Click += new System.EventHandler(this._exit_Click);
+            this._exit.Click += new System.EventHandler(this.ExitClick);
             // 
             // MenuForm
             // 

@@ -25,19 +25,19 @@ namespace Homework02
 
         }
 
-        private void _bookBorrowingSystem_Click(object sender, EventArgs e)
+        private void BookBorrowingSystemClick(object sender, EventArgs e)
         {
             Form form = new BookBorrowingForm(_model);
             form.Show();
         }
 
-        private void _bookInventorySystem_Click(object sender, EventArgs e)
+        private void BookInventorySystemClick(object sender, EventArgs e)
         {
             Form form = new BookInventoryForm(_model);
             form.Show();
         }
 
-        private void _exit_Click(object sender, EventArgs e)
+        private void ExitClick(object sender, EventArgs e)
         {
             this.Close();
         }

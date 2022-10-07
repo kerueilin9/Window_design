@@ -188,838 +188,198 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
-              <SmellType>Literal constants(字面常數)-2</SmellType>
-              <HashCode>LiteralConstants._dataGridView1_CellPainting.2</HashCode>
-              <Severity>Warning</Severity>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>28 Homework02.MenuForm.BookBorrowingSystemClick(object, System.EventArgs)</HashCode>
+              <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>109</Line>
+              <File>MenuForm.cs</File>
+              <Line>28</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment />
+              <Comment>Homework02.MenuForm.BookBorrowingSystemClick(object, System.EventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>2</Id>
-              <SmellType>Literal constants(字面常數)-2</SmellType>
-              <HashCode>LiteralConstants._dataGridView1_CellPainting.2</HashCode>
-              <Severity>Warning</Severity>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>34 Homework02.MenuForm.BookInventorySystemClick(object, System.EventArgs)</HashCode>
+              <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>110</Line>
+              <File>MenuForm.cs</File>
+              <Line>34</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment />
+              <Comment>Homework02.MenuForm.BookInventorySystemClick(object, System.EventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>3</Id>
-              <SmellType>ICS(空白與空行-16)</SmellType>
-              <HashCode>SpacingAndNewLine16.BookBorrowingForm.SetView.0</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>40 Homework02.MenuForm.ExitClick(object, System.EventArgs)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>41</Line>
+              <File>MenuForm.cs</File>
+              <Line>40</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(空白與空行-16) 每個函式之間加一個空行</Comment>
+              <Comment>Homework02.MenuForm.ExitClick(object, System.EventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>4</Id>
-              <SmellType>ICS(變數-1)</SmellType>
-              <HashCode>Variable1.BookBorrowingForm.borrowingFormPresentationModel</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>35 Homework02.BookBorrowingForm.ControlSelecting(object, System.Windows.Forms.TabControlCancelEventArgs)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>BookBorrowingForm.cs</File>
-              <Line>14</Line>
+              <Line>35</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(變數-1) Class 成員變數以底線開始，底線後第一個字母小寫，若由多個單字組成，從第二個單字開始，每個單字的第一個字母大寫，其餘小寫。 不以底線區隔單字</Comment>
+              <Comment>Homework02.BookBorrowingForm.ControlSelecting(object, System.Windows.Forms.TabControlCancelEventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>5</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.BookBorrowingForm.tabControl1_Selecting</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>95 Homework02.BookBorrowingForm.DeleteBookInBorrowList(object, System.Windows.Forms.DataGridViewCellEventArgs)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>BookBorrowingForm.cs</File>
-              <Line>35</Line>
+              <Line>95</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
+              <Comment>Homework02.BookBorrowingForm.DeleteBookInBorrowList(object, System.Windows.Forms.DataGridViewCellEventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>6</Id>
-              <SmellType>ICS(函式-2)</SmellType>
-              <HashCode>Method2.BookBorrowingForm.tabControl1_Selecting</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>108 Homework02.BookBorrowingForm.SetDataGridViewCellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>BookBorrowingForm.cs</File>
-              <Line>35</Line>
+              <Line>108</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Comment>Homework02.BookBorrowingForm.SetDataGridViewCellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>7</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.BookBorrowingForm._dataGridView1_CellPainting</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>159 Homework02.BookBorrowingForm.GoNextPageClick(object, System.EventArgs)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>BookBorrowingForm.cs</File>
-              <Line>96</Line>
+              <Line>159</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
+              <Comment>Homework02.BookBorrowingForm.GoNextPageClick(object, System.EventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>8</Id>
-              <SmellType>ICS(函式-2)</SmellType>
-              <HashCode>Method2.BookBorrowingForm._dataGridView1_CellPainting</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>166 Homework02.BookBorrowingForm.GoPreviousPageClick(object, System.EventArgs)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>BookBorrowingForm.cs</File>
-              <Line>96</Line>
+              <Line>166</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Comment>Homework02.BookBorrowingForm.GoPreviousPageClick(object, System.EventArgs)</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>9</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.BookBorrowingForm._nextPage_Click</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>173 Homework02.BookBorrowingForm.UpdateView()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>BookBorrowingForm.cs</File>
-              <Line>150</Line>
+              <Line>173</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
+              <Comment>Homework02.BookBorrowingForm.UpdateView()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>10</Id>
-              <SmellType>ICS(函式-2)</SmellType>
-              <HashCode>Method2.BookBorrowingForm._nextPage_Click</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>191 Homework02.BookBorrowingForm.UpdateButtonView()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>BookBorrowingForm.cs</File>
-              <Line>150</Line>
+              <Line>191</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Comment>Homework02.BookBorrowingForm.UpdateButtonView()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>11</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.BookBorrowingForm._previousPage_Click</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>26 Homework02.PresentationModel.BookBorrowingFormPresentationModel.ListInitialize()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>158</Line>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>26</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.ListInitialize()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>12</Id>
-              <SmellType>ICS(函式-2)</SmellType>
-              <HashCode>Method2.BookBorrowingForm._previousPage_Click</HashCode>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>42 Homework02.PresentationModel.BookBorrowingFormPresentationModel.Initialize()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>158</Line>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>42</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
-              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.Initialize()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>13</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.MenuForm._bookBorrowingSystem_Click</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>28</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>14</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.MenuForm._bookInventorySystem_Click</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>34</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>15</Id>
-              <SmellType>ICS(函式-1)</SmellType>
-              <HashCode>Method1.MenuForm._exit_Click</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>40</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-1) 函式命名一律大寫開始，若由多個單字組成，每個單字的第一個字母大寫，其餘小寫。不以底線區隔單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>16</Id>
-              <SmellType>ICS(縮排與換行-6)</SmellType>
-              <HashCode>IndentAndNewLine6.SetPageText.            this._pageText = String.Format("Page：{0}/{1}", _currentPage, books.Count / BUTTON_COUNT + ADD_ONE); ;</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>63</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(縮排與換行-6) 一行不能有多個 statements</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>17</Id>
-              <SmellType>Literal constants(字面常數)-3</SmellType>
-              <HashCode>LiteralConstants.Initailize.3</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>45</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>18</Id>
-              <SmellType>Literal constants(字面常數)-3</SmellType>
-              <HashCode>LiteralConstants.SetPageText.3</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>59</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>19</Id>
-              <SmellType>Literal constants(字面常數)-"Page：{0}/{1}"</SmellType>
-              <HashCode>LiteralConstants.Initailize."Page：{0}/{1}"</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>49</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>20</Id>
-              <SmellType>Literal constants(字面常數)-"Page：{0}/{1}"</SmellType>
-              <HashCode>LiteralConstants.SetPageText."Page：{0}/{1}"</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>63</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>21</Id>
-              <SmellType>Literal constants(字面常數)-"1"</SmellType>
-              <HashCode>LiteralConstants.Initailize."1"</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>49</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>22</Id>
-              <SmellType>Unsuitable naming(名不符實)-ListInitailize(initailize)</SmellType>
-              <HashCode>UnsuitableNaming.BookBorrowingFormPresentationModel.ListInitailize.ListInitailize</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>24</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>23</Id>
-              <SmellType>Unsuitable naming(名不符實)-Initailize(initailize)</SmellType>
-              <HashCode>UnsuitableNaming.BookBorrowingFormPresentationModel.Initailize.Initailize</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>43</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>24</Id>
-              <SmellType>ICS(變數-2)</SmellType>
-              <HashCode>Variable2.Initailize.BUTTON_COUNT</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>45</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(變數-2) 區域變數-函式參數命名規則與 class 成員變數相似，僅差在不以底線開始</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>25</Id>
-              <SmellType>ICS(變數-2)</SmellType>
-              <HashCode>Variable2.Initailize.FIRST_CATEGORIES</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>46</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(變數-2) 區域變數-函式參數命名規則與 class 成員變數相似，僅差在不以底線開始</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>26</Id>
-              <SmellType>ICS(變數-2)</SmellType>
-              <HashCode>Variable2.Initailize.ADD_ONE</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>47</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(變數-2) 區域變數-函式參數命名規則與 class 成員變數相似，僅差在不以底線開始</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>27</Id>
-              <SmellType>ICS(函式-2)</SmellType>
-              <HashCode>Method2.BookBorrowingFormPresentationModel.Initailize</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>43</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>28</Id>
-              <SmellType>ICS(變數-2)</SmellType>
-              <HashCode>Variable2.SetPageText.BUTTON_COUNT</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>59</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(變數-2) 區域變數-函式參數命名規則與 class 成員變數相似，僅差在不以底線開始</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>29</Id>
-              <SmellType>ICS(變數-2)</SmellType>
-              <HashCode>Variable2.SetPageText.ADD_ONE</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>60</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(變數-2) 區域變數-函式參數命名規則與 class 成員變數相似，僅差在不以底線開始</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>30</Id>
-              <SmellType>Unresolved warnings(忽視警告)-'int' 未包含 'Add' 的定義，也找不到可接受類型 'int' 第一個引數的可存取擴充方法 'Add' (是否遺漏 using 指示詞或組件參考?)</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingFormPresentationModel.cs.Unresolved warnings(忽視警告)-'int' 未包含 'Add' 的定義，也找不到可接受類型 'int' 第一個引數的可存取擴充方法 'Add' (是否遺漏 using 指示詞或組件參考?).39</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>39</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>31</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 tabControl1_Selecting 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingForm.cs.Unresolved warnings(忽視警告)-函式 tabControl1_Selecting 缺乏註解.35</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>35</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>32</Id>
-              <SmellType>Unresolved warnings(忽視警告)-已指派變數 'BOOK'，但是從未使用過它的值</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingForm.cs.Unresolved warnings(忽視警告)-已指派變數 'BOOK'，但是從未使用過它的值.63</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>63</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>33</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 _dataGridView1_CellPainting 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingForm.cs.Unresolved warnings(忽視警告)-函式 _dataGridView1_CellPainting 缺乏註解.96</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>96</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>34</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 _nextPage_Click 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingForm.cs.Unresolved warnings(忽視警告)-函式 _nextPage_Click 缺乏註解.150</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>150</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>35</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 _previousPage_Click 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingForm.cs.Unresolved warnings(忽視警告)-函式 _previousPage_Click 缺乏註解.158</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>158</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>36</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 _bookBorrowingSystem_Click 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.MenuForm.cs.Unresolved warnings(忽視警告)-函式 _bookBorrowingSystem_Click 缺乏註解.28</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>28</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>37</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 _bookInventorySystem_Click 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.MenuForm.cs.Unresolved warnings(忽視警告)-函式 _bookInventorySystem_Click 缺乏註解.34</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>34</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>38</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 _exit_Click 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.MenuForm.cs.Unresolved warnings(忽視警告)-函式 _exit_Click 缺乏註解.40</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>40</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>39</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 GetBookCategoriesBooks 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.Model.cs.Unresolved warnings(忽視警告)-函式 GetBookCategoriesBooks 缺乏註解.74</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>Model.cs</File>
-              <Line>74</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>40</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 ListInitailize 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingFormPresentationModel.cs.Unresolved warnings(忽視警告)-函式 ListInitailize 缺乏註解.24</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>24</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>41</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 Initailize 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingFormPresentationModel.cs.Unresolved warnings(忽視警告)-函式 Initailize 缺乏註解.43</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>43</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>42</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 GetPageText 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingFormPresentationModel.cs.Unresolved warnings(忽視警告)-函式 GetPageText 缺乏註解.52</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>52</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>43</Id>
-              <SmellType>Unresolved warnings(忽視警告)-函式 SetPageText 缺乏註解</SmellType>
-              <HashCode>HW02\HW02.BookBorrowingFormPresentationModel.cs.Unresolved warnings(忽視警告)-函式 SetPageText 缺乏註解.57</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02\HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>57</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>44</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>28 Homework02.MenuForm._bookBorrowingSystem_Click(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>28</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.MenuForm._bookBorrowingSystem_Click(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>45</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>34 Homework02.MenuForm._bookInventorySystem_Click(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>34</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.MenuForm._bookInventorySystem_Click(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>46</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>40 Homework02.MenuForm._exit_Click(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>MenuForm.cs</File>
-              <Line>40</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.MenuForm._exit_Click(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>47</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>35 Homework02.BookBorrowingForm.tabControl1_Selecting(object, System.Windows.Forms.TabControlCancelEventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>35</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.BookBorrowingForm.tabControl1_Selecting(object, System.Windows.Forms.TabControlCancelEventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>48</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>96 Homework02.BookBorrowingForm._dataGridView1_CellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>96</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.BookBorrowingForm._dataGridView1_CellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>49</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>150 Homework02.BookBorrowingForm._nextPage_Click(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>150</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.BookBorrowingForm._nextPage_Click(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>50</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>158 Homework02.BookBorrowingForm._previousPage_Click(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>158</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.BookBorrowingForm._previousPage_Click(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>51</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>24 Homework02.PresentationModel.BookBorrowingFormPresentationModel.ListInitailize()</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>24</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.ListInitailize()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>52</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>43 Homework02.PresentationModel.BookBorrowingFormPresentationModel.Initailize()</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW02</Project>
-              <File>BookBorrowingFormPresentationModel.cs</File>
-              <Line>43</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.Initailize()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>53</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <HashCode>52 Homework02.PresentationModel.BookBorrowingFormPresentationModel.GetPageText()</HashCode>
               <Severity>Red</Severity>
@@ -1035,7 +395,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>54</Id>
+              <Id>14</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
               <HashCode>57 Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetPageText(int, string)</HashCode>
               <Severity>Red</Severity>
@@ -1051,19 +411,403 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>55</Id>
+              <Id>15</Id>
               <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>74 Homework02.Model.GetBookCategoriesBooks(string)</HashCode>
+              <HashCode>66 Homework02.PresentationModel.BookBorrowingFormPresentationModel.GetCurrentPage()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>66</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.GetCurrentPage()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>71 Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetCurrentPage(int)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>71</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetCurrentPage(int)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>76 Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetAddCurrentPage(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>76</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetAddCurrentPage(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>82 Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetMinusCurrentPage(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>82</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetMinusCurrentPage(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>88 Homework02.PresentationModel.BookBorrowingFormPresentationModel.ResetCurrentPage(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>88</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.ResetCurrentPage(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>94 Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsNextEnable()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>94</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsNextEnable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>21</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>99 Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetNextEnable(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>99</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetNextEnable(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>110 Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsPreviousEnable()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>110</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsPreviousEnable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>115 Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetPreviousEnable()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>115</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetPreviousEnable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>123 Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsAddBookEnable()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>123</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsAddBookEnable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>25</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>128 Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsConfirmEnable()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>128</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsConfirmEnable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>26</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>133 Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsOverLimit()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>133</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.IsOverLimit()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>27</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>142 Homework02.PresentationModel.BookBorrowingFormPresentationModel.GetMessage()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>142</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.GetMessage()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>28</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>147 Homework02.PresentationModel.BookBorrowingFormPresentationModel.GetVisibleList(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>147</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.GetVisibleList(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>29</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>152 Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetVisibleList(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>BookBorrowingFormPresentationModel.cs</File>
+              <Line>152</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.PresentationModel.BookBorrowingFormPresentationModel.SetVisibleList(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>30</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>75 Homework02.Model.GetBookCategoriesBooks(string)</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW02</Project>
               <File>Model.cs</File>
-              <Line>74</Line>
+              <Line>75</Line>
               <StartLine>0</StartLine>
               <StartCol>0</StartCol>
               <EndLine>0</EndLine>
               <EndCol>0</EndCol>
               <Comment>Homework02.Model.GetBookCategoriesBooks(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>31</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>96 Homework02.Model.GetCurrentBook()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>96</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.GetCurrentBook()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>32</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>125 Homework02.Model.GetBorrowList()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>125</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.GetBorrowList()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>33</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>130 Homework02.Model.GetSuccessMessage()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>130</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.GetSuccessMessage()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>34</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>146 Homework02.Model.SetBorrowList(System.Collections.Generic.List&lt;Homework02.Book&gt;)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>146</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.SetBorrowList(System.Collections.Generic.List&lt;Homework02.Book&gt;)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>35</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>151 Homework02.Model.UpdateBorrowList()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>151</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.UpdateBorrowList()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>36</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>156 Homework02.Model.GetCategoryIndex(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>156</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.GetCategoryIndex(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>37</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>163 Homework02.Model.ClearBorrowList()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>163</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.ClearBorrowList()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>38</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>168 Homework02.Model.IsAddButtonEnable()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>168</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.IsAddButtonEnable()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>39</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>173 Homework02.Model.UpdateBorrowedList()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW02</Project>
+              <File>Model.cs</File>
+              <Line>173</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework02.Model.UpdateBorrowedList()</Comment>
               <Auto>false</Auto>
             </Smell>
           </Reviews>
@@ -1178,7 +922,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>1259</ProductionLoc>
+          <ProductionLoc>1462</ProductionLoc>
           <TestLoc>0</TestLoc>
         </CodeReview>
       </Data>
