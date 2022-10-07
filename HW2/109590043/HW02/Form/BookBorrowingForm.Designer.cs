@@ -82,7 +82,7 @@ namespace Homework02
             this._nextPage.TabIndex = 5;
             this._nextPage.Text = "下一頁";
             this._nextPage.UseVisualStyleBackColor = true;
-            this._nextPage.Click += new System.EventHandler(this._nextPage_Click);
+            this._nextPage.Click += new System.EventHandler(this.GoNextPageClick);
             // 
             // _previousPage
             // 
@@ -92,7 +92,7 @@ namespace Homework02
             this._previousPage.TabIndex = 4;
             this._previousPage.Text = "上一頁";
             this._previousPage.UseVisualStyleBackColor = true;
-            this._previousPage.Click += new System.EventHandler(this._previousPage_Click);
+            this._previousPage.Click += new System.EventHandler(this.GoPreviousPageClick);
             // 
             // _addBook
             // 

@@ -80,7 +80,8 @@
         //GetArray
         public string[] GetArray()
         {
-            return new string[] { this._name, this._id, this._author, this._publisher };
+            const string ONE = "1";
+            return new string[] { "", this._name, ONE, this._id, this._author, this._publisher };
         }
     }
 }

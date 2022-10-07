@@ -1,0 +1,24 @@
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW2\109590043\HW02\PresentationModel\BookBorrowingFormPresentationModel.cs Line 129
+FeatureEnvyDetector	WARN	 Homework02.PresentationModel.BookBorrowingFormPresentationModel envy Homework02.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBorrowList
+FeatureEnvyDetector	WARN		GetRestBookCount
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW2\109590043\HW02\Form\BookBorrowingForm.cs Line 137
+FeatureEnvyDetector	WARN	 Homework02.BookBorrowingForm envy Homework02.PresentationModel.BookBorrowingFormPresentationModel
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		IsAddBookEnable
+FeatureEnvyDetector	WARN		IsOverLimit
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW2\109590043\HW02\Form\BookBorrowingForm.cs Line 138
+FeatureEnvyDetector	WARN	 Homework02.BookBorrowingForm envy Homework02.PresentationModel.BookBorrowingFormPresentationModel
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		IsConfirmEnable
+FeatureEnvyDetector	WARN		IsOverLimit
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW2\109590043\HW02\Form\BookBorrowingForm.cs Line 137
+FeatureEnvyDetector	WARN	 Homework02.BookBorrowingForm envy Homework02.PresentationModel.BookBorrowingFormPresentationModel
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		IsConfirmEnable
+FeatureEnvyDetector	WARN		IsOverLimit

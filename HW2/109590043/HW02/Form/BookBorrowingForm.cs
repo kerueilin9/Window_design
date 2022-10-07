@@ -11,7 +11,7 @@ namespace Homework02
     {
         private Model _model;
         private int _bookId = 1;
-        private BookBorrowingFormPresentationModel borrowingFormPresentationModel;
+        private BookBorrowingFormPresentationModel _borrowingFormPresentationModel;
 
         public BookBorrowingForm(Model model)
         {
@@ -26,26 +26,22 @@ namespace Homework02
             _confirm.Enabled = false;
             _model.ReadFile();
             _model.CreateBook();
+            _borrowingFormPresentationModel = new BookBorrowingFormPresentationModel(_model);
             SetDataGridView();
             SetView();
-            _tabControl1.Selecting += new TabControlCancelEventHandler(tabControl1_Selecting);
-            borrowingFormPresentationModel = new BookBorrowingFormPresentationModel(_model);
+            _tabControl1.Selecting += new TabControlCancelEventHandler(ControlSelecting);   
         }
 
-        void tabControl1_Selecting(object sender, TabControlCancelEventArgs e)
+        void ControlSelecting(object sender, TabControlCancelEventArgs e)
         {
-            List<Book> books = _model.GetBookCategoriesBooks(this._tabControl1.SelectedTab.Text);
-            this._page.Text = String.Format("Page：{0}/{1}", "1", books.Count / 3 + 1);
-            //TabPage current = (sender as TabControl).SelectedTab;
-
-            //// Validate the current page. To cancel the select, use:
-            //e.Cancel = true;
+            _borrowingFormPresentationModel.ResetCurrentPage(this._tabControl1.SelectedTab.Text);
+            UpdateView();
         }
+
         //SetView
         private void SetView()
         {
             List<BookCategory> bookCategories = _model.GetBookCategories();
-            this._page.Text = String.Format("Page：{0}/{1}", "1", bookCategories[0].GetBooks().Count / 3 + 1);
             foreach (BookCategory bookCategory in bookCategories)
             {
                 TabPage tabPage = new TabPage(bookCategory.GetCategoryName());
@@ -55,6 +51,7 @@ namespace Homework02
                     CreateButton(tabPage, book);
                 }
             }
+            UpdateView();
         }
 
         //CreateButton
@@ -64,51 +61,64 @@ namespace Homework02
             const int WIDTH = 75;
             const int HEIGHT = 90;
             const int SPACING = 82;
-            const string BOOK = "Book ";
             Button button = new Button();
             tabPage.Controls.Add(button);
             button.Location = new Point(POSITION + SPACING * (book % 3), POSITION);
             button.Size = new Size(WIDTH, HEIGHT);
-            button.Text = BOOK + _bookId++.ToString();
             button.Tag = book;
+            button.Image = Image.FromFile(string.Format("../../../image/{0}.jpg", _bookId++));
+            button.ImageAlign = ContentAlignment.MiddleRight;
+            button.TextAlign = ContentAlignment.MiddleLeft;
+            button.FlatStyle = FlatStyle.Flat;
             button.Click += new System.EventHandler(ButtonClick);
         }
 
         //SetDataGridView
         private void SetDataGridView()
         {
-            const int COLUMN_COUNT = 5;
-            string[] columnName = new string[4] { "書籍名稱", "書籍編號", "作者", "出版社" };
+            const int COLUMN_COUNT = 6;
+            string[] columnName = new string[5] { "書籍名稱", "數量", "書籍編號", "作者", "出版社" };
             DataGridViewButtonColumn deleteColumn = new System.Windows.Forms.DataGridViewButtonColumn();
             deleteColumn.HeaderText = "刪除";
             deleteColumn.Name = "deleteColumn";
-            deleteColumn.Text = "退選";
-            deleteColumn.UseColumnTextForButtonValue = true;
             _dataGridView1.Columns.Add(deleteColumn);
             _dataGridView1.ColumnCount = COLUMN_COUNT;
             _dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-
+            _dataGridView1.AllowUserToAddRows = false;
+            _dataGridView1.RowHeadersVisible = false;
+            _dataGridView1.CellClick += new DataGridViewCellEventHandler(DeleteBookInBorrowList);
+            _dataGridView1.CellPainting += new DataGridViewCellPaintingEventHandler(SetDataGridViewCellPainting);
             for (int i = 1; i < COLUMN_COUNT; i++)
-            {
                 _dataGridView1.Columns[i].Name = columnName[i - 1];
+        }
+
+        private void DeleteBookInBorrowList(object sender, DataGridViewCellEventArgs e)
+        {
+            var grid = (DataGridView)sender;
+            if (e.RowIndex < 0)
+            {
+                return;
+            }
+            if (grid[e.ColumnIndex, e.RowIndex] is DataGridViewButtonCell)
+            {
+                _dataGridView1.Rows.RemoveAt(e.RowIndex);
             }
         }
 
-        private void _dataGridView1_CellPainting(object sender, DataGridViewCellPaintingEventArgs e)
+        private void SetDataGridViewCellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
             if (e.RowIndex < 0)
                 return;
-
-            //I supposed your button column is at index 0
             if (e.ColumnIndex == 0)
             {
-                Image img = Image.FromFile("../../../image/trash_can.png");
+                const int TWO = 2;
+                Image img = Image.FromFile("../../../trash_can.png");
                 e.Paint(e.CellBounds, DataGridViewPaintParts.All);
 
                 var w = img.Width;
                 var h = img.Height;
-                var x = e.CellBounds.Left + (e.CellBounds.Width - w) / 2;
-                var y = e.CellBounds.Top + (e.CellBounds.Height - h) / 2;
+                var x = e.CellBounds.Left + (e.CellBounds.Width - w) / TWO;
+                var y = e.CellBounds.Top + (e.CellBounds.Height - h) / TWO;
 
                 e.Graphics.DrawImage(img, new Rectangle(x, y, w, h));
                 e.Handled = true;
@@ -118,47 +128,74 @@ namespace Homework02
         //ButtonClick
         private void ButtonClick(object sender, EventArgs e)
         {
-            const string REST_COUNT = "剩餘數量：";
             this._richTextBox1.Text = _model.GetContent(this._tabControl1.SelectedTab.Text, int.Parse(((Button)sender).Tag.ToString()));
-            this._restCount.Text = REST_COUNT + _model.GetRestBookCount().ToString();
-            if (_model.GetRestBookCount() <= 0)
-                _addBook.Enabled = false;
-            else
-                _addBook.Enabled = true;
+            UpdateButtonView();
         }
 
         //AddBookClick
         private void AddBookClick(object sender, EventArgs e)
         {
-            const string REST_COUNT = "剩餘數量：";
-            const string BORROW_COUNT = "借書數量：";
-            _dataGridView1.Rows.Add(_model.GetBorrowBook());
-            _confirm.Enabled = true;
-            this._restCount.Text = REST_COUNT + _model.GetRestBookCount().ToString();
-            _borrowBookCount.Text = BORROW_COUNT + _model.GetBorrowedBookCount().ToString();
-            if (_model.GetRestBookCount() <= 0)
+            const string LIMIT_WARNING = "每次借書限界五本，你的借書單已滿。";
+            if (_borrowingFormPresentationModel.IsOverLimit())
+                MessageBox.Show(LIMIT_WARNING);
+            else
             {
-                _addBook.Enabled = false;
+                _dataGridView1.Rows.Add(_model.GetBorrowBookArray());
+                _model.UpdateBorrowList();
+                UpdateButtonView();   
             }
         }
 
         //ConfirmClick
         private void ConfirmClick(object sender, EventArgs e)
         {
-
+            MessageBox.Show(_borrowingFormPresentationModel.GetMessage());
+            _model.UpdateBorrowedList();
+            _model.ClearBorrowList();
+            _dataGridView1.Rows.Clear();
+            UpdateButtonView();   
         }
 
-        private void _nextPage_Click(object sender, EventArgs e)
+        private void GoNextPageClick(object sender, EventArgs e)
         {
+            string currentTabName = this._tabControl1.SelectedTab.Text;
+            _borrowingFormPresentationModel.SetAddCurrentPage(currentTabName);
+            UpdateView();
+        }
+
+        private void GoPreviousPageClick(object sender, EventArgs e)
+        {
+            string currentTabName = this._tabControl1.SelectedTab.Text;
+            _borrowingFormPresentationModel.SetMinusCurrentPage(currentTabName);
+            UpdateView();
+        }
+
+        private void UpdateView()
+        {
+            string currentTabName = this._tabControl1.SelectedTab.Text;
+            _borrowingFormPresentationModel.SetNextEnable(currentTabName);
+            _borrowingFormPresentationModel.SetPreviousEnable();
+            _previousPage.Enabled = _borrowingFormPresentationModel.IsPreviousEnable();
+            _nextPage.Enabled = _borrowingFormPresentationModel.IsNextEnable();
+            _page.Text = _borrowingFormPresentationModel.GetPageText();
+            _borrowingFormPresentationModel.SetVisibleList(currentTabName);
+            int buttonIndex = 0;
+            List<bool> visibleList = _borrowingFormPresentationModel.GetVisibleList(currentTabName);
             foreach (object button in this._tabControl1.SelectedTab.Controls)
             {
-                ((Button)button).Visible = false;
+                bool i = visibleList[buttonIndex];
+                ((Button)button).Visible = visibleList[buttonIndex++];
             }
         }
 
-        private void _previousPage_Click(object sender, EventArgs e)
+        private void UpdateButtonView()
         {
-
+            const string REST_COUNT = "剩餘數量：";
+            const string BORROW_COUNT = "借書數量：";
+            this._restCount.Text = REST_COUNT + _model.GetRestBookCount().ToString();
+            _borrowBookCount.Text = BORROW_COUNT + _model.GetBorrowedBookCount().ToString();
+            _addBook.Enabled = _borrowingFormPresentationModel.IsAddBookEnable();
+            _confirm.Enabled = _borrowingFormPresentationModel.IsConfirmEnable();
         }
     }
 }
