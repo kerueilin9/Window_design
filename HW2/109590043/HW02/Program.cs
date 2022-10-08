@@ -17,8 +17,6 @@ namespace Homework02
             Model model = new Model();
             MenuForm menu = new MenuForm(model);
             Application.Run(menu);
-            //BookBorrowingForm bookBorrowingFrom = new BookBorrowingForm(model);
-            //Application.Run(bookBorrowingFrom);
         }
     }
 }

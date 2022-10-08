@@ -23,6 +23,7 @@ namespace Homework02.PresentationModel
             ListInitialize();
         }
 
+        //ListInitialize
         private void ListInitialize()
         {
             int visibleListNumber = 0;
@@ -39,6 +40,7 @@ namespace Homework02.PresentationModel
             _currentPage = 1;
         }
 
+        //Initialize
         private void Initialize()
         {
             const int BUTTON_COUNT = 3;
@@ -49,11 +51,13 @@ namespace Homework02.PresentationModel
             _pageText = String.Format(PAGE_TEXT, ONE, bookCategories[FIRST_CATEGORIES].GetBooks().Count / BUTTON_COUNT + ONE);
         }
 
+        //GetPageText
         public string GetPageText()
         {
             return this._pageText;
         }
 
+        //SetPageText
         public void SetPageText(int page, string tabName)
         {
             const int BUTTON_COUNT = 3;
@@ -63,39 +67,46 @@ namespace Homework02.PresentationModel
             this._pageText = String.Format(PAGE_TEXT, _currentPage, books.Count / BUTTON_COUNT + ONE);
         }
 
+        //GetCurrentPage
         public int GetCurrentPage()
         {
             return this._currentPage;
         }
 
+        //SetCurrentPage
         public void SetCurrentPage(int page)
         {
             this._currentPage = page;
         }
 
+        //SetAddCurrentPage
         public void SetAddCurrentPage(string tabName)
         {
             this._currentPage++;
             SetPageText(_currentPage, tabName);
         }
 
+        //SetMinusCurrentPage
         public void SetMinusCurrentPage(string tabName)
         {
             this._currentPage--;
             SetPageText(_currentPage, tabName);
         }
 
+        //ResetCurrentPage
         public void ResetCurrentPage(string tabName)
         {
             this._currentPage = 1;
             SetPageText(_currentPage, tabName);
         }
 
+        //IsNextEnable
         public bool IsNextEnable()
         {
             return this._nextEnable;
         }
-        
+
+        //SetNextEnable
         public void SetNextEnable(string tabName)
         {
             const int BUTTON_COUNT = 3;
@@ -107,11 +118,13 @@ namespace Homework02.PresentationModel
                 this._nextEnable = true;
         }
 
+        //IsPreviousEnable
         public bool IsPreviousEnable()
         {
             return this._previousEnable;
         }
 
+        //SetPreviousEnable
         public void SetPreviousEnable()
         {
             if (this._currentPage <= 1)
@@ -120,16 +133,19 @@ namespace Homework02.PresentationModel
                 this._previousEnable = true;
         }
 
+        //IsAddBookEnable
         public bool IsAddBookEnable()
         {
             return _model.IsAddButtonEnable();
         }
 
+        //IsConfirmEnable
         public bool IsConfirmEnable()
         {
             return _model.GetBorrowList().Count > 0;
         }
 
+        //IsOverLimit
         public bool IsOverLimit()
         {
             const int BORROWING_LIMIT = 5;
@@ -139,16 +155,19 @@ namespace Homework02.PresentationModel
                 return false;
         }
 
+        //GetMessage
         public string GetMessage()
         {
             return _model.GetSuccessMessage();
         }
 
+        //GetVisibleList
         public List<bool> GetVisibleList(string tabName)
         {
             return _visibleList[_model.GetCategoryIndex(tabName)];
         }
 
+        //SetVisibleList
         public void SetVisibleList(string tabName)
         {
             const int BUTTON_COUNT = 3;

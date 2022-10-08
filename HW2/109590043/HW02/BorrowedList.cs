@@ -20,6 +20,25 @@ namespace Homework02
             this._borrowedItems.Add(borrowedItem);
         }
 
+        //DeleteBorrowedItem
+        public void DeleteBorrowedItem(BorrowedItem borrowedItem)
+        {
+            this._borrowedItems.Remove(borrowedItem);
+        }
+
+        //DeleteBorrowedItemUseName
+        public void DeleteBorrowedItemUseName(string name)
+        {
+            this._borrowedItems.Remove(FindBorrowedItemUseName(name));
+        }
+
+        //FindBorrowedItemUseName
+        public BorrowedItem FindBorrowedItemUseName(string name)
+        {
+            BorrowedItem borrowed = this._borrowedItems.Find(x => x.Book.GetName() == name);
+            return borrowed;
+        }
+
         public List<BorrowedItem> BorrowedItems
         {
             get

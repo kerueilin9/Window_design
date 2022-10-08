@@ -185,6 +185,7 @@ namespace Homework02
             this._viewBag.TabIndex = 7;
             this._viewBag.Text = "查看我的書包";
             this._viewBag.UseVisualStyleBackColor = true;
+            this._viewBag.Click += new System.EventHandler(this.GoViewBagClick);
             // 
             // BookBorrowingForm
             // 

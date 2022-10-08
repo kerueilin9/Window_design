@@ -30,24 +30,95 @@ namespace Homework02
         private void InitializeComponent()
         {
             this._dataGridView1 = new System.Windows.Forms.DataGridView();
+            this._name = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._count = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._borrowingDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._returnDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._author = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this._publisher = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this._dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // _dataGridView1
             // 
             this._dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this._dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this._name,
+            this._count,
+            this._borrowingDate,
+            this._returnDate,
+            this._id,
+            this._author,
+            this._publisher});
             this._dataGridView1.Location = new System.Drawing.Point(12, 12);
             this._dataGridView1.Name = "_dataGridView1";
             this._dataGridView1.RowHeadersWidth = 51;
             this._dataGridView1.RowTemplate.Height = 27;
-            this._dataGridView1.Size = new System.Drawing.Size(776, 426);
+            this._dataGridView1.Size = new System.Drawing.Size(908, 426);
             this._dataGridView1.TabIndex = 0;
+            // 
+            // _name
+            // 
+            this._name.FillWeight = 30F;
+            this._name.HeaderText = "書籍名稱";
+            this._name.MinimumWidth = 6;
+            this._name.Name = "_name";
+            this._name.Width = 180;
+            // 
+            // _count
+            // 
+            this._count.FillWeight = 10F;
+            this._count.HeaderText = "數量";
+            this._count.MinimumWidth = 6;
+            this._count.Name = "_count";
+            this._count.Width = 50;
+            // 
+            // _borrowingDate
+            // 
+            this._borrowingDate.FillWeight = 20F;
+            this._borrowingDate.HeaderText = "借書日期";
+            this._borrowingDate.MinimumWidth = 6;
+            this._borrowingDate.Name = "_borrowingDate";
+            this._borrowingDate.Width = 125;
+            // 
+            // _returnDate
+            // 
+            this._returnDate.FillWeight = 20F;
+            this._returnDate.HeaderText = "還書期限";
+            this._returnDate.MinimumWidth = 6;
+            this._returnDate.Name = "_returnDate";
+            this._returnDate.Width = 125;
+            // 
+            // _id
+            // 
+            this._id.FillWeight = 25F;
+            this._id.HeaderText = "書籍編號";
+            this._id.MinimumWidth = 6;
+            this._id.Name = "_id";
+            this._id.Width = 125;
+            // 
+            // _author
+            // 
+            this._author.FillWeight = 25F;
+            this._author.HeaderText = "作者";
+            this._author.MinimumWidth = 6;
+            this._author.Name = "_author";
+            this._author.Width = 125;
+            // 
+            // _publisher
+            // 
+            this._publisher.FillWeight = 25F;
+            this._publisher.HeaderText = "出版社";
+            this._publisher.MinimumWidth = 6;
+            this._publisher.Name = "_publisher";
+            this._publisher.Width = 125;
             // 
             // BackPackForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(932, 450);
             this.Controls.Add(this._dataGridView1);
             this.Name = "BackPackForm";
             this.Text = "我的書包(還書)";
@@ -60,5 +131,12 @@ namespace Homework02
         #endregion
 
         private System.Windows.Forms.DataGridView _dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _name;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _count;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _borrowingDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _returnDate;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _author;
+        private System.Windows.Forms.DataGridViewTextBoxColumn _publisher;
     }
 }

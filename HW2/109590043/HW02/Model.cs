@@ -56,12 +56,11 @@ namespace Homework02
                 const int CONTENT = 5;
                 const int ADDRESS = 6;
                 Book book = new Book(_data[x, NAME], _data[x, ID], _data[x, CONTENT], _data[x, ADDRESS]);
+                this._books.Add(book);
                 BookItem bookItem = new BookItem(int.Parse(_data[x, BOOKCOUNT]), book);
                 this._bookItems.Add(bookItem);
                 if (this._bookCategories.Find(i => i.GetCategoryName() == _data[x, CATEGORY]) == null) 
-                {
                     this._bookCategories.Add(new BookCategory(_data[x, CATEGORY]));
-                }
                 this._bookCategories.Find(i => i.GetCategoryName() == _data[x, CATEGORY]).AddBook(book);
             }
         }
@@ -72,6 +71,7 @@ namespace Homework02
             return this._bookCategories;
         }
 
+        //GetBookCategoriesBooks
         public List<Book> GetBookCategoriesBooks(string categoryName)
         {
             BookCategory category = _bookCategories.Find(x =>
@@ -92,7 +92,8 @@ namespace Homework02
             this._bookItem = this._bookItems.Find(x => x.GetBook() == _book);
             return this._book.GetAllContent();
         }
-        
+
+        //GetCurrentBook
         public Book GetCurrentBook()
         {
             return this._book;
@@ -122,11 +123,13 @@ namespace Homework02
             return _bookItem.GetBookCount();
         }
 
+        //GetBorrowList
         public List<Book> GetBorrowList()
         {
             return this._borrowList;
         }
 
+        //GetSuccessMessage
         public string GetSuccessMessage()
         {
             const string TEXT = "\n\n{0}本書已成功借出!";
@@ -143,16 +146,32 @@ namespace Homework02
             return result;
         }
 
+        //SetBorrowList
         public void SetBorrowList(List<Book> books)
         {
             this._borrowList = books;
         }
 
+        //UpdateBorrowList
         public void UpdateBorrowList()
         {
             this._borrowList.Add(this._book);
         }
 
+        //DeleteBorrowListUseBook
+        public void DeleteBorrowListUseBook(Book book)
+        {
+            this._borrowList.Remove(book);
+        }
+
+        //DeleteBorrowListUseName
+        public void DeleteBorrowListUseName(string name)
+        {
+            Book book = this._books.Find(x => x.GetName() == name);
+            this._borrowList.Remove(book);
+        }
+
+        //GetCategoryIndex
         public int GetCategoryIndex(string tabName)
         {
             foreach (BookCategory bookCategory in _bookCategories)
@@ -160,16 +179,19 @@ namespace Homework02
             return this._categoriesNames.IndexOf(tabName);
         }
 
+        //ClearBorrowList
         public void ClearBorrowList()
         {
             this._borrowList.Clear();
         }
 
+        //IsAddButtonEnable
         public bool IsAddButtonEnable()
         {
             return !_borrowList.Contains(_book) && _bookItem.GetBookCount() != 0;
         }
 
+        //UpdateBorrowedList
         public void UpdateBorrowedList()
         {
             foreach (Book book in this._borrowList)
@@ -179,6 +201,20 @@ namespace Homework02
                 BookItem bookItem = this._bookItems.Find(x => x.GetBook() == book);
                 bookItem.SetMinusBookCount(1);
             }
+        }
+
+        //DeleteBorrowedList
+        public void DeleteBorrowedList(string name)
+        {
+            this._borrowedList.DeleteBorrowedItemUseName(name);
+            BookItem bookItem = this._bookItems.Find(x => x.GetBook().GetName() == name);
+            bookItem.SetPlusBookCount(1);
+        }
+
+        //GetBorrowedList
+        public List<BorrowedItem> GetBorrowedList()
+        {
+            return this._borrowedList.BorrowedItems;
         }
     }
 }

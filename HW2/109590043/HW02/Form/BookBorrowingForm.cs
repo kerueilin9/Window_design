@@ -12,6 +12,7 @@ namespace Homework02
         private Model _model;
         private int _bookId = 1;
         private BookBorrowingFormPresentationModel _borrowingFormPresentationModel;
+        private BackPackForm _backPackForm;
 
         public BookBorrowingForm(Model model)
         {
@@ -27,11 +28,15 @@ namespace Homework02
             _model.ReadFile();
             _model.CreateBook();
             _borrowingFormPresentationModel = new BookBorrowingFormPresentationModel(_model);
+            _backPackForm = new BackPackForm(_model);
+            _backPackForm._updateBorrowingForm += this.UpdateButtonView;
+            _backPackForm.FormClosing += new FormClosingEventHandler(BackPackFormClosing);
             SetDataGridView();
             SetView();
             _tabControl1.Selecting += new TabControlCancelEventHandler(ControlSelecting);   
         }
 
+        //ControlSelecting
         void ControlSelecting(object sender, TabControlCancelEventArgs e)
         {
             _borrowingFormPresentationModel.ResetCurrentPage(this._tabControl1.SelectedTab.Text);
@@ -66,10 +71,8 @@ namespace Homework02
             button.Location = new Point(POSITION + SPACING * (book % 3), POSITION);
             button.Size = new Size(WIDTH, HEIGHT);
             button.Tag = book;
-            button.Image = Image.FromFile(string.Format("../../../image/{0}.jpg", _bookId++));
-            button.ImageAlign = ContentAlignment.MiddleRight;
-            button.TextAlign = ContentAlignment.MiddleLeft;
-            button.FlatStyle = FlatStyle.Flat;
+            button.BackgroundImage = Image.FromFile(string.Format("../../../image/{0}.jpg", _bookId++));
+            button.BackgroundImageLayout = ImageLayout.Stretch;
             button.Click += new System.EventHandler(ButtonClick);
         }
 
@@ -92,19 +95,21 @@ namespace Homework02
                 _dataGridView1.Columns[i].Name = columnName[i - 1];
         }
 
+        //DeleteBookInBorrowList
         private void DeleteBookInBorrowList(object sender, DataGridViewCellEventArgs e)
         {
             var grid = (DataGridView)sender;
             if (e.RowIndex < 0)
-            {
                 return;
-            }
             if (grid[e.ColumnIndex, e.RowIndex] is DataGridViewButtonCell)
             {
+                _model.DeleteBorrowListUseName(grid.Rows[e.RowIndex].Cells[1].Value.ToString());
                 _dataGridView1.Rows.RemoveAt(e.RowIndex);
+                UpdateButtonView();
             }
         }
 
+        //SetDataGridViewCellPainting
         private void SetDataGridViewCellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
             if (e.RowIndex < 0)
@@ -153,9 +158,11 @@ namespace Homework02
             _model.UpdateBorrowedList();
             _model.ClearBorrowList();
             _dataGridView1.Rows.Clear();
+            _backPackForm.CreateGridRow();
             UpdateButtonView();   
         }
 
+        //GoNextPageClick
         private void GoNextPageClick(object sender, EventArgs e)
         {
             string currentTabName = this._tabControl1.SelectedTab.Text;
@@ -163,6 +170,7 @@ namespace Homework02
             UpdateView();
         }
 
+        //GoPreviousPageClick
         private void GoPreviousPageClick(object sender, EventArgs e)
         {
             string currentTabName = this._tabControl1.SelectedTab.Text;
@@ -170,6 +178,15 @@ namespace Homework02
             UpdateView();
         }
 
+        //GoViewBagClick
+        private void GoViewBagClick(object sender, EventArgs e)
+        {
+            
+            this._viewBag.Enabled = false;
+            this._backPackForm.Show();
+        }
+
+        //UpdateView
         private void UpdateView()
         {
             string currentTabName = this._tabControl1.SelectedTab.Text;
@@ -188,6 +205,7 @@ namespace Homework02
             }
         }
 
+        //UpdateButtonView
         private void UpdateButtonView()
         {
             const string REST_COUNT = "剩餘數量：";
@@ -196,6 +214,17 @@ namespace Homework02
             _borrowBookCount.Text = BORROW_COUNT + _model.GetBorrowedBookCount().ToString();
             _addBook.Enabled = _borrowingFormPresentationModel.IsAddBookEnable();
             _confirm.Enabled = _borrowingFormPresentationModel.IsConfirmEnable();
+        }
+
+        //BackPackFormClosing
+        private void BackPackFormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (e.CloseReason == CloseReason.UserClosing)
+            {
+                e.Cancel = true;
+                _backPackForm.Hide();
+                this._viewBag.Enabled = true;
+            }
         }
     }
 }

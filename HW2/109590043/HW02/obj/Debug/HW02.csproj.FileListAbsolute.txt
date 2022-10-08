@@ -15,7 +15,6 @@ C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\bin\Debug\HW02.e
 C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\bin\Debug\HW02.exe
 C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\bin\Debug\HW02.pdb
 C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\obj\Debug\HW02.csproj.AssemblyReference.cache
-C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\obj\Debug\HW02.csproj.SuggestedBindingRedirects.cache
 C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\obj\Debug\Homework02.BackPackForm.resources
 C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\obj\Debug\Homework02.BookBorrowingForm.resources
 C:\Users\USER\Desktop\Document\Window_design\HW2\109590043\HW02\obj\Debug\Homework02.BookInventoryForm.resources
