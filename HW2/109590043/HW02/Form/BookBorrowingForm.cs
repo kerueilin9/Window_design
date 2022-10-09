@@ -117,7 +117,7 @@ namespace Homework02
             if (e.ColumnIndex == 0)
             {
                 const int TWO = 2;
-                Image img = Image.FromFile("../../../trash_can.png");
+                Image img = Image.FromFile("../../../image/trash_can.png");
                 e.Paint(e.CellBounds, DataGridViewPaintParts.All);
 
                 var w = img.Width;

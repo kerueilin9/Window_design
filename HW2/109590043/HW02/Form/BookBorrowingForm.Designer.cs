@@ -144,7 +144,7 @@ namespace Homework02
             this._label3.Font = new System.Drawing.Font("新細明體", 22F);
             this._label3.Location = new System.Drawing.Point(591, 9);
             this._label3.Name = "_label3";
-            this._label3.Size = new System.Drawing.Size(132, 46);
+            this._label3.Size = new System.Drawing.Size(143, 46);
             this._label3.TabIndex = 4;
             this._label3.Text = "借書單";
             // 
