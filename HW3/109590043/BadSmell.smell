@@ -1,0 +1,747 @@
+<html>
+  <head>
+    <title>Code Review :: </title>
+    <style type="text/css">
+    .body{background-color:White;}
+    .summary{width:100%;font-weight:bold;background-color:White;border: thin solid #808000;color:#FAFCFE}
+    .outer{font-weight:normal;color:#6D5757;background-color:#FFDFBF}
+    .inner{font-weight:normal;color:black;}
+    .reviewTable{border: thin solid #C0C0C0; width:100%}
+    .headerRow{color:white;background-color: #800000;font-weight:bold;text-align: center}
+    .reviewRow{background-color:#FFDFBF;color:black;}
+    .rAligned{text-align:right;}
+    .data{visibility:hidden}
+  </style>
+  </head>
+  <body class="body">
+    <div class="summary">
+      <table>
+        <tr>
+          <td colspan="3" class="headerRow">Review Summary</td>
+        </tr>
+        <tr class="outer">
+          <td>Project Name : <label class="inner" /></td>
+          <td>Reviewed By : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Project Code : <label class="inner" /></td>
+          <td>Reviewed Date : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Name : <label class="inner" /></td>
+          <td>Status : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Version : <label class="inner" /></td>
+          <td>Review Preparation Effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Size (ekloc) : <label class="inner" /></td>
+          <td>Review effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Work Product Release Date for Review : <label class="inner" /></td>
+          <td>Rework effort : <label class="inner" /></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken By : <label class="inner" /></td>
+          <td>Review Efficiency : <label class="inner">NaN</label></td>
+        </tr>
+        <tr class="outer">
+          <td>Review Action Taken Date : <label class="inner" /></td>
+          <td />
+        </tr>
+      </table>
+      <table>
+        <tr class="headerRow">
+          <td colspan="2">Review Details</td>
+          <td colspan="2">Defect Status Analysis</td>
+          <td colspan="2">Defect Type Analysis</td>
+          <td colspan="4">Defect Injected Phase Analysis</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Major</td>
+          <td>Medium</td>
+          <td>Minor</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Suggestions</td>
+          <td class="inner">0</td>
+          <td>Open</td>
+          <td class="inner">0</td>
+          <td>Logical</td>
+          <td class="inner">0</td>
+          <td>Initial Project Setup</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total No of Errors</td>
+          <td class="inner">0</td>
+          <td>On Hold</td>
+          <td class="inner">0</td>
+          <td>Incomplete</td>
+          <td class="inner">0</td>
+          <td>Project Initiation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td>Total</td>
+          <td class="inner">0</td>
+          <td>Closed</td>
+          <td class="inner">0</td>
+          <td>UI</td>
+          <td class="inner">0</td>
+          <td>Requirement Analysis</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td>Rejected</td>
+          <td class="inner">0</td>
+          <td>Exception Handling</td>
+          <td class="inner">0</td>
+          <td>Architecture and Design</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td>Documentation</td>
+          <td class="inner">0</td>
+          <td>Implementation</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>QA Testing</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="inner" />
+          <td>Transition Phase</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+        <tr class="outer">
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td />
+          <td class="rAligned">Total</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+          <td class="inner">0</td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <table class="reviewTable">
+      <tr class="headerRow">
+        <td>#</td>
+        <td>Description</td>
+        <td>Status</td>
+        <td>DefectType</td>
+        <td>InjectedPhase</td>
+      </tr>
+    </table>
+    <div>
+      <br />
+    Created with <a href="http://visualstudiogallery.msdn.microsoft.com/d1e40c49-da36-42a5-8d5a-4ebe1feabbc9">ReviewPal</a></div>
+    <div class="data">
+      <Data id="ReviewPalData">
+        <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.ChangeBorrowCount.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookBorrowingForm.cs</File>
+              <Line>101</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>Literal constants(字面常數)-2</SmellType>
+              <HashCode>LiteralConstants.ChangeBorrowCount.2</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookBorrowingForm.cs</File>
+              <Line>101</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>Unsuitable naming(名不符實)-ReplenishBook(replenish)</SmellType>
+              <HashCode>UnsuitableNaming.BookInventoryForm.ReplenishBook.ReplenishBook</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>43</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.BookInventoryForm.ReplenishBook</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>43</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Unsuitable naming(名不符實)-ReplenishmentForm(replenishment)</SmellType>
+              <HashCode>UnsuitableNaming.Homework.ReplenishmentForm.ReplenishmentForm</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.cs</File>
+              <Line>11</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>ICS(函式-2)</SmellType>
+              <HashCode>Method2.ReplenishmentForm.ValidKeyPress</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.cs</File>
+              <Line>46</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Unsuitable naming(名不符實)-ReplenishmentForm(replenishment)</SmellType>
+              <HashCode>UnsuitableNaming.Homework.ReplenishmentForm.ReplenishmentForm</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.Designer.cs</File>
+              <Line>4</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Unsuitable naming(名不符實)-_replenishCount(replenish)</SmellType>
+              <HashCode>UnsuitableNaming.ReplenishmentForm._replenishCount._replenishCount</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.Designer.cs</File>
+              <Line>122</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Unsuitable naming(名不符實)-_textReplenishCount(replenish)</SmellType>
+              <HashCode>UnsuitableNaming.ReplenishmentForm._textReplenishCount._textReplenishCount</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.Designer.cs</File>
+              <Line>126</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Unsuitable naming(名不符實)-ReplenishmentFormPresentationModel(replenishment)</SmellType>
+              <HashCode>UnsuitableNaming.Homework.PresentationModel.ReplenishmentFormPresentationModel.ReplenishmentFormPresentationModel</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentFormPresentationModel.cs</File>
+              <Line>9</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>11</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>96 Homework.BookBorrowingForm.ChangeBorrowCount(object, System.Windows.Forms.DataGridViewCellEventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookBorrowingForm.cs</File>
+              <Line>96</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.BookBorrowingForm.ChangeBorrowCount(object, System.Windows.Forms.DataGridViewCellEventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>12</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>32 Homework.BookInventoryForm.SetDataGridView()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>32</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.BookInventoryForm.SetDataGridView()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>13</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>43 Homework.BookInventoryForm.ReplenishBook(object, System.Windows.Forms.DataGridViewCellEventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>43</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.BookInventoryForm.ReplenishBook(object, System.Windows.Forms.DataGridViewCellEventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>14</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>57 Homework.BookInventoryForm.SetDataGridViewCellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>57</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.BookInventoryForm.SetDataGridViewCellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>15</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>77 Homework.BookInventoryForm.ShowContentCellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>77</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.BookInventoryForm.ShowContentCellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>16</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>91 Homework.BookInventoryForm.AddDataGridViewRows()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>91</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.BookInventoryForm.AddDataGridViewRows()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>17</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>102 Homework.BookInventoryForm.UpdateDataGridViewRows()</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryForm.cs</File>
+              <Line>102</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.BookInventoryForm.UpdateDataGridViewRows()</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>18</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>97 Homework.Model.GetContentByName(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>Model.cs</File>
+              <Line>97</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.Model.GetContentByName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>19</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>213 Homework.Model.GetBookItemByName(string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>Model.cs</File>
+              <Line>213</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.Model.GetBookItemByName(string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>20</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>220 Homework.Model.GetBookCountByBook(Homework.Book)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>Model.cs</File>
+              <Line>220</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.Model.GetBookCountByBook(Homework.Book)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>21</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>18 Homework.PresentationModel.BookInventoryFormPresentationModel.GetContent(string, string, string)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>BookInventoryFormPresentationModel.cs</File>
+              <Line>18</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.PresentationModel.BookInventoryFormPresentationModel.GetContent(string, string, string)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>22</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>30 Homework.ReplenishmentForm.FormLoad(object, System.EventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.cs</File>
+              <Line>30</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.ReplenishmentForm.FormLoad(object, System.EventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>23</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>35 Homework.ReplenishmentForm.ConfirmClick(object, System.EventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.cs</File>
+              <Line>35</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.ReplenishmentForm.ConfirmClick(object, System.EventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>24</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>41 Homework.ReplenishmentForm.CancelClick(object, System.EventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.cs</File>
+              <Line>41</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.ReplenishmentForm.CancelClick(object, System.EventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>25</Id>
+              <SmellType>Lack of comments(缺乏註解)</SmellType>
+              <HashCode>46 Homework.ReplenishmentForm.ValidKeyPress(object, System.Windows.Forms.KeyPressEventArgs)</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>HW03</Project>
+              <File>ReplenishmentForm.cs</File>
+              <Line>46</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>Homework.ReplenishmentForm.ValidKeyPress(object, System.Windows.Forms.KeyPressEventArgs)</Comment>
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
+          <HashCodeIgnoreList />
+          <HashCodeRequestIgnoreList />
+          <AnalysisFileManager>
+            <AnalysisFiles>
+              <AnalysisFile>
+                <RelativePath>Book.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BookCategory.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BookItem.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BorrowedItem.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BorrowedList.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\BackPackForm.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\BackPackForm.Designer.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\BookBorrowingForm.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\BookBorrowingForm.Designer.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\BookInventoryForm.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\BookInventoryForm.Designer.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\MenuForm.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\MenuForm.Designer.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\ReplenishmentForm.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Form\ReplenishmentForm.Designer.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Model.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\BackPackFormPresentationModel.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\BookBorrowingFormPresentationModel.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\BookInventoryFormPresentationModel.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\MenuFormPresentationModel.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\ReplenishmentFormPresentationModel.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Program.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>ViewOrController</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Resources.Designer.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\Settings.Designer.cs</RelativePath>
+                <ProjectName>HW03</ProjectName>
+                <AnalysisFileType>Designer</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewNumericUpDownCell.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewNumericUpDownColumn.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>DataGridViewNumericUpDownEditingControl.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+            </AnalysisFiles>
+          </AnalysisFileManager>
+          <ProductionLoc>2244</ProductionLoc>
+          <TestLoc>1503</TestLoc>
+        </CodeReview>
+      </Data>
+    </div>
+  </body>
+</html>
