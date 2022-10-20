@@ -1,0 +1,15 @@
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\bin\Debug\DataBinding_SimpleControl.exe.config
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\bin\Debug\DataBinding_SimpleControl.exe
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\bin\Debug\DataBinding_SimpleControl.pdb
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.csprojResolveAssemblyReference.cache
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.Form1.resources
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.Properties.Resources.resources
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.csproj.GenerateResource.Cache
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.exe
+C:\Users\Woei-Kae\Desktop\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.pdb
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\bin\Debug\DataBinding_SimpleControl.exe.config
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.exe
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding_SimpleControl\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.pdb
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding - SimpleControl Example1\DataBinding_SimpleControl\DataBinding_SimpleControl\bin\Debug\DataBinding_SimpleControl.exe.config
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding - SimpleControl Example1\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.exe
+C:\Work\text\lecture\Windows Programming\Example Code\DataBinding - SimpleControl Example1\DataBinding_SimpleControl\DataBinding_SimpleControl\obj\Debug\DataBinding_SimpleControl.pdb
