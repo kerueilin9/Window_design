@@ -1,7 +1,7 @@
 ﻿
 namespace Homework
 {
-    partial class ReplenishmentForm
+    partial class SupplementForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,11 +30,11 @@ namespace Homework
         private void InitializeComponent()
         {
             this._title = new System.Windows.Forms.Label();
-            this._replenishCount = new System.Windows.Forms.Label();
+            this._supplyCount = new System.Windows.Forms.Label();
             this._richTextBox1 = new System.Windows.Forms.RichTextBox();
             this._confirm = new System.Windows.Forms.Button();
             this._cancel = new System.Windows.Forms.Button();
-            this._textReplenishCount = new System.Windows.Forms.TextBox();
+            this._textSupplyCount = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // _title
@@ -47,15 +47,15 @@ namespace Homework
             this._title.TabIndex = 0;
             this._title.Text = "補貨單";
             // 
-            // _replenishCount
+            // _supplyCount
             // 
-            this._replenishCount.AutoSize = true;
-            this._replenishCount.Font = new System.Drawing.Font("新細明體", 14F);
-            this._replenishCount.Location = new System.Drawing.Point(12, 263);
-            this._replenishCount.Name = "_replenishCount";
-            this._replenishCount.Size = new System.Drawing.Size(130, 24);
-            this._replenishCount.TabIndex = 1;
-            this._replenishCount.Text = "補貨數量：";
+            this._supplyCount.AutoSize = true;
+            this._supplyCount.Font = new System.Drawing.Font("新細明體", 14F);
+            this._supplyCount.Location = new System.Drawing.Point(12, 263);
+            this._supplyCount.Name = "_replenishCount";
+            this._supplyCount.Size = new System.Drawing.Size(130, 24);
+            this._supplyCount.TabIndex = 1;
+            this._supplyCount.Text = "補貨數量：";
             // 
             // _richTextBox1
             // 
@@ -89,24 +89,24 @@ namespace Homework
             this._cancel.UseVisualStyleBackColor = false;
             this._cancel.Click += new System.EventHandler(this.CancelClick);
             // 
-            // _textReplenishCount
+            // _textSupplyCount
             // 
-            this._textReplenishCount.Location = new System.Drawing.Point(148, 262);
-            this._textReplenishCount.Name = "_textReplenishCount";
-            this._textReplenishCount.Size = new System.Drawing.Size(100, 25);
-            this._textReplenishCount.TabIndex = 5;
-            this._textReplenishCount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ValidKeyPress);
+            this._textSupplyCount.Location = new System.Drawing.Point(148, 262);
+            this._textSupplyCount.Name = "_textSupplyCount";
+            this._textSupplyCount.Size = new System.Drawing.Size(100, 25);
+            this._textSupplyCount.TabIndex = 5;
+            this._textSupplyCount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DecideKeyPress);
             // 
             // ReplenishmentForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(459, 366);
-            this.Controls.Add(this._textReplenishCount);
+            this.Controls.Add(this._textSupplyCount);
             this.Controls.Add(this._cancel);
             this.Controls.Add(this._confirm);
             this.Controls.Add(this._richTextBox1);
-            this.Controls.Add(this._replenishCount);
+            this.Controls.Add(this._supplyCount);
             this.Controls.Add(this._title);
             this.Name = "ReplenishmentForm";
             this.Text = "ReplenishmentForm";
@@ -119,10 +119,10 @@ namespace Homework
         #endregion
 
         private System.Windows.Forms.Label _title;
-        private System.Windows.Forms.Label _replenishCount;
+        private System.Windows.Forms.Label _supplyCount;
         private System.Windows.Forms.RichTextBox _richTextBox1;
         private System.Windows.Forms.Button _confirm;
         private System.Windows.Forms.Button _cancel;
-        private System.Windows.Forms.TextBox _textReplenishCount;
+        private System.Windows.Forms.TextBox _textSupplyCount;
     }
 }

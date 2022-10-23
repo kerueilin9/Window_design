@@ -29,7 +29,8 @@ namespace Homework
             _addBook.Enabled = false;
             _confirm.Enabled = false;
             _backPackForm._updateBorrowingForm += this.UpdateButtonView;
-            _borrowingFormPresentationModel._showMessage += this.ShowMessage;
+            _model._updateBookItem += this.UpdateButtonView;
+            _model._showMessage += this.ShowMessage;
             _backPackForm.FormClosing += new FormClosingEventHandler(BackPackFormClosing);
             SetDataGridView();
             SetView();
@@ -95,29 +96,35 @@ namespace Homework
             ((DataGridViewNumericUpDownColumn)_dataGridView1.Columns[TWO_COLUMN]).Minimum = 1;
         }
 
+        //ChangeBorrowCount
         private void ChangeBorrowCount(object sender, DataGridViewCellEventArgs e)
         {
+            const int INDEX = 2;
             var grid = (DataGridView)sender;
             if (e.RowIndex < 0)
                 return;
-            this._borrowingFormPresentationModel.GetMessage(int.Parse(grid[2, e.RowIndex].Value.ToString()), grid.Rows[e.RowIndex].Cells[1].Value.ToString());
+            this._borrowingFormPresentationModel.GetMessage(int.Parse(grid[INDEX, e.RowIndex].Value.ToString()), grid.Rows[e.RowIndex].Cells[1].Value.ToString(), e.RowIndex);
             UpdateButtonView();
         }
 
-        private void ShowMessage(string content, string title)
+        //ShowMessage
+        private void ShowMessage(string content, string title, int rowIndex, int resultCount)
         {
+            const int INDEX = 2;
             MessageBox.Show(content, title);
+            this._dataGridView1.Rows[rowIndex].Cells[INDEX].Value = resultCount.ToString();
         }
 
         //DeleteBookInBorrowList
         private void DeleteBookInBorrowList(object sender, DataGridViewCellEventArgs e)
         {
+            const int INDEX = 2;
             var grid = (DataGridView)sender;
             if (e.RowIndex < 0)
                 return;
             if (grid[e.ColumnIndex, e.RowIndex] is DataGridViewButtonCell)
             {
-                _model.DeleteBorrowListUseName(grid.Rows[e.RowIndex].Cells[1].Value.ToString());
+                _model.DeleteBorrowListUseName(grid.Rows[e.RowIndex].Cells[1].Value.ToString(), int.Parse(grid[INDEX, e.RowIndex].Value.ToString()));
                 _dataGridView1.Rows.RemoveAt(e.RowIndex);
                 UpdateButtonView();
             }
@@ -168,11 +175,20 @@ namespace Homework
         //ConfirmClick
         private void ConfirmClick(object sender, EventArgs e)
         {
-            MessageBox.Show(_borrowingFormPresentationModel.GetMessage());
+            List<string> names = new List<string>();
+            List<string> counts = new List<string>();
+            const int INDEX_OF_COUNTS_COLUMN = 2;
+            foreach (DataGridViewRow row in _dataGridView1.Rows)
+            {
+                names.Add(row.Cells[1].Value.ToString());
+                counts.Add(row.Cells[INDEX_OF_COUNTS_COLUMN].Value.ToString());
+            }
+            MessageBox.Show(_borrowingFormPresentationModel.GetMessage(names, counts));
             _model.UpdateBorrowedList();
             _model.ClearBorrowList();
             _dataGridView1.Rows.Clear();
             _backPackForm.CreateGridRow();
+            _model.UpdateBookItem();
             UpdateButtonView();
         }
 

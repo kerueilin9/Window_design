@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Homework.PresentationModel
 {
-    public class ReplenishmentFormPresentationModel
+    public class SupplementFormPresentationModel
     {
     }
 }

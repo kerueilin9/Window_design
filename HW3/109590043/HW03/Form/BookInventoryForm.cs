@@ -25,10 +25,12 @@ namespace Homework
         private void BookInventoryFormLoad(object sender, EventArgs e)
         {
             _formPresentationModel = new BookInventoryFormPresentationModel(_model);
+            this._model._updateBookItem += UpdateDataGridViewRows;
             SetDataGridView();
             AddDataGridViewRows();
         }
 
+        //SetDataGridView
         private void SetDataGridView()
         {
             DataGridViewButtonColumn deleteColumn = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -40,7 +42,8 @@ namespace Homework
             this._dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
 
-        private void ReplenishBook(object sender, DataGridViewCellEventArgs e)
+        //ReplenishBook
+        private void SupplyBook(object sender, DataGridViewCellEventArgs e)
         {
             var grid = (DataGridView)sender;
             if (e.RowIndex < 0)
@@ -49,11 +52,12 @@ namespace Homework
             {
                 BookItem bookItem = _model.GetBookItemByName(grid.Rows[e.RowIndex].Cells[0].Value.ToString());
                 string content = _formPresentationModel.GetContent(grid.Rows[e.RowIndex].Cells[0].Value.ToString(), grid.Rows[e.RowIndex].Cells[1].Value.ToString(), grid.Rows[e.RowIndex].Cells[2].Value.ToString());
-                ReplenishmentForm form = new ReplenishmentForm(_model, bookItem, content);
-                form.Show();
+                SupplementForm form = new SupplementForm(_model, bookItem, content);
+                form.ShowDialog();
             }
         }
 
+        //SetDataGridViewCellPainting
         private void SetDataGridViewCellPainting(object sender, DataGridViewCellPaintingEventArgs e)
         {
             if (e.RowIndex < 0)
@@ -74,6 +78,7 @@ namespace Homework
             }
         }
 
+        //ShowContentCellClick
         private void ShowContentCellClick(object sender, DataGridViewCellEventArgs e)
         {
             var grid = (DataGridView)sender;
@@ -88,6 +93,7 @@ namespace Homework
             }
         }
 
+        //AddDataGridViewRows
         private void AddDataGridViewRows()
         {
             foreach (BookCategory bookCategory in _model.GetBookCategories())
@@ -99,6 +105,7 @@ namespace Homework
             }
         }
 
+        //UpdateDataGridViewRows
         private void UpdateDataGridViewRows()
         {
             this._dataGridView1.Rows.Clear();

@@ -70,7 +70,7 @@ namespace Homework
             this._dataGridView1.AllowUserToResizeColumns = false;
             this._dataGridView1.AllowUserToResizeRows = false;
             this._dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ShowContentCellClick);
-            this._dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ReplenishBook);
+            this._dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SupplyBook);
             this._dataGridView1.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(SetDataGridViewCellPainting);
             // 
             // _name

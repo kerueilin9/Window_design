@@ -8,6 +8,7 @@ using System.Text;
 using Homework.PresentationModel;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using DataGridViewNumericUpDownElements;
 
 namespace Homework
 {
@@ -22,6 +23,7 @@ namespace Homework
             InitializeComponent();
             this._model = model;
             this._backPackFormPresentation = new BackPackFormPresentationModel(_model);
+            this._backPackFormPresentation._showMessage += this.ShowMessage;
         }
 
         //BackPackForm_Load
@@ -35,6 +37,8 @@ namespace Homework
             deleteColumn.UseColumnTextForButtonValue = true;
             _dataGridView1.Columns.Insert(0, deleteColumn);
             this._dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            ((DataGridViewNumericUpDownColumn)_dataGridView1.Columns[1]).Minimum = 0;
+            _dataGridView1.CellEndEdit += ChangeReturnCount;
             CreateGridRow(); 
         }
 
@@ -46,19 +50,28 @@ namespace Homework
                 this._dataGridView1.Rows.Add(borrowedItem);
         }
 
+        //ChangeReturnCount
+        private void ChangeReturnCount(object sender, DataGridViewCellEventArgs e)
+        {
+            var grid = (DataGridView)sender;
+            if (e.RowIndex < 0)
+                return;
+            this._backPackFormPresentation.GetReturnLimitMessage(e.RowIndex, int.Parse(grid[1, e.RowIndex].Value.ToString()), int.Parse(grid[3, e.RowIndex].Value.ToString()));
+        }
+
         //ReturnBookInBorrowList
         public void ReturnBookInBorrowList(object sender, DataGridViewCellEventArgs e)
         {
-            const string UPPER_BRACKET = "【";
-            const string LAST_STRING = "】 已成功歸還";
+            const int INDEX = 2;
             var grid = (DataGridView)sender;
             if (e.RowIndex < 0)
                 return;
             if (grid[e.ColumnIndex, e.RowIndex] is DataGridViewButtonCell)
             {
-                MessageBox.Show(UPPER_BRACKET + grid.Rows[e.RowIndex].Cells[1].Value.ToString() + LAST_STRING);
-                _model.DeleteBorrowedList(grid.Rows[e.RowIndex].Cells[1].Value.ToString());
-                _dataGridView1.Rows.RemoveAt(e.RowIndex);
+                MessageBox.Show(_backPackFormPresentation.GetMessage(grid.Rows[e.RowIndex].Cells[INDEX].Value.ToString() , grid.Rows[e.RowIndex].Cells[1].Value.ToString()));
+                _model.DeleteBorrowedList(grid.Rows[e.RowIndex].Cells[INDEX].Value.ToString(), int.Parse(grid[1, e.RowIndex].Value.ToString()));
+                CreateGridRow();
+                _model.UpdateBookItem();
                 this.UpdateBorrowingForm();
             }
         }
@@ -68,6 +81,13 @@ namespace Homework
         {
             if (this._updateBorrowingForm != null)
                 this._updateBorrowingForm.Invoke();
+        }
+
+        //ShowMessage
+        private void ShowMessage(string content, string title, int rowIndex, int resultCount)
+        {
+            MessageBox.Show(content, title);
+            this._dataGridView1.Rows[rowIndex].Cells[1].Value = resultCount.ToString();
         }
     }
 }

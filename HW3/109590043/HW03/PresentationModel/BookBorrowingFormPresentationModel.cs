@@ -9,13 +9,13 @@ namespace Homework.PresentationModel
 {
     public class BookBorrowingFormPresentationModel
     {
+        public event Action<string, string, int, int> _showMessage;
         private Model _model;
         private List<List<bool>> _visibleList = new List<List<bool>>();
         private bool _nextEnable;
         private bool _previousEnable;
         private int _currentPage;
         private string _pageText;
-        public event Action<string, string> _showMessage;
 
         public BookBorrowingFormPresentationModel(Model model)
         {
@@ -163,9 +163,19 @@ namespace Homework.PresentationModel
         }
 
         //GetMessage
-        public string GetMessage()
+        public string GetMessage(List<string> names, List<string> counts)
         {
-            return _model.GetSuccessMessage();
+            const string TEXT = "\n\n已成功借出!";
+            const string COUNT_TEXT = "{0}本";
+            const string UPPER_BRACKET = "【";
+            const string LOWER_BRACKET = "】";
+            const string COMMA = "丶";
+            string result = "";
+            for (int i = 0; i < names.Count; i++)
+                result += UPPER_BRACKET + names[i] + LOWER_BRACKET + string.Format(COUNT_TEXT, counts[i]) + COMMA;
+            result = result.Remove(result.Length - 1);
+            result += TEXT;
+            return result;
         }
 
         //GetVisibleList
@@ -188,22 +198,17 @@ namespace Homework.PresentationModel
             }
         }
 
-        public void GetMessage(int count, string name)
+        //GetMessage
+        public void GetMessage(int count, string name, int rowIndex)
         {
-            const string LIMIT_TITLE = "借書違規";
-            const string OVER_TITLE = "庫存狀態";
-            const string LIMIT_CONTENT = "同一本書限借兩次";
-            const string OVER_CONTENT = "該書本剩餘數量不足";
-            if (count > 2)
-                ShowMessage(LIMIT_CONTENT, LIMIT_TITLE);
-            else if (count > _model.GetBookItemByName(name).GetBookCount())
-                ShowMessage(OVER_CONTENT, OVER_TITLE);
+            this._model.JudgeMessageLimit(count, name, rowIndex);
         }
 
-        public void ShowMessage(string content, string title)
+        //ShowMessage
+        public void ShowMessage(string content, string title, int rowIndex, int resultCount)
         {
             if (this._showMessage != null)
-                this._showMessage(content, title);
+                this._showMessage(content, title, rowIndex, resultCount);
         }
     }
 }

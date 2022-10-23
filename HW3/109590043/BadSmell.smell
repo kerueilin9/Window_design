@@ -188,402 +188,34 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
-              <SmellType>Literal constants(字面常數)-2</SmellType>
-              <HashCode>LiteralConstants.ChangeBorrowCount.2</HashCode>
-              <Severity>Warning</Severity>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>28 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
+              <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW03</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>101</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs</File>
+              <Line>28</Line>
+              <StartLine>28</StartLine>
+              <StartCol>20</StartCol>
+              <EndLine>28</EndLine>
+              <EndCol>133</EndCol>
+              <Comment>目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
               <Id>2</Id>
-              <SmellType>Literal constants(字面常數)-2</SmellType>
-              <HashCode>LiteralConstants.ChangeBorrowCount.2</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>101</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>3</Id>
-              <SmellType>Unsuitable naming(名不符實)-ReplenishBook(replenish)</SmellType>
-              <HashCode>UnsuitableNaming.BookInventoryForm.ReplenishBook.ReplenishBook</HashCode>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>33 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>43</Line>
-              <StartLine>0</StartLine>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs</File>
+              <Line>33</Line>
+              <StartLine>32</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
+              <EndLine>33</EndLine>
               <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>4</Id>
-              <SmellType>ICS(函式-2)</SmellType>
-              <HashCode>Method2.BookInventoryForm.ReplenishBook</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>43</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>5</Id>
-              <SmellType>Unsuitable naming(名不符實)-ReplenishmentForm(replenishment)</SmellType>
-              <HashCode>UnsuitableNaming.Homework.ReplenishmentForm.ReplenishmentForm</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.cs</File>
-              <Line>11</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>6</Id>
-              <SmellType>ICS(函式-2)</SmellType>
-              <HashCode>Method2.ReplenishmentForm.ValidKeyPress</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.cs</File>
-              <Line>46</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-2) 每個函式表示一種操作，因此一律使用動詞做為第一個單字</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>7</Id>
-              <SmellType>Unsuitable naming(名不符實)-ReplenishmentForm(replenishment)</SmellType>
-              <HashCode>UnsuitableNaming.Homework.ReplenishmentForm.ReplenishmentForm</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.Designer.cs</File>
-              <Line>4</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>8</Id>
-              <SmellType>Unsuitable naming(名不符實)-_replenishCount(replenish)</SmellType>
-              <HashCode>UnsuitableNaming.ReplenishmentForm._replenishCount._replenishCount</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.Designer.cs</File>
-              <Line>122</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>9</Id>
-              <SmellType>Unsuitable naming(名不符實)-_textReplenishCount(replenish)</SmellType>
-              <HashCode>UnsuitableNaming.ReplenishmentForm._textReplenishCount._textReplenishCount</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.Designer.cs</File>
-              <Line>126</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>10</Id>
-              <SmellType>Unsuitable naming(名不符實)-ReplenishmentFormPresentationModel(replenishment)</SmellType>
-              <HashCode>UnsuitableNaming.Homework.PresentationModel.ReplenishmentFormPresentationModel.ReplenishmentFormPresentationModel</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentFormPresentationModel.cs</File>
-              <Line>9</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment />
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>11</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>96 Homework.BookBorrowingForm.ChangeBorrowCount(object, System.Windows.Forms.DataGridViewCellEventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookBorrowingForm.cs</File>
-              <Line>96</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.BookBorrowingForm.ChangeBorrowCount(object, System.Windows.Forms.DataGridViewCellEventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>12</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>32 Homework.BookInventoryForm.SetDataGridView()</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>32</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.BookInventoryForm.SetDataGridView()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>13</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>43 Homework.BookInventoryForm.ReplenishBook(object, System.Windows.Forms.DataGridViewCellEventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>43</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.BookInventoryForm.ReplenishBook(object, System.Windows.Forms.DataGridViewCellEventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>14</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>57 Homework.BookInventoryForm.SetDataGridViewCellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>57</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.BookInventoryForm.SetDataGridViewCellPainting(object, System.Windows.Forms.DataGridViewCellPaintingEventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>15</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>77 Homework.BookInventoryForm.ShowContentCellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>77</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.BookInventoryForm.ShowContentCellClick(object, System.Windows.Forms.DataGridViewCellEventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>16</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>91 Homework.BookInventoryForm.AddDataGridViewRows()</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>91</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.BookInventoryForm.AddDataGridViewRows()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>17</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>102 Homework.BookInventoryForm.UpdateDataGridViewRows()</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryForm.cs</File>
-              <Line>102</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.BookInventoryForm.UpdateDataGridViewRows()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>18</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>97 Homework.Model.GetContentByName(string)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>Model.cs</File>
-              <Line>97</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.Model.GetContentByName(string)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>19</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>213 Homework.Model.GetBookItemByName(string)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>Model.cs</File>
-              <Line>213</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.Model.GetBookItemByName(string)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>20</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>220 Homework.Model.GetBookCountByBook(Homework.Book)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>Model.cs</File>
-              <Line>220</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.Model.GetBookCountByBook(Homework.Book)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>21</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>18 Homework.PresentationModel.BookInventoryFormPresentationModel.GetContent(string, string, string)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>BookInventoryFormPresentationModel.cs</File>
-              <Line>18</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.PresentationModel.BookInventoryFormPresentationModel.GetContent(string, string, string)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>22</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>30 Homework.ReplenishmentForm.FormLoad(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.cs</File>
-              <Line>30</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.ReplenishmentForm.FormLoad(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>23</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>35 Homework.ReplenishmentForm.ConfirmClick(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.cs</File>
-              <Line>35</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.ReplenishmentForm.ConfirmClick(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>24</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>41 Homework.ReplenishmentForm.CancelClick(object, System.EventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.cs</File>
-              <Line>41</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.ReplenishmentForm.CancelClick(object, System.EventArgs)</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>25</Id>
-              <SmellType>Lack of comments(缺乏註解)</SmellType>
-              <HashCode>46 Homework.ReplenishmentForm.ValidKeyPress(object, System.Windows.Forms.KeyPressEventArgs)</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>HW03</Project>
-              <File>ReplenishmentForm.cs</File>
-              <Line>46</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>Homework.ReplenishmentForm.ValidKeyPress(object, System.Windows.Forms.KeyPressEventArgs)</Comment>
+              <Comment>目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</Comment>
               <Auto>false</Auto>
             </Smell>
           </Reviews>
@@ -738,7 +370,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>2244</ProductionLoc>
+          <ProductionLoc>2440</ProductionLoc>
           <TestLoc>1503</TestLoc>
         </CodeReview>
       </Data>

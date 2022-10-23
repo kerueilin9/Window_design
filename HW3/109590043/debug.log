@@ -1,0 +1,302 @@
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BookBorrowingFormPresentationModel.cs Line 201
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BookBorrowingFormPresentationModel envy Homework.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookItemByName
+FeatureEnvyDetector	WARN		GetBookItemByName
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BookBorrowingFormPresentationModel.cs Line 201
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BookBorrowingFormPresentationModel envy Homework.BookItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookCount
+FeatureEnvyDetector	WARN		GetBookCount
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BookBorrowingFormPresentationModel.cs Line 202
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BookBorrowingFormPresentationModel envy Homework.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookItemByName
+FeatureEnvyDetector	WARN		GetBookItemByName
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BookBorrowingFormPresentationModel.cs Line 202
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BookBorrowingFormPresentationModel envy Homework.BookItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookCount
+FeatureEnvyDetector	WARN		GetBookCount
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BookBorrowingFormPresentationModel.cs Line 209
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BookBorrowingFormPresentationModel envy Homework.Model
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		GetBookItemByName
+FeatureEnvyDetector	WARN		UpdateBorrowListByData
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 29
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 34
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN		DateTime
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 30
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 35
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString

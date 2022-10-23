@@ -15,6 +15,7 @@ namespace Homework.PresentationModel
             this._model = model;
         }
 
+        //GetContent
         public string GetContent(string name, string category, string count)
         {
             const string NAME_LABEL = "書籍名稱：";

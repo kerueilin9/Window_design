@@ -20,6 +20,7 @@ namespace Homework
         private const int SEVEN = 7;
         private const int EIGHT = 8;
         private const int NINE = 9;
+        private const int DAY = 30;
 
         public BorrowedItem()
         {
@@ -56,17 +57,24 @@ namespace Homework
             } 
         }
 
+        //GetDateTimeString
+        public string GetDateTimeString()
+        {
+            const string DATE_TYPE = "yyyy/MM/dd";
+            return _dateTime.ToString(DATE_TYPE);
+        }
+
         //GetArray
         public string[] GetArray()
         {
             const string DATE_TYPE = "yyyy/MM/dd";
             string[] result = new string[NINE];
-            result[ZERO] = "";
-            result[ONE] = "";
+            result[ZERO] = ONE.ToString();
+            result[ONE] = ONE.ToString();
             result[TWO] = _book.GetName();
             result[THREE] = ONE.ToString();
             result[FOUR] = _dateTime.ToString(DATE_TYPE);
-            result[FIVE] = _dateTime.AddDays(SEVEN).ToString(DATE_TYPE);
+            result[FIVE] = _dateTime.AddDays(DAY).ToString(DATE_TYPE);
             result[SIX] = _book.GetId();
             result[SEVEN] = _book.GetAuthor();
             result[EIGHT] = _book.GetPublisher();

@@ -8,18 +8,18 @@ using System.Windows.Forms;
 
 namespace Homework
 {
-    public partial class ReplenishmentForm : Form
+    public partial class SupplementForm : Form
     {
         private Model _model;
         private BookItem _bookItem;
         private string _content;
 
-        public ReplenishmentForm()
+        public SupplementForm()
         {
             InitializeComponent();
         }
 
-        public ReplenishmentForm(Model model, BookItem bookItem, string content)
+        public SupplementForm(Model model, BookItem bookItem, string content)
         {
             this._model = model;
             this._bookItem = bookItem;
@@ -27,23 +27,28 @@ namespace Homework
             InitializeComponent();
         }
 
+        //FormLoad
         private void FormLoad(object sender, EventArgs e)
         {
             this._richTextBox1.Text = this._content;
         }
 
+        //ConfirmClick
         private void ConfirmClick(object sender, EventArgs e)
         {
-            this._bookItem.SetPlusBookCount(int.Parse(this._textReplenishCount.Text));
+            this._bookItem.SetPlusBookCount(int.Parse(this._textSupplyCount.Text));
+            _model.UpdateBookItem();
             this.Close();
         }
 
+        //CancelClick
         private void CancelClick(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void ValidKeyPress(object sender, KeyPressEventArgs e)
+        //DecideKeyPress
+        private void DecideKeyPress(object sender, KeyPressEventArgs e)
         {
             int key = Convert.ToInt32(e.KeyChar);
             if (!(48 <= key && key <= 58 || key == 8))

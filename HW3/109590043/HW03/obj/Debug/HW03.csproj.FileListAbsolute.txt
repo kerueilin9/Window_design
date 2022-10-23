@@ -14,4 +14,4 @@ C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\obj\Debug\
 C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\obj\Debug\Homework.BookBorrowingForm.resources
 C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\obj\Debug\Homework.BookInventoryForm.resources
 C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\obj\Debug\Homework.MenuForm.resources
-C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\obj\Debug\Homework.ReplenishmentForm.resources
+C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\obj\Debug\Homework.SupplementForm.resources
