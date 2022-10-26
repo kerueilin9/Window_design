@@ -6380,3 +6380,273 @@ FeatureEnvyDetector	WARN		GetDateTimeString
 2022-10-23 02:32:25Z : PB = 1024057344 : Out  : ------ StyleCop.VisualStudio.AnalysisHelper.AnalyzeComplete()
 2022-10-23 02:32:25Z : PB = 1024057344 : Out  : ----- StyleCop.VisualStudio.AnalysisThread.AnalyzeProc()
 2022-10-22-14.18.11.083-devenv-10784.tsv -> 2022-10-24-01.47.13.751-devenv-10784.tsv
+Entering constructor for: ReviewPal.ReviewPal2013.DrSmellPackage
+Entering Initialize() of: ReviewPal.ReviewPal2013.DrSmellPackage
+2022-10-24 10:12:14Z : PB = 691343360 : In   : ---------------------------- StyleCop.StyleCopCore..ctor(environment=<null>, hostTag=<null>)
+2022-10-24 10:12:14Z : PB = 691392512 : Out  : ---------------------------- StyleCop.StyleCopCore..ctor()
+2022-10-24 10:12:14Z : PB = 692023296 : Out  : ------------------------- StyleCop.StyleCopCore.Initialize()
+C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\debug.log
+2022-10-24 10:12:18Z : PB = 692391936 : In   : ---------------------------------- StyleCop.VisualStudio.AnalysisHelper.Analyze(full=True, type={Solution}, analysisFileManager=<missing>)
+2022-10-24 10:12:19Z : PB = 693956608 : Out  : ---------------------------------- StyleCop.VisualStudio.AnalysisHelper.Analyze()
+2022-10-24 10:12:19Z : PB = 693956608 : In   : ----- StyleCop.VisualStudio.AnalysisThread.AnalyzeProc()
+2022-10-24 10:12:19Z : PB = 693035008 : In   : ------ StyleCop.StyleCopCore.FullAnalyze(projects=[List<CodeProject>: Count = 2])
+2022-10-24 10:12:19Z : PB = 693063680 : In   : ------- StyleCop.StyleCopCore.Analyze(projects=[List<CodeProject>: Count = 2], ignoreCache=True, settingsPath=<null>)
+2022-10-24 10:12:20Z : PB = 693153792 : In   : -------- StyleCop.StyleCopCore.RunWorkerThreads(data=[Data], count=1)
+2022-10-24 10:12:20Z : PB = 693141504 : In   : --------- StyleCop.StyleCopThread.DoWork(sender=<null>)
+2022-10-24 10:12:20Z : PB = 693153792 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 693174272 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 693518336 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 693522432 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 693534720 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:20Z : PB = 697442304 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:20Z : PB = 697442304 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:20Z : PB = 697462784 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:20Z : PB = 697462784 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 697462784 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 697491456 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 697491456 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 697491456 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:20Z : PB = 700940288 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:20Z : PB = 700940288 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:20Z : PB = 700940288 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:20Z : PB = 700940288 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 700940288 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 700940288 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 700940288 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 700940288 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:20Z : PB = 704385024 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:20Z : PB = 704385024 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:20Z : PB = 704385024 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:20Z : PB = 704385024 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 704385024 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 704401408 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 704401408 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 704401408 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:20Z : PB = 707854336 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:20Z : PB = 707854336 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:20Z : PB = 707854336 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:20Z : PB = 707854336 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 707854336 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 707862528 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 707862528 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 707862528 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:20Z : PB = 713166848 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:20Z : PB = 713166848 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:20Z : PB = 713166848 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:20Z : PB = 713166848 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 713166848 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 713199616 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 713199616 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 713199616 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:20Z : PB = 720011264 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:20Z : PB = 720011264 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:20Z : PB = 720011264 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:20Z : PB = 720011264 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 720011264 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 720023552 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 720023552 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 720023552 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:20Z : PB = 726888448 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:20Z : PB = 726888448 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:20Z : PB = 726888448 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:20Z : PB = 726888448 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:20Z : PB = 726888448 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:20Z : PB = 726896640 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:20Z : PB = 726896640 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:20Z : PB = 726896640 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 733949952 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 733949952 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 733949952 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 733949952 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 733949952 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 733949952 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 733949952 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 733949952 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 740483072 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 740483072 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 740483072 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 740483072 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 740483072 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 740483072 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 740483072 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 740483072 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 746790912 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 746790912 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 746790912 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 746790912 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 746790912 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 746790912 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 746790912 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 746790912 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 751706112 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 751706112 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 751706112 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 751706112 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 751706112 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 751706112 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 751706112 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 751706112 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 758644736 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 758644736 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 758644736 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 758644736 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 758644736 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 758644736 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 758644736 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 758644736 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 765464576 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 765464576 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 765464576 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 765464576 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 765464576 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 765505536 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 765505536 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 765505536 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 772157440 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 772157440 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 772157440 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 772157440 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 772157440 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 772157440 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 772157440 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 772157440 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:21Z : PB = 779247616 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:21Z : PB = 779247616 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:21Z : PB = 779247616 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:21Z : PB = 779247616 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:21Z : PB = 779247616 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:21Z : PB = 779186176 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:21Z : PB = 779186176 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:21Z : PB = 779186176 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 786903040 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 786903040 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 786903040 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 786903040 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 786903040 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 786903040 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 786903040 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 786903040 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 792416256 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 792416256 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 792416256 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 792416256 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 792416256 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 792416256 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 792416256 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 792416256 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 799444992 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 799444992 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 799444992 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 799444992 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 799444992 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 799444992 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 799444992 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 799444992 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 805728256 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 805728256 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 805728256 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 805728256 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 805728256 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 805728256 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 805728256 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 805728256 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 811933696 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 811933696 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 811933696 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 811933696 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 811933696 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 811933696 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 811933696 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 811933696 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 818819072 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 819347456 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 819347456 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 819347456 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 819347456 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 819359744 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 819359744 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 819359744 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 825597952 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 825597952 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 825597952 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 825597952 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 825597952 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 825597952 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 825597952 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 825597952 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 831770624 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 831770624 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 831770624 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 831770624 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 831770624 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 832499712 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 832499712 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 832499712 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 843288576 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 843288576 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 843288576 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 843288576 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 841703424 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 841285632 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 841285632 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 841285632 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:22Z : PB = 774164480 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:22Z : PB = 774164480 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:22Z : PB = 774164480 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:22Z : PB = 774164480 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:22Z : PB = 774164480 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:22Z : PB = 773685248 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:22Z : PB = 773685248 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:22Z : PB = 773685248 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:23Z : PB = 774180864 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:23Z : PB = 774180864 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:23Z : PB = 774180864 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:23Z : PB = 774180864 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:23Z : PB = 774180864 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:23Z : PB = 773484544 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:23Z : PB = 773484544 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:23Z : PB = 773484544 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:23Z : PB = 774234112 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:23Z : PB = 774234112 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:23Z : PB = 774234112 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:23Z : PB = 774234112 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:23Z : PB = 774176768 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:23Z : PB = 776380416 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:23Z : PB = 776380416 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:23Z : PB = 776380416 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:23Z : PB = 777072640 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:23Z : PB = 777072640 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:23Z : PB = 777072640 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:23Z : PB = 777072640 : In   : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument(sourceCode=[CodeFile], documentStatus=[DocumentAnalysisStatus])
+2022-10-24 10:12:23Z : PB = 777072640 : In   : ----------- StyleCop.CSharp.CsParser.ParseFile(sourceCode=[CodeFile], passNumber=0, document=<null>)
+2022-10-24 10:12:23Z : PB = 777072640 : Out  : ----------- StyleCop.CSharp.CsParser.ParseFile()=False
+2022-10-24 10:12:23Z : PB = 777072640 : In   : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20], passNumber=0)
+2022-10-24 10:12:23Z : PB = 777072640 : In   : ------------ StyleCop.StyleCopThread.RunAnalyzers(document=[CsDocument], parser=[CsParser], analyzers=[<get_EnabledAnalyzers>d__20])
+2022-10-24 10:12:23Z : PB = 778203136 : Out  : ------------ StyleCop.StyleCopThread.RunAnalyzers()
+2022-10-24 10:12:23Z : PB = 778203136 : Out  : ----------- StyleCop.StyleCopThread.TestAndRunAnalyzers()=True
+2022-10-24 10:12:23Z : PB = 778203136 : Out  : ---------- StyleCop.StyleCopThread.ParseAndAnalyzeDocument()
+2022-10-24 10:12:23Z : PB = 778211328 : Out  : --------- StyleCop.StyleCopThread.DoWork()
+2022-10-24 10:12:23Z : PB = 778211328 : Out  : -------- StyleCop.StyleCopCore.RunWorkerThreads()=True
+2022-10-24 10:12:23Z : PB = 778211328 : Out  : ------- StyleCop.StyleCopCore.Analyze()
+2022-10-24 10:12:23Z : PB = 778203136 : Out  : ------ StyleCop.StyleCopCore.FullAnalyze()
+2022-10-24 10:12:23Z : PB = 778203136 : In   : ------ StyleCop.VisualStudio.AnalysisHelper.AnalyzeComplete(sender=[AnalysisThread], e=[EventArgs])
+2022-10-24 10:12:23Z : PB = 778203136 : In   : ------- StyleCop.VisualStudio.AnalysisHelper.AnalyzeCompleteMain(sender=[AnalysisThread], e=[EventArgs])
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 28
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN	Finded Feature Envy
+FeatureEnvyDetector	WARN	at C:\Users\kerueilin9\Desktop\Document\window_design\HW3\109590043\HW03\PresentationModel\BackPackFormPresentationModel.cs Line 33
+FeatureEnvyDetector	WARN	 Homework.PresentationModel.BackPackFormPresentationModel envy Homework.BorrowedItem
+FeatureEnvyDetector	WARN	use list:
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		Book
+FeatureEnvyDetector	WARN		GetDateTimeString
+FeatureEnvyDetector	WARN		GetDateTimeString
+2022-10-24 10:12:24Z : PB = 778903552 : Out  : ------- StyleCop.VisualStudio.AnalysisHelper.AnalyzeCompleteMain()
+2022-10-24 10:12:24Z : PB = 778895360 : Out  : ------ StyleCop.VisualStudio.AnalysisHelper.AnalyzeComplete()
+2022-10-24 10:12:24Z : PB = 778895360 : Out  : ----- StyleCop.VisualStudio.AnalysisThread.AnalyzeProc()

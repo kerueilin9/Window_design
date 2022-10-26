@@ -38,8 +38,22 @@ namespace Homework
             _dataGridView1.Columns.Insert(0, deleteColumn);
             this._dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             ((DataGridViewNumericUpDownColumn)_dataGridView1.Columns[1]).Minimum = 0;
-            _dataGridView1.CellEndEdit += ChangeReturnCount;
+            _dataGridView1.EditingControlShowing += EditingControlShowing;
+            _dataGridView1.CellValueChanged += ChangeReturnCount;
             CreateGridRow(); 
+        }
+
+        //EditingControlShowing
+        private void EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+        {
+            e.Control.TextChanged -= this.EditTextChanged;
+            e.Control.TextChanged += this.EditTextChanged;
+        }
+
+        //EditTextChanged
+        private void EditTextChanged(object sender, EventArgs e)
+        {
+            this._dataGridView1.CommitEdit(DataGridViewDataErrorContexts.Commit);
         }
 
         //CreateGridRow
@@ -86,6 +100,7 @@ namespace Homework
         //ShowMessage
         private void ShowMessage(string content, string title, int rowIndex, int resultCount)
         {
+            this._dataGridView1.EndEdit();
             MessageBox.Show(content, title);
             this._dataGridView1.Rows[rowIndex].Cells[1].Value = resultCount.ToString();
         }

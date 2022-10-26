@@ -88,7 +88,8 @@ namespace Homework
             deleteColumn.Name = "deleteColumn";
             _dataGridView1.Columns.Add(deleteColumn);
             _dataGridView1.ColumnCount = COLUMN_COUNT;
-            _dataGridView1.CellEndEdit += ChangeBorrowCount;
+            _dataGridView1.EditingControlShowing += EditingControlShowing;
+            _dataGridView1.CellValueChanged += ChangeCellValue;
             for (int i = 1; i < COLUMN_COUNT; i++)
                 _dataGridView1.Columns[i].Name = columnName[i - 1];
             _dataGridView1.Columns.Insert(TWO_COLUMN, new DataGridViewNumericUpDownColumn());
@@ -96,8 +97,21 @@ namespace Homework
             ((DataGridViewNumericUpDownColumn)_dataGridView1.Columns[TWO_COLUMN]).Minimum = 1;
         }
 
+        //EditingControlShowing
+        private void EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
+        {
+            e.Control.TextChanged -= this.EditTextChanged;
+            e.Control.TextChanged += this.EditTextChanged;
+        }
+
+        //EditTextChanged
+        private void EditTextChanged(object sender, EventArgs e)
+        {
+            this._dataGridView1.CommitEdit(DataGridViewDataErrorContexts.Commit);
+        }
+
         //ChangeBorrowCount
-        private void ChangeBorrowCount(object sender, DataGridViewCellEventArgs e)
+        private void ChangeCellValue(object sender, DataGridViewCellEventArgs e)
         {
             const int INDEX = 2;
             var grid = (DataGridView)sender;
@@ -111,6 +125,7 @@ namespace Homework
         private void ShowMessage(string content, string title, int rowIndex, int resultCount)
         {
             const int INDEX = 2;
+            this._dataGridView1.EndEdit();
             MessageBox.Show(content, title);
             this._dataGridView1.Rows[rowIndex].Cells[INDEX].Value = resultCount.ToString();
         }
