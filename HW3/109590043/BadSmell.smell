@@ -368,10 +368,20 @@
                 <ProjectName>DataGridViewNumericUpDownElements</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ModelTests.cs</RelativePath>
+                <ProjectName>HW03Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>HW03Tests</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>2470</ProductionLoc>
-          <TestLoc>1503</TestLoc>
+          <ProductionLoc>2492</ProductionLoc>
+          <TestLoc>1691</TestLoc>
         </CodeReview>
       </Data>
     </div>

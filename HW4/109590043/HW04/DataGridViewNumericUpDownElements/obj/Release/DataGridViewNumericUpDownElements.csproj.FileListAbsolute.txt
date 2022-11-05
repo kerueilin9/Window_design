@@ -1,0 +1,6 @@
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\bin\Release\DataGridViewNumericUpDownElements.dll
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\bin\Release\DataGridViewNumericUpDownElements.pdb
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\obj\Release\DataGridViewNumericUpDownElements.csprojAssemblyReference.cache
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\obj\Release\DataGridViewNumericUpDownElements.csproj.CoreCompileInputs.cache
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\obj\Release\DataGridViewNumericUpDownElements.dll
+C:\Users\hong\Desktop\DGVNUPD\DataGridViewNumericUpDown\DataGridViewNumericUpDownElements\obj\Release\DataGridViewNumericUpDownElements.pdb

@@ -31,5 +31,10 @@ namespace DataBinding_SimpleControl
         {
             presentationModel.clickEditButton();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

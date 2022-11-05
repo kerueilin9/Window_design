@@ -20,7 +20,7 @@ namespace Homework
         private BorrowedList _borrowedList = new BorrowedList();
         private List<Book> _borrowList = new List<Book>();
         private Book _book;
-        private BookItem _bookItem;
+        private BookItem _bookItem = new BookItem();
 
         public Model()
         {
@@ -41,12 +41,9 @@ namespace Homework
                     continue;
                 _dataList.Add(line);
             }
-
             this._data = new string[_dataList.Count() / DIVIDE, DIVIDE];
             foreach (string temp in _dataList)
-            {
                 _data[books / DIVIDE, books++ % DIVIDE] = temp;
-            }
         }
 
         //CreateBook
@@ -105,22 +102,10 @@ namespace Homework
             return book.GetAllContent();
         }
 
-        //GetCurrentBook
-        public Book GetCurrentBook()
-        {
-            return this._book;
-        }
-
         //GetBorrowBook
         public string[] GetBorrowBookArray()
         {
             return _book.GetArray();
-        }
-
-        //GetTotalItemCount
-        public int GetTotalBookCount()
-        {
-            return this._books.Count;
         }
 
         //GetBorrowedBookCount
@@ -192,7 +177,7 @@ namespace Homework
         //IsAddButtonEnable
         public bool IsAddButtonEnable()
         {
-            return !_borrowList.Contains(_book) && _bookItem.GetBookCount() != 0;
+            return !_borrowList.Contains(_book) && _bookItem.GetBookCount() != 0 && _bookItem != null;
         }
 
         //UpdateBorrowedList
