@@ -22,11 +22,6 @@ namespace Homework
         private const int NINE = 9;
         private const int DAY = 30;
 
-        public BorrowedItem()
-        {
-
-        }
-
         public BorrowedItem(DateTime dateTime, Book book)
         {
             this.DateTime = dateTime;

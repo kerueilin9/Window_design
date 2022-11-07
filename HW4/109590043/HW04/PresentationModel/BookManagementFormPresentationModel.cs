@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Homework
 {
-    class BookManagementFormPresentationModel : INotifyPropertyChanged
+    public class BookManagementFormPresentationModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
         private Model _model;
@@ -112,6 +112,8 @@ namespace Homework
                 JudgeIsSave();
                 if (_categoryComboBox != _model.GetCategoryByBook(_book).GetCategoryName())
                     _categoryChange = true;
+                else
+                    _categoryChange = false;
             }
         }
 

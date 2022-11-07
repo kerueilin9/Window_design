@@ -27,7 +27,6 @@ namespace Homework
             _formPresentationModel = new BookInventoryFormPresentationModel(_model);
             this._model._updateBookItem += UpdateDataGridViewRows;
             this._model._updateEditedBook += UpdateDataGridViewRows;
-            this._model._updateEditedBook += UpdateContent;
             SetDataGridView();
             AddDataGridViewRows();
         }
@@ -90,6 +89,7 @@ namespace Homework
             {
                 string bookName = grid.Rows[e.RowIndex].Cells[0].Value.ToString();
                 _formPresentationModel.CurrentBook = _model.GetBookByName(bookName);
+                this._model._updateEditedBook += UpdateContent;
                 UpdateContent();
             }
         }
@@ -122,12 +122,9 @@ namespace Homework
         //UpdateContent
         private void UpdateContent()
         {
-            if (_formPresentationModel.IsCurrentBookNull())
-            {
-                _pictureBox1.BackgroundImage = _formPresentationModel.CurrentBook.GetImage();
-                _pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
-                _richTextBox1.Text = _formPresentationModel.GetContentText();
-            }
+            _pictureBox1.BackgroundImage = Image.FromFile(_formPresentationModel.GetImage());
+            _pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            _richTextBox1.Text = _formPresentationModel.GetContentText();
         }
     }
 }

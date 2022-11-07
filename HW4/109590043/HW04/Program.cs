@@ -14,7 +14,7 @@ namespace Homework
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            Model model = new Model();
+            Model model = new Model("../../../hw4_books_source.txt");
             MenuForm menu = new MenuForm(model);
             Application.Run(menu);
         }

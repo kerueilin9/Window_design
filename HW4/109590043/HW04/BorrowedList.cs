@@ -27,13 +27,13 @@ namespace Homework
         }
 
         //DeleteBorrowedItemUseName
-        public void DeleteBorrowedItemUseName(string name)
+        public void DeleteBorrowedItemByName(string name)
         {
-            this._borrowedItems.Remove(FindBorrowedItemUseName(name));
+            this._borrowedItems.Remove(FindBorrowedItemByName(name));
         }
 
         //FindBorrowedItemUseName
-        public BorrowedItem FindBorrowedItemUseName(string name)
+        public BorrowedItem FindBorrowedItemByName(string name)
         {
             BorrowedItem borrowed = this._borrowedItems.Find(x => x.Book.GetName() == name);
             return borrowed;

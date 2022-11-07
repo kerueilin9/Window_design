@@ -9,10 +9,6 @@ namespace Homework
         private string _author;
         private string _publisher;
         private string _imageFile;
-        public Book() 
-        { 
-
-        }
 
         public Book(string name, string id, string author, string publisher, string imageFile)
         {
@@ -72,9 +68,9 @@ namespace Homework
         }
 
         //GetImage
-        public Image GetImage()
+        public string GetImage()
         {
-            return Image.FromFile(_imageFile);
+            return _imageFile;
         }
 
         //SetImage

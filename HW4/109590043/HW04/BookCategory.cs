@@ -7,10 +7,6 @@ namespace Homework
     {
         private List<Book> _books;
         private string _categoryName;
-        public BookCategory()
-        {
-
-        }
 
         public BookCategory(string categoryName)
         {

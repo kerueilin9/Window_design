@@ -221,95 +221,31 @@
             <Smell>
               <Id>3</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>193 目前物件 Homework.BookBorrowingForm，使用物件的方法或屬性次數：1次，Envy到對象物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookBorrowingFormPresentationModel.GetBorrowBookArray() 以及 Homework.PresentationModel.BookBorrowingFormPresentationModel.IsOverLimit()</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\Form\BookBorrowingForm.cs</File>
-              <Line>193</Line>
-              <StartLine>192</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>193</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 Homework.BookBorrowingForm，使用物件的方法或屬性次數：1次，Envy到對象物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookBorrowingFormPresentationModel.GetBorrowBookArray() 以及 Homework.PresentationModel.BookBorrowingFormPresentationModel.IsOverLimit()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>4</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>194 目前物件 Homework.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookBorrowingFormPresentationModel.AddCurrentBookToBorrowList() 以及 Homework.PresentationModel.BookBorrowingFormPresentationModel.IsOverLimit()</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\Form\BookBorrowingForm.cs</File>
-              <Line>194</Line>
-              <StartLine>193</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>194</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 Homework.BookBorrowingForm，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookBorrowingFormPresentationModel.AddCurrentBookToBorrowList() 以及 Homework.PresentationModel.BookBorrowingFormPresentationModel.IsOverLimit()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>5</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>127 目前物件 Homework.BookInventoryForm，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.PresentationModel.BookInventoryFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookInventoryFormPresentationModel.CurrentBook 以及 Homework.PresentationModel.BookInventoryFormPresentationModel.IsCurrentBookNull()</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\Form\BookInventoryForm.cs</File>
-              <Line>127</Line>
-              <StartLine>126</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>127</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 Homework.BookInventoryForm，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.PresentationModel.BookInventoryFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookInventoryFormPresentationModel.CurrentBook 以及 Homework.PresentationModel.BookInventoryFormPresentationModel.IsCurrentBookNull()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>6</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>129 目前物件 Homework.BookInventoryForm，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.PresentationModel.BookInventoryFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookInventoryFormPresentationModel.GetContentText() 以及 Homework.PresentationModel.BookInventoryFormPresentationModel.IsCurrentBookNull()</HashCode>
-              <Severity>Warning</Severity>
-              <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\Form\BookInventoryForm.cs</File>
-              <Line>129</Line>
-              <StartLine>128</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>129</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>目前物件 Homework.BookInventoryForm，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.PresentationModel.BookInventoryFormPresentationModel，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.PresentationModel.BookInventoryFormPresentationModel.GetContentText() 以及 Homework.PresentationModel.BookInventoryFormPresentationModel.IsCurrentBookNull()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>7</Id>
-              <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>252 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
+              <HashCode>238 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
               <Severity>Warning</Severity>
               <Weight>1</Weight>
               <Project>HW04</Project>
               <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BookBorrowingFormPresentationModel.cs</File>
-              <Line>252</Line>
-              <StartLine>251</StartLine>
+              <Line>238</Line>
+              <StartLine>237</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>252</EndLine>
+              <EndLine>238</EndLine>
               <EndCol>0</EndCol>
               <Comment>目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>8</Id>
+              <Id>4</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>253 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
+              <HashCode>239 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
               <Severity>Warning</Severity>
               <Weight>1</Weight>
               <Project>HW04</Project>
               <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BookBorrowingFormPresentationModel.cs</File>
-              <Line>253</Line>
-              <StartLine>252</StartLine>
+              <Line>239</Line>
+              <StartLine>238</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>253</EndLine>
+              <EndLine>239</EndLine>
               <EndCol>0</EndCol>
               <Comment>目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</Comment>
               <Auto>false</Auto>
@@ -480,7 +416,57 @@
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>BookCategoryTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BookItemTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BookTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BorrowedItemTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BorrowedListTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>ModelTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\BackPackFormPresentationModelTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\BookBorrowingFormPresentationModelTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\BookInventoryFormPresentationModelTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\BookManagementFormPresentationModelTests.cs</RelativePath>
+                <ProjectName>HW04Tests</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>PresentationModel\SupplementFormPresentationModelTests.cs</RelativePath>
                 <ProjectName>HW04Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
@@ -491,8 +477,8 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>3385</ProductionLoc>
-          <TestLoc>1691</TestLoc>
+          <ProductionLoc>3311</ProductionLoc>
+          <TestLoc>2523</TestLoc>
         </CodeReview>
       </Data>
     </div>

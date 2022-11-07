@@ -56,7 +56,17 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="BookCategoryTests.cs" />
+    <Compile Include="BookItemTests.cs" />
+    <Compile Include="BookTests.cs" />
+    <Compile Include="BorrowedItemTests.cs" />
+    <Compile Include="BorrowedListTests.cs" />
     <Compile Include="ModelTests.cs" />
+    <Compile Include="PresentationModel\BackPackFormPresentationModelTests.cs" />
+    <Compile Include="PresentationModel\BookBorrowingFormPresentationModelTests.cs" />
+    <Compile Include="PresentationModel\BookInventoryFormPresentationModelTests.cs" />
+    <Compile Include="PresentationModel\BookManagementFormPresentationModelTests.cs" />
+    <Compile Include="PresentationModel\SupplementFormPresentationModelTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

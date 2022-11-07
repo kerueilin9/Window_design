@@ -22,17 +22,9 @@ namespace Homework
         private BorrowedList _borrowedList = new BorrowedList();
         private List<Book> _borrowList = new List<Book>();
 
-        public Model()
+        public Model(string filePath)
         {
-            ReadFile();
-            CreateBook();
-        }
-
-        //ReadFile
-        public void ReadFile()
-        {
-            const string FILE_NAME = "../../../hw4_books_source.txt";
-            StreamReader file = new StreamReader(@FILE_NAME);
+            StreamReader file = new StreamReader(@filePath);
             int books = 0;
             while (!file.EndOfStream)
             {
@@ -44,6 +36,7 @@ namespace Homework
             this._data = new string[_dataList.Count() / DIVIDE, DIVIDE];
             foreach (string temp in _dataList)
                 _data[books / DIVIDE, books++ % DIVIDE] = temp;
+            CreateBook();
         }
 
         //CreateBook
@@ -122,7 +115,7 @@ namespace Homework
         }
 
         //GetImageByTag
-        public Image GetImageByTag(string categoryName, int id)
+        public string GetImageByTag(string categoryName, int id)
         {
             return GetBookByTag(categoryName, id).GetImage();
         }
@@ -152,12 +145,6 @@ namespace Homework
             return this._borrowList;
         }
 
-        //SetBorrowList
-        public void SetBorrowList(List<Book> books)
-        {
-            this._borrowList = books;
-        }
-
         //UpdateBorrowList
         public void UpdateBorrowList(Book book)
         {
@@ -165,7 +152,7 @@ namespace Homework
         }
 
         //UpdateBorrowListByData
-        public void UpdateBorrowListByData(int count, string name)
+        public void UpdateBorrowListByCount(int count, string name)
         {
             List<Book> temp = _borrowList.FindAll(x => x.GetName() == name);
             int countOld = temp.Count;
@@ -176,13 +163,6 @@ namespace Homework
                 for (int i = 0; i < countOld - count; i++)
                     this._borrowList.Remove(temp.First());
             countOld = 0;
-        }
-
-        //DeleteBorrowListUseName
-        public void DeleteBorrowListUseName(string name, int count)
-        {
-            for (int i = 0; i < count; i++)
-                this._borrowList.Remove(GetBookByName(name));
         }
 
         //ClearBorrowList
@@ -228,7 +208,7 @@ namespace Homework
         public void DeleteBorrowedList(string name, int returnCount)
         {
             for (int i = 0; i < returnCount; i++)
-                this._borrowedList.DeleteBorrowedItemUseName(name);
+                this._borrowedList.DeleteBorrowedItemByName(name);
             BookItem bookItem = this._bookItems.Find(x => x.GetBook().GetName() == name);
             bookItem.SetPlusBookCount(returnCount);
         }
@@ -263,11 +243,11 @@ namespace Homework
         public int JudgeMessageOverFive(string name, int rowIndex, int resultCount, bool show)
         {
             const int LIMIT_COUNT = 5;
-            UpdateBorrowListByData(resultCount, name);
+            UpdateBorrowListByCount(resultCount, name);
             if (_borrowList.Count > LIMIT_COUNT)
             {
                 resultCount = 1;
-                UpdateBorrowListByData(resultCount, name);
+                UpdateBorrowListByCount(resultCount, name);
                 ShowMessageOverFive(rowIndex, resultCount);
                 return resultCount;
             }

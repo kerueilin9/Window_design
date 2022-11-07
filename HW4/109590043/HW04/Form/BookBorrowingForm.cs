@@ -44,6 +44,7 @@ namespace Homework
             if (this._tabControl1.SelectedTab != null)
             {
                 _borrowingFormPresentationModel.ResetCurrentPage(this._tabControl1.SelectedTab.Text);
+                this._borrowingFormPresentationModel.ListInitialize();
                 UpdateView();
             }
         }
@@ -63,6 +64,7 @@ namespace Homework
                 }
             }
             this._borrowingFormPresentationModel.ListInitialize();
+            _borrowingFormPresentationModel.ResetCurrentPage(this._tabControl1.SelectedTab.Text);
             UpdateView();
         }
 
@@ -78,7 +80,7 @@ namespace Homework
             button.Location = new Point(POSITION + SPACING * (book % 3), POSITION);
             button.Size = new Size(WIDTH, HEIGHT);
             button.Tag = book;
-            button.BackgroundImage = _model.GetImageByTag(tabPage.Text, book);
+            button.BackgroundImage = Image.FromFile(_model.GetImageByTag(tabPage.Text, book));
             button.BackgroundImageLayout = ImageLayout.Stretch;
             button.Click += new System.EventHandler(ButtonClick);
         }
@@ -123,7 +125,7 @@ namespace Homework
             var grid = (DataGridView)sender;
             if (e.RowIndex < 0)
                 return;
-            this._borrowingFormPresentationModel.GetMessage(int.Parse(grid[INDEX, e.RowIndex].Value.ToString()), grid.Rows[e.RowIndex].Cells[1].Value.ToString(), e.RowIndex);
+            this._model.JudgeMessageLimit(int.Parse(grid[INDEX, e.RowIndex].Value.ToString()), grid.Rows[e.RowIndex].Cells[1].Value.ToString(), e.RowIndex);
             UpdateButtonView();
         }
 
@@ -139,13 +141,12 @@ namespace Homework
         //DeleteBookInBorrowList
         private void DeleteBookInBorrowList(object sender, DataGridViewCellEventArgs e)
         {
-            const int INDEX = 2;
             var grid = (DataGridView)sender;
             if (e.RowIndex < 0)
                 return;
             if (grid[e.ColumnIndex, e.RowIndex] is DataGridViewButtonCell)
             {
-                _model.DeleteBorrowListUseName(grid.Rows[e.RowIndex].Cells[1].Value.ToString(), int.Parse(grid[INDEX, e.RowIndex].Value.ToString()));
+                _model.UpdateBorrowListByCount(0, grid.Rows[e.RowIndex].Cells[1].Value.ToString());
                 _dataGridView1.Rows.RemoveAt(e.RowIndex);
                 UpdateButtonView();
             }
@@ -190,18 +191,10 @@ namespace Homework
                 MessageBox.Show(LIMIT_WARNING);
             else
             {
-                _dataGridView1.Rows.Add(_borrowingFormPresentationModel.GetBorrowBookArray());
-                _borrowingFormPresentationModel.AddCurrentBookToBorrowList();
-                //UpdateBorrowList();
+                UpdateDataGridView();
                 UpdateButtonView();
             }
         }
-
-        //private void UpdateBorrowList()
-        //{
-        //    _dataGridView1.Rows.Add(_borrowingFormPresentationModel.GetBorrowBookArray());
-        //    _borrowingFormPresentationModel.AddCurrentBookToBorrowList();
-        //}
 
         //ConfirmClick
         private void ConfirmClick(object sender, EventArgs e)
@@ -255,8 +248,8 @@ namespace Homework
             _borrowingFormPresentationModel.SetPreviousEnable();
             _previousPage.Enabled = _borrowingFormPresentationModel.IsPreviousEnable();
             _nextPage.Enabled = _borrowingFormPresentationModel.IsNextEnable();
-            _page.Text = _borrowingFormPresentationModel.GetPageText();
             _borrowingFormPresentationModel.SetVisibleList(currentTabName);
+            _page.Text = _borrowingFormPresentationModel.GetPageText();
             int buttonIndex = 0;
             List<bool> visibleList = _borrowingFormPresentationModel.GetVisibleList(currentTabName);
             foreach (object button in this._tabControl1.SelectedTab.Controls)

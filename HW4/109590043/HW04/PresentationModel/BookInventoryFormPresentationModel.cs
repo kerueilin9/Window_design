@@ -39,14 +39,8 @@ namespace Homework.PresentationModel
             }
         }
 
-        //IsCurrentBookNull
-        public bool IsCurrentBookNull()
-        {
-            return _currentBook != null ? true : false;
-        }
-
         //GetImage
-        public Image GetImage()
+        public string GetImage()
         {
             return _currentBook.GetImage();
         }

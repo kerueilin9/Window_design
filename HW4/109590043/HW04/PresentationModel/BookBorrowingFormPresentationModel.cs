@@ -49,11 +49,13 @@ namespace Homework.PresentationModel
         {
             const int BUTTON_COUNT = 3;
             const int FIRST_CATEGORIES = 0;
-            int addPage = 1;
+            int addPage;
             const string PAGE_TEXT = "Page：{0}/{1}";
             List<BookCategory> bookCategories = _model.GetBookCategories();
             if (bookCategories[FIRST_CATEGORIES].GetBooks().Count % BUTTON_COUNT == 0)
                 addPage = 0;
+            else
+                addPage = 1;
             _pageText = String.Format(PAGE_TEXT, 1, bookCategories[FIRST_CATEGORIES].GetBooks().Count / BUTTON_COUNT + addPage);
         }
 
@@ -73,18 +75,6 @@ namespace Homework.PresentationModel
             if (books.Count % BUTTON_COUNT == 0)
                 addPage = 0;
             this._pageText = String.Format(PAGE_TEXT, _currentPage, books.Count / BUTTON_COUNT + addPage);
-        }
-
-        //GetCurrentPage
-        public int GetCurrentPage()
-        {
-            return this._currentPage;
-        }
-
-        //SetCurrentPage
-        public void SetCurrentPage(int page)
-        {
-            this._currentPage = page;
         }
 
         //GetCurrentBookContent
@@ -107,12 +97,6 @@ namespace Homework.PresentationModel
         public void AddCurrentBookToBorrowList()
         {
             _model.UpdateBorrowList(_currentBook);
-        }
-
-        //GetBorrowBookArray
-        public string[] GetBorrowBookArray()
-        {
-            return _currentBook.GetDataGridViewArray();
         }
 
         //GetRestBookCount
@@ -193,10 +177,13 @@ namespace Homework.PresentationModel
         public bool IsOverLimit()
         {
             const int BORROWING_LIMIT = 5;
-            if (_model.GetBorrowList().Count == BORROWING_LIMIT)
+            if (_model.GetBorrowList().Count >= BORROWING_LIMIT)
                 return true;
             else
+            {
+                AddCurrentBookToBorrowList();
                 return false;
+            }
         }
 
         //GetMessage
@@ -238,7 +225,6 @@ namespace Homework.PresentationModel
         //ReturnList
         public List<string[]> ReturnList()
         {
-            int sum = 1;
             const int INDEXER = 2;
             List<string[]> result = new List<string[]>();
             List<Book> temp = new List<Book>();
@@ -253,19 +239,6 @@ namespace Homework.PresentationModel
                 result.Add(array);
             }
             return result;
-        }
-
-        //GetMessage
-        public void GetMessage(int count, string name, int rowIndex)
-        {
-            this._model.JudgeMessageLimit(count, name, rowIndex);
-        }
-
-        //ShowMessage
-        public void ShowMessage(string content, string title, int rowIndex, int resultCount)
-        {
-            if (this._showMessage != null)
-                this._showMessage(content, title, rowIndex, resultCount);
         }
     }
 }
