@@ -11,6 +11,7 @@ namespace Homework
     {
         public event Action _updateBookItem;
         public event Action _updateEditedBook;
+        public event Action _updateTabView;
         public event Action<string, string, int, int> _showMessage;
         private const int DIVIDE = 7;
         private string[,] _data;
@@ -299,6 +300,13 @@ namespace Homework
         {
             if (this._updateEditedBook != null)
                 this._updateEditedBook();
+        }
+
+        //UpdateTabView
+        public void UpdateTabView()
+        {
+            if (this._updateTabView != null)
+                this._updateTabView();
         }
     }
 }

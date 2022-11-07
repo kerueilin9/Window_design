@@ -50,5 +50,23 @@ namespace Homework.PresentationModel
         {
             return _currentBook.GetAllContent();
         }
+
+        //GetName
+        public string GetName()
+        {
+            if (_currentBook != null)
+                return _currentBook.GetName();
+            else
+                return "";
+        }
+
+        //GetCurrentIndex
+        public bool IsCurrentIndex(string rowValue)
+        {
+            if (GetName() == rowValue)
+                return true;
+            else
+                return false;
+        }
     }
 }

@@ -220,7 +220,9 @@ namespace Homework
             {
                 _model.GetCategoryByBook(_book).DeleteBook(_book);
                 _model.GetCategoryByTagName(_categoryComboBox).AddBook(_book);
+                _model.UpdateTabView();
             }
+            _categoryChange = false;
             JudgeIsSave();
             _model.UpdateEditedBook();
         }

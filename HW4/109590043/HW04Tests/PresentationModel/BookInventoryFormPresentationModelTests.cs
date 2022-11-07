@@ -45,5 +45,21 @@ namespace Homework.PresentationModel.Tests
             presentationModel.CurrentBook = model.GetBookByName(book1Name);
             Assert.AreEqual(_content, presentationModel.GetContentText());
         }
+
+        [TestMethod()]
+        public void GetNameTest()
+        {
+            Assert.AreEqual("", presentationModel.GetName());
+            presentationModel.CurrentBook = model.GetBookByName(book1Name);
+            Assert.AreEqual(book1Name, presentationModel.GetName());
+        }
+
+        [TestMethod()]
+        public void IsCurrentIndexTest()
+        {
+            Assert.AreEqual(false, presentationModel.IsCurrentIndex("123"));
+            presentationModel.CurrentBook = model.GetBookByName(book1Name);
+            Assert.AreEqual(true, presentationModel.IsCurrentIndex(book1Name));
+        }
     }
 }

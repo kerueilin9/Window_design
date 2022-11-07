@@ -117,6 +117,24 @@ namespace Homework
                     _dataGridView1.Rows.Add(book.GetName(), bookCategory.GetCategoryName(), _model.GetBookCountByBook(book));
                 }
             }
+            int index = FindIndexByName();
+            this._dataGridView1.Rows[0].Selected = false;
+            this._dataGridView1.Rows[index].Selected = true;
+        }
+
+        //FindIndexByName
+        public int FindIndexByName()
+        {
+            int rowIndex = 0;
+            foreach (DataGridViewRow row in _dataGridView1.Rows)
+            {
+                if (_formPresentationModel.IsCurrentIndex(row.Cells[0].Value.ToString()))
+                {
+                    rowIndex = row.Index;
+                    break;
+                }
+            }
+            return rowIndex;
         }
 
         //UpdateContent

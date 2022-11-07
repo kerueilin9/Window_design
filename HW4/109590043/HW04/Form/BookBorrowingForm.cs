@@ -30,7 +30,8 @@ namespace Homework
             _backPackForm._updateBorrowingForm += this.UpdateButtonView;
             _model._updateBookItem += this.UpdateButtonView;
             _model._showMessage += this.ShowMessage;
-            _model._updateEditedBook += this.SetView;
+            //_model._updateEditedBook += this.SetView;
+            _model._updateTabView += this.SetView;
             _model._updateEditedBook += this.UpdateRichBox;
             _backPackForm.FormClosing += new FormClosingEventHandler(BackPackFormClosing);
             SetDataGridView();
