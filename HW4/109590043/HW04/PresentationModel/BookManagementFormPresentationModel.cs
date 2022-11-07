@@ -22,6 +22,8 @@ namespace Homework
         private bool _isSave = false;
         private bool _isBrowse = false;
         private bool _categoryChange = false;
+        private bool _imageChange = false;
+
 
         private const int INDEX0 = 0;
         private const int INDEX1 = 1;
@@ -95,8 +97,12 @@ namespace Homework
             }
             set
             {
-                _fileTextBox = value;
-                JudgeIsSave();
+                if (value != _fileTextBox)
+                {
+                    _fileTextBox = value;
+                    JudgeIsSave();
+                    _imageChange = true;
+                }
             }
         }
 
@@ -108,12 +114,12 @@ namespace Homework
             }
             set
             {
-                _categoryComboBox = value;
-                JudgeIsSave();
-                if (_categoryComboBox != _model.GetCategoryByBook(_book).GetCategoryName())
+                if (value != _categoryComboBox)
+                {
+                    _categoryComboBox = value;
+                    JudgeIsSave();
                     _categoryChange = true;
-                else
-                    _categoryChange = false;
+                }
             }
         }
 
@@ -220,9 +226,11 @@ namespace Homework
             {
                 _model.GetCategoryByBook(_book).DeleteBook(_book);
                 _model.GetCategoryByTagName(_categoryComboBox).AddBook(_book);
-                _model.UpdateTabView();
             }
+            if (_imageChange || _categoryChange)
+                _model.UpdateTabView();
             _categoryChange = false;
+            _imageChange = false;
             JudgeIsSave();
             _model.UpdateEditedBook();
         }

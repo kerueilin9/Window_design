@@ -34,9 +34,16 @@ namespace Homework.Tests
             presentationModel.NameTextBox = name;
             presentationModel.JudgeIsSave();
             Assert.AreEqual(true, presentationModel.IsSave);
-            presentationModel.NameTextBox = "";
+            presentationModel.IdTextBox = name;
+            presentationModel.JudgeIsSave();
+            Assert.AreEqual(true, presentationModel.IsSave);
+            presentationModel.FileTextBox = "";
             presentationModel.JudgeIsSave();
             Assert.AreEqual(false, presentationModel.IsSave);
+            presentationModel.FileTextBox = "123";
+            presentationModel.CategoryComboBox = "123";
+            presentationModel.JudgeIsSave();
+            Assert.AreEqual(true, presentationModel.IsSave);
         }
 
         [TestMethod()]
@@ -76,6 +83,8 @@ namespace Homework.Tests
             presentationModel.CategoryComboBox = "6月暢銷書";
             presentationModel.CategoryComboBox = "英文學習";
             presentationModel.ClickSave();
+            presentationModel.FileTextBox = "123";
+            presentationModel.ClickSave();
             Assert.AreEqual(model.GetCategoryByBook(book).GetCategoryName(), "英文學習");
         }
 
@@ -84,6 +93,7 @@ namespace Homework.Tests
         {
             presentationModel.ChangeContent(book1Name);
             presentationModel.AuthorTextBox = "";
+            presentationModel.FileTextBox = "";
             presentationModel.FileTextBox = "";
             presentationModel.IdTextBox = "";
             presentationModel.NameTextBox = "";
