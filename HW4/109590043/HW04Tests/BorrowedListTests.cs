@@ -17,6 +17,7 @@ namespace Homework.Tests
         DateTime _dateTime;
         Book book;
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -27,12 +28,14 @@ namespace Homework.Tests
             borrowedItem = new BorrowedItem(_dateTime, book);
         }
 
+        //Test
         [TestMethod()]
         public void BorrowedListTest()
         {
             Assert.AreEqual(true, Enumerable.SequenceEqual(_borrowedItems.ToArray(), borrowedList.BorrowedItems.ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void AddBorrowedListTest()
         {
@@ -40,6 +43,7 @@ namespace Homework.Tests
             Assert.AreEqual(borrowedItem, borrowedList.BorrowedItems.First());
         }
 
+        //Test
         [TestMethod()]
         public void DeleteBorrowedItemTest()
         {
@@ -50,6 +54,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(_borrowedItems.ToArray(), borrowedList.BorrowedItems.ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void DeleteBorrowedItemUseNameTest()
         {
@@ -60,6 +65,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(_borrowedItems.ToArray(), borrowedList.BorrowedItems.ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void SetTest()
         {

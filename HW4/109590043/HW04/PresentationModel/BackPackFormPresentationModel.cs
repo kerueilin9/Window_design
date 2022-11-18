@@ -19,7 +19,6 @@ namespace Homework.PresentationModel
         //ReturnList
         public List<string[]> ReturnList()
         {
-            int sum = 1;
             const int INDEXER = 3;
             List<string[]> result = new List<string[]>();
             List<BorrowedItem> temp = new List<BorrowedItem>();

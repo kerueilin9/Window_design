@@ -24,6 +24,7 @@ namespace Homework.Tests
             "原點出版: 大雁發行, 2021[民110]" };
         const string _content = "微調有差の日系新版面設計: 一本前所未有、聚焦於「微調細節差很大」的設計參考書\n編號：964 8394:2 - 5 2021\n作者：ingectar - e\n原點出版: 大雁發行, 2021[民110]";
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -31,6 +32,7 @@ namespace Homework.Tests
             _bookPrivate = new PrivateObject(_book);
         }
 
+        //Test
         [TestMethod()]
         public void BookTest()
         {
@@ -41,6 +43,7 @@ namespace Homework.Tests
             Assert.AreEqual(_bookList[4], _book.GetImage());
         }
 
+        //Test
         [TestMethod()]
         public void SetTest()
         {
@@ -56,18 +59,21 @@ namespace Homework.Tests
             Assert.AreEqual("1", _book.GetImage());
         }
 
+        //Test
         [TestMethod()]
         public void GetAllContentTest()
         {
             Assert.AreEqual(_content, _book.GetAllContent());
         }
 
+        //Test
         [TestMethod()]
         public void GetDataGridViewArrayTest()
         {
             Assert.AreEqual(true, Enumerable.SequenceEqual(_bookDataGridViewArray, _book.GetDataGridViewArray()));
         }
 
+        //Test
         [TestMethod()]
         public void GetArrayTest()
         {

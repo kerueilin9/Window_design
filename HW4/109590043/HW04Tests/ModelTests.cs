@@ -11,9 +11,7 @@ namespace Homework.Tests
     [TestClass()]
     public class ModelTests
     {
-        public event Action _updateBookItem;
-        public event Action _updateEditedBook;
-        public event Action<string, string, int, int> _showMessage;
+        PrivateObject privateObject;
         Model model;
         const string _content = "微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書\n編號：964 8394:2-5 2021\n作者：ingectar-e\n原點出版 : 大雁發行, 2021[民110]";
         const string book1Name = "微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書";
@@ -24,10 +22,12 @@ namespace Homework.Tests
         private Book book3; 
         private Book book4;
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
             model = new Model("hw4_books_source.txt");
+            privateObject = new PrivateObject(model);
             _categoriesNames.Add("6月暢銷書");
             _categoriesNames.Add("4月暢銷書");
             _categoriesNames.Add("英文學習");
@@ -43,13 +43,16 @@ namespace Homework.Tests
             bookCategory.AddBook(book4);
         }
 
+        //Test
         [TestMethod()]
-        public void ModelTest()
+        public void CreateBookTest()
         {
-            //Book book = new Book("微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書", "964 8394:2-5 2021", "ingectar-e", "原點出版 : 大雁發行, 2021[民110]", "../../../image/1.jpg");
-            //Assert.AreEqual(book, _books.First());
+            model.CreateBook();
+            Assert.AreEqual(bookCategory.GetBooks().First().GetAllContent(), model.GetCategoryByName("零零落落").GetBooks().First().GetAllContent());
+            Assert.AreEqual("6月暢銷書", model.GetCategoryByName("微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書").GetCategoryName());
         }
 
+        //Test
         [TestMethod()]
         public void GetCategoryByNameTest()
         {
@@ -57,6 +60,7 @@ namespace Homework.Tests
             Assert.AreEqual("6月暢銷書", model.GetCategoryByName("微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書").GetCategoryName());
         }
 
+        //Test
         [TestMethod()]
         public void GetCategoryByBookTest()
         {
@@ -64,60 +68,70 @@ namespace Homework.Tests
             Assert.AreEqual("6月暢銷書", model.GetCategoryByBook(book).GetCategoryName());
         }
 
+        //Test
         [TestMethod()]
         public void GetCategoryByTagNameTest()
         {
             Assert.AreEqual("6月暢銷書", model.GetCategoryByTagName("6月暢銷書").GetCategoryName());
         }
 
+        //Test
         [TestMethod()]
         public void GetCategoryIndexTest()
         {
             Assert.AreEqual(0, model.GetCategoryIndex("6月暢銷書"));
         }
 
+        //Test
         [TestMethod()]
         public void GetBookCategoriesTest()
         {
             Assert.AreEqual("6月暢銷書", model.GetBookCategories().First().GetCategoryName());
         }
 
+        //Test
         [TestMethod()]
         public void GetBookCategoriesBooksTest()
         {
             Assert.AreEqual(model.GetBookByName("微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書"), model.GetBookCategoriesBooks("6月暢銷書").First());
         }
-
+        
+        //Test
         [TestMethod()]
         public void GetBookByTagTest()
         {
             Assert.AreEqual(model.GetBookByName("零零落落"), model.GetBookByTag("6月暢銷書", 3)); ;
         }
 
+        //Test
         [TestMethod()]
         public void GetImageByTagTest()
         {
             Assert.AreEqual(model.GetBookByName("零零落落").GetImage(), model.GetImageByTag("6月暢銷書", 3)); ;
         }
 
+        //Test
         [TestMethod()]
         public void GetBookByNameTest()
         {
             Assert.AreEqual("零零落落", model.GetBookByName("零零落落").GetName());
         }
 
+        //Test
         [TestMethod()]
         public void GetContentByNameTest()
         {
             Assert.AreEqual(_content, model.GetContentByName("微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書"));
         }
 
+        //Test
         [TestMethod()]
         public void GetBorrowedBookCountTest()
         {
             Assert.AreEqual(0, model.GetBorrowedBookCount());
         }
 
+        //Test
         [TestMethod()]
         public void GetBorrowListTest()
         {
@@ -127,6 +141,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(books.ToArray(), model.GetBorrowList().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void UpdateBorrowListTest()
         {
@@ -136,6 +151,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(books.ToArray(), model.GetBorrowList().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void UpdateBorrowListByCountTest()
         {
@@ -147,6 +163,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(books.ToArray(), model.GetBorrowList().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void ClearBorrowListTest()
         {
@@ -158,6 +175,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(books.ToArray(), model.GetBorrowList().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void UpdateBorrowedListTest()
         {
@@ -171,24 +189,28 @@ namespace Homework.Tests
             Assert.AreEqual(false, Enumerable.SequenceEqual(borrowedItems.ToArray(), model.GetBorrowedList().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void GetBookItemByNameTest()
         {
             Assert.AreEqual(5, model.GetBookItemByName(book1Name).GetBookCount());
         }
 
+        //Test
         [TestMethod()]
         public void GetBookItemByBookTest()
         {
             Assert.AreEqual(5, model.GetBookItemByBook(model.GetBookByName(book1Name)).GetBookCount());
         }
 
+        //Test
         [TestMethod()]
         public void GetBookCountByBookTest()
         {
             Assert.AreEqual(5, model.GetBookCountByBook(model.GetBookByName(book1Name)));
         }
 
+        //Test
         [TestMethod()]
         public void DeleteBorrowedListTest()
         {
@@ -196,6 +218,16 @@ namespace Homework.Tests
             Assert.AreEqual(6, model.GetBookCountByBook(model.GetBookByName(book1Name)));
         }
 
+        //Test
+        [TestMethod()]
+        public void GetBorrowedListTest()
+        {
+            model.UpdateBorrowList(model.GetBookByName(book1Name));
+            model.UpdateBorrowedList();
+            Assert.AreEqual(model.GetBookByName(book1Name), model.GetBorrowedList().First().Book);
+        }
+
+        //Test
         [TestMethod()]
         public void JudgeMessageLimitTest()
         {
@@ -213,6 +245,56 @@ namespace Homework.Tests
             model.UpdateBorrowList(model.GetBookByName("零零落落"));
             model.UpdateBorrowList(model.GetBookByName("零零落落"));
             Assert.AreEqual(1, model.JudgeMessageLimit(4, "零零落落", 3));
+        }
+
+        [TestMethod()]
+        public void TestUseAction()
+        {
+            Action<string, string, int, int> action = null;
+            int test = 0;
+            privateObject.SetFieldOrProperty("_showMessage", action);
+            privateObject.Invoke("ShowMessage", "", "", 1, 2);
+            Assert.AreEqual(0, test);
+
+            action += (string content, string title, int rowIndex, int resultCount) => {
+                test = 1;
+            };
+            privateObject.SetFieldOrProperty("_showMessage", action);
+            privateObject.Invoke("ShowMessage", "", "", 1, 2);
+            Assert.AreEqual(1, test);
+
+            Action action1 = null;
+            privateObject.SetFieldOrProperty("_updateBookItem", action1);
+            model.UpdateBookItem();
+            Assert.AreEqual(1, test);
+            action1 += () => {
+                test = 2;
+            };
+            privateObject.SetFieldOrProperty("_updateBookItem", action1);
+            model.UpdateBookItem();
+            Assert.AreEqual(2, test);
+
+            action1 = null;
+            privateObject.SetFieldOrProperty("_updateEditedBook", action1);
+            model.UpdateEditedBook();
+            Assert.AreEqual(2, test);
+            action1 += () => {
+                test = 3;
+            };
+            privateObject.SetFieldOrProperty("_updateEditedBook", action1);
+            model.UpdateEditedBook();
+            Assert.AreEqual(3, test);
+
+            action1 = null;
+            privateObject.SetFieldOrProperty("_updateTabView", action1);
+            model.UpdateTabView();
+            Assert.AreEqual(3, test);
+            action1 += () => {
+                test = 4;
+            };
+            privateObject.SetFieldOrProperty("_updateTabView", action1);
+            model.UpdateTabView();
+            Assert.AreEqual(4, test);
         }
     }
 }

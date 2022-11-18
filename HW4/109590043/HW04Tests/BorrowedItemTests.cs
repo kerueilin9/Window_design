@@ -27,6 +27,7 @@ namespace Homework.Tests
             ""
         };
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -35,6 +36,7 @@ namespace Homework.Tests
             borrowedItem = new BorrowedItem(_dateTime, book);
         }
 
+        //Test
         [TestMethod()]
         public void BorrowedItemTest()
         {
@@ -42,12 +44,14 @@ namespace Homework.Tests
             Assert.AreEqual(book, borrowedItem.Book);
         }
 
+        //Test
         [TestMethod()]
         public void GetDateTimeStringTest()
         {
             Assert.AreEqual("2010/06/23", borrowedItem.GetDateTimeString());
         }
 
+        //Test
         [TestMethod()]
         public void GetArrayTest()
         {

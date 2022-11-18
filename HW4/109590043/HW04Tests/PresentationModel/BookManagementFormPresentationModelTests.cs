@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace Homework.Tests
 {
@@ -16,15 +17,19 @@ namespace Homework.Tests
         string book1Name = "微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書";
         private string name = "name";
         Book book;
+        PrivateObject privateObject;
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
             model = new Model("hw4_books_source.txt");
             presentationModel = new BookManagementFormPresentationModel(model);
+            privateObject = new PrivateObject(presentationModel);
             book = model.GetBookByName(book1Name);
         }
 
+        //Test
         [TestMethod()]
         public void JudgeIsSaveTest()
         {
@@ -46,6 +51,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, presentationModel.IsSave);
         }
 
+        //Test
         [TestMethod()]
         public void GetListBoxListTest()
         {
@@ -56,12 +62,14 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(bookNames.ToArray(), presentationModel.GetListBoxList().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void GetFilePathTest()
         {
             Assert.AreEqual("../../../image/123", presentationModel.GetFilePath("123"));
         }
 
+        //Test
         [TestMethod()]
         public void GetCategoryNamesTest()
         {
@@ -73,6 +81,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(categoryNames.ToArray(), presentationModel.GetCategoryNames().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void ClickSaveTest()
         {
@@ -88,6 +97,7 @@ namespace Homework.Tests
             Assert.AreEqual(model.GetCategoryByBook(book).GetCategoryName(), "英文學習");
         }
 
+        //Test
         [TestMethod()]
         public void GetSetTest()
         {
@@ -111,7 +121,24 @@ namespace Homework.Tests
             Assert.AreEqual(false, presentationModel.IsAddBookButton);
             Assert.AreEqual(false, presentationModel.IsBrowse);
             Assert.AreEqual(false, presentationModel.IsSave);
+        }
 
+        //TestUseAction
+        [TestMethod()]
+        public void NotifyTest()
+        {
+            int test = 0;
+            PropertyChangedEventHandler action1 = null;
+            privateObject.SetFieldOrProperty("PropertyChanged", action1);
+            privateObject.Invoke("Notify");
+            Assert.AreEqual(0, test);
+            action1 += (BookManagementFormPresentationModel, PropertyChangedEventArgs) =>
+            {
+                test = 2;
+            };
+            privateObject.SetFieldOrProperty("PropertyChanged", action1);
+            privateObject.Invoke("Notify");
+            Assert.AreEqual(2, test);
         }
     }
 }

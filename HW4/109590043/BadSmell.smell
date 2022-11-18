@@ -189,15 +189,15 @@
             <Smell>
               <Id>1</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>28 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
+              <HashCode>27 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW04</Project>
               <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BackPackFormPresentationModel.cs</File>
-              <Line>28</Line>
-              <StartLine>28</StartLine>
+              <Line>27</Line>
+              <StartLine>27</StartLine>
               <StartCol>20</StartCol>
-              <EndLine>28</EndLine>
+              <EndLine>27</EndLine>
               <EndCol>133</EndCol>
               <Comment>目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</Comment>
               <Auto>false</Auto>
@@ -205,15 +205,15 @@
             <Smell>
               <Id>2</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>33 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
+              <HashCode>32 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
               <Project>HW04</Project>
               <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BackPackFormPresentationModel.cs</File>
-              <Line>33</Line>
-              <StartLine>32</StartLine>
+              <Line>32</Line>
+              <StartLine>31</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>33</EndLine>
+              <EndLine>32</EndLine>
               <EndCol>0</EndCol>
               <Comment>目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</Comment>
               <Auto>false</Auto>
@@ -348,32 +348,32 @@
               <AnalysisFile>
                 <RelativePath>PresentationModel\BackPackFormPresentationModel.cs</RelativePath>
                 <ProjectName>HW04</ProjectName>
-                <AnalysisFileType>ViewOrController</AnalysisFileType>
+                <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookBorrowingFormPresentationModel.cs</RelativePath>
                 <ProjectName>HW04</ProjectName>
-                <AnalysisFileType>ViewOrController</AnalysisFileType>
+                <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookInventoryFormPresentationModel.cs</RelativePath>
                 <ProjectName>HW04</ProjectName>
-                <AnalysisFileType>ViewOrController</AnalysisFileType>
+                <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookManagementFormPresentationModel.cs</RelativePath>
                 <ProjectName>HW04</ProjectName>
-                <AnalysisFileType>ViewOrController</AnalysisFileType>
+                <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\MenuFormPresentationModel.cs</RelativePath>
                 <ProjectName>HW04</ProjectName>
-                <AnalysisFileType>ViewOrController</AnalysisFileType>
+                <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\ReplenishmentFormPresentationModel.cs</RelativePath>
                 <ProjectName>HW04</ProjectName>
-                <AnalysisFileType>ViewOrController</AnalysisFileType>
+                <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Program.cs</RelativePath>
@@ -477,8 +477,8 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>3358</ProductionLoc>
-          <TestLoc>2539</TestLoc>
+          <ProductionLoc>3365</ProductionLoc>
+          <TestLoc>2632</TestLoc>
         </CodeReview>
       </Data>
     </div>

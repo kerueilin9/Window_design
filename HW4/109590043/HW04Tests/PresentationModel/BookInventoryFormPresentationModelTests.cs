@@ -17,6 +17,7 @@ namespace Homework.PresentationModel.Tests
         const string _content = "微調有差の日系新版面設計 : 一本前所未有、聚焦於「微調細節差很大」的設計參考書\n編號：964 8394:2-5 2021\n作者：ingectar-e\n原點出版 : 大雁發行, 2021[民110]";
         string book2Name = "零零落落";
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -24,6 +25,7 @@ namespace Homework.PresentationModel.Tests
             presentationModel = new BookInventoryFormPresentationModel(model);
         }
 
+        //Test
         [TestMethod()]
         public void GetContentTest()
         {
@@ -31,6 +33,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(content, presentationModel.GetContent("", "", ""));
         }
 
+        //Test
         [TestMethod()]
         public void GetImageTest()
         {
@@ -39,6 +42,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual("../../../image/4.jpg", presentationModel.CurrentBook.GetImage());
         }
 
+        //Test
         [TestMethod()]
         public void GetContentTextTest()
         {
@@ -46,6 +50,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(_content, presentationModel.GetContentText());
         }
 
+        //Test
         [TestMethod()]
         public void GetNameTest()
         {
@@ -54,6 +59,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(book1Name, presentationModel.GetName());
         }
 
+        //Test
         [TestMethod()]
         public void IsCurrentIndexTest()
         {

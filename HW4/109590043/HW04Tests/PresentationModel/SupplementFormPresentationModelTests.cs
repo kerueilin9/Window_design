@@ -14,6 +14,7 @@ namespace Homework.PresentationModel.Tests
         private Model model;
         SupplementFormPresentationModel presentationModel;
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -21,6 +22,7 @@ namespace Homework.PresentationModel.Tests
             presentationModel = new SupplementFormPresentationModel(model);
         }
 
+        //Test
         [TestMethod()]
         public void ReturnCountTest()
         {

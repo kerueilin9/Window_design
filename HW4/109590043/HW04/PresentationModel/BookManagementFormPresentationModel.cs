@@ -24,7 +24,6 @@ namespace Homework
         private bool _categoryChange = false;
         private bool _imageChange = false;
 
-
         private const int INDEX0 = 0;
         private const int INDEX1 = 1;
         private const int INDEX2 = 2;

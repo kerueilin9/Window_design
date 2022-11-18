@@ -15,6 +15,7 @@ namespace Homework.Tests
         BookItem bookItem1;
         Book book;
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -23,6 +24,7 @@ namespace Homework.Tests
             bookItem1 = new BookItem(5, book);
         }
 
+        //Test
         [TestMethod()]
         public void BookItemTest()
         {
@@ -30,6 +32,7 @@ namespace Homework.Tests
             Assert.AreEqual(null, bookItem.GetBook());
         }
 
+        //Test
         [TestMethod()]
         public void BookItemTest1()
         {
@@ -37,6 +40,7 @@ namespace Homework.Tests
             Assert.AreEqual(book, bookItem1.GetBook());
         }
 
+        //Test
         [TestMethod()]
         public void SetBookCountTest()
         {
@@ -44,6 +48,7 @@ namespace Homework.Tests
             Assert.AreEqual(1, bookItem.GetBookCount());
         }
 
+        //Test
         [TestMethod()]
         public void SetBookTest()
         {
@@ -51,6 +56,7 @@ namespace Homework.Tests
             Assert.AreEqual(book, bookItem.GetBook());
         }
 
+        //Test
         [TestMethod()]
         public void SetPlusBookCountTest()
         {
@@ -58,6 +64,7 @@ namespace Homework.Tests
             Assert.AreEqual(8, bookItem1.GetBookCount());
         }
 
+        //Test
         [TestMethod()]
         public void SetMinusBookCountTest()
         {

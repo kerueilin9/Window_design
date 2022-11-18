@@ -17,6 +17,7 @@ namespace Homework.Tests
         Book book = new Book("1", "2", "3", "4", "5");
         private List<Book> books = new List<Book>();
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -25,6 +26,7 @@ namespace Homework.Tests
             category1 = new BookCategory(name, books);
         }
 
+        //Test
         [TestMethod()]
         public void BookCategoryTest()
         {
@@ -33,6 +35,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(books.ToArray(), category1.GetBooks().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void AddBookTest()
         {
@@ -40,6 +43,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(books.ToArray(), category1.GetBooks().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void DeleteBookTest()
         {
@@ -49,6 +53,7 @@ namespace Homework.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(books.ToArray(), category1.GetBooks().ToArray()));
         }
 
+        //Test
         [TestMethod()]
         public void SetCategoryNameTest()
         {
@@ -56,6 +61,7 @@ namespace Homework.Tests
             Assert.AreEqual("12345", category.GetCategoryName());
         }
 
+        //Test
         [TestMethod()]
         public void GetBookCountTest()
         {

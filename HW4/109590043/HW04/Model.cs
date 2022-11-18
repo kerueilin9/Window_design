@@ -282,7 +282,7 @@ namespace Homework
         }
 
         //ShowMessage
-        public void ShowMessage(string content, string title, int rowIndex, int resultCount)
+        private void ShowMessage(string content, string title, int rowIndex, int resultCount)
         {
             if (this._showMessage != null)
                 this._showMessage(content, title, rowIndex, resultCount);

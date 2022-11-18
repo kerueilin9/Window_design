@@ -36,6 +36,7 @@ namespace Homework.PresentationModel.Tests
             "原點出版 : 大雁發行, 2021[民110]"
         };
 
+        //Test
         [TestInitialize()]
         public void Initialize()
         {
@@ -43,6 +44,7 @@ namespace Homework.PresentationModel.Tests
             presentationModel = new BookBorrowingFormPresentationModel(model);
         }
 
+        //Test
         [TestMethod()]
         public void BookBorrowingFormPresentationModelTest()
         {
@@ -50,12 +52,14 @@ namespace Homework.PresentationModel.Tests
             presentationModel = new BookBorrowingFormPresentationModel(model);
         }
 
+        //Test
         [TestMethod()]
         public void GetPageTextTest()
         {
             Assert.AreEqual("Page：1/2", presentationModel.GetPageText());
         }
 
+        //Test
         [TestMethod()]
         public void SetPageTextTest()
         {
@@ -65,12 +69,14 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual("Page：1/1", presentationModel.GetPageText());
         }
 
+        //Test
         [TestMethod()]
         public void GetCurrentBookContentTest()
         {
             Assert.AreEqual("", presentationModel.GetCurrentBookContent());
         }
 
+        //Test
         [TestMethod()]
         public void SetCurrentBookAndItemTest()
         {
@@ -79,6 +85,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(5, presentationModel.GetRestBookCount());
         }
 
+        //Test
         [TestMethod()]
         public void AddCurrentBookToBorrowListTest()
         {
@@ -87,6 +94,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(book2Name, model.GetBorrowList().First().GetName());
         }
 
+        //Test
         [TestMethod()]
         public void SetAddCurrentPageTest()
         {
@@ -94,6 +102,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual("Page：2/2", presentationModel.GetPageText());
         }
 
+        //Test
         [TestMethod()]
         public void SetMinusCurrentPageTest()
         {
@@ -102,6 +111,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual("Page：1/2", presentationModel.GetPageText());
         }
 
+        //Test
         [TestMethod()]
         public void ResetCurrentPageTest()
         {
@@ -109,6 +119,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual("Page：1/2", presentationModel.GetPageText());
         }
 
+        //Test
         [TestMethod()]
         public void SetNextEnableTest()
         {
@@ -123,6 +134,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(false, presentationModel.IsNextEnable());
         }
 
+        //Test
         [TestMethod()]
         public void SetPreviousEnableTest()
         {
@@ -135,6 +147,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(false, presentationModel.IsPreviousEnable());
         }
 
+        //Test
         [TestMethod()]
         public void IsAddBookEnableTest()
         {
@@ -144,6 +157,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(false, presentationModel.IsAddBookEnable());
         }
 
+        //Test
         [TestMethod()]
         public void IsConfirmEnableTest()
         {
@@ -152,6 +166,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(true, presentationModel.IsConfirmEnable());
         }
 
+        //Test
         [TestMethod()]
         public void IsOverLimitTest()
         {
@@ -166,6 +181,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(true, presentationModel.IsOverLimit());
         }
 
+        //Test
         [TestMethod()]
         public void GetMessageTest()
         {
@@ -178,6 +194,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual("【1】1本丶【2】2本\n\n已成功借出!", presentationModel.GetMessage(names, counts));
         }
 
+        //Test
         [TestMethod()]
         public void SetVisibleListTest()
         {
@@ -203,6 +220,7 @@ namespace Homework.PresentationModel.Tests
             Assert.AreEqual(true, Enumerable.SequenceEqual(boolList.ToArray(), presentationModel.GetVisibleList("英文學習")));
         }
 
+        //Test
         [TestMethod()]
         public void ReturnListTest()
         {

@@ -107,6 +107,7 @@ namespace Homework
             // 
             // _categoryComboBox
             // 
+            this._categoryComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this._categoryComboBox.Enabled = false;
             this._categoryComboBox.Font = new System.Drawing.Font("新細明體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this._categoryComboBox.FormattingEnabled = true;
