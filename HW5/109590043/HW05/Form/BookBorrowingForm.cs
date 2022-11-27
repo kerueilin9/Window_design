@@ -54,6 +54,7 @@ namespace Homework
         //SetView
         private void SetView()
         {
+            _bookName = 0;
             List<BookCategory> bookCategories = _model.GetBookCategories();
             this._tabControl1.TabPages.Clear();
             foreach (BookCategory bookCategory in bookCategories)

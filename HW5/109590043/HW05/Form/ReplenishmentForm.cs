@@ -32,7 +32,7 @@ namespace Homework
         //FormLoad
         private void FormLoad(object sender, EventArgs e)
         {
-            this._richTextBox1.Text = this._content;
+            this._richTextBox2.Text = this._content;
         }
 
         //ConfirmClick

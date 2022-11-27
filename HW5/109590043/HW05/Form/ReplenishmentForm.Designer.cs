@@ -31,7 +31,7 @@ namespace Homework
         {
             this._title = new System.Windows.Forms.Label();
             this._supplyCount = new System.Windows.Forms.Label();
-            this._richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this._richTextBox2 = new System.Windows.Forms.RichTextBox();
             this._confirm = new System.Windows.Forms.Button();
             this._cancel = new System.Windows.Forms.Button();
             this._textSupplyCount = new System.Windows.Forms.TextBox();
@@ -52,18 +52,18 @@ namespace Homework
             this._supplyCount.AutoSize = true;
             this._supplyCount.Font = new System.Drawing.Font("新細明體", 14F);
             this._supplyCount.Location = new System.Drawing.Point(12, 263);
-            this._supplyCount.Name = "_replenishCount";
+            this._supplyCount.Name = "_supplyCount";
             this._supplyCount.Size = new System.Drawing.Size(130, 24);
             this._supplyCount.TabIndex = 1;
             this._supplyCount.Text = "補貨數量：";
             // 
-            // _richTextBox1
+            // _richTextBox2
             // 
-            this._richTextBox1.Location = new System.Drawing.Point(12, 66);
-            this._richTextBox1.Name = "_richTextBox1";
-            this._richTextBox1.Size = new System.Drawing.Size(435, 190);
-            this._richTextBox1.TabIndex = 2;
-            this._richTextBox1.Text = "";
+            this._richTextBox2.Location = new System.Drawing.Point(12, 66);
+            this._richTextBox2.Name = "_richTextBox2";
+            this._richTextBox2.Size = new System.Drawing.Size(435, 190);
+            this._richTextBox2.TabIndex = 2;
+            this._richTextBox2.Text = "";
             // 
             // _confirm
             // 
@@ -97,7 +97,7 @@ namespace Homework
             this._textSupplyCount.TabIndex = 5;
             this._textSupplyCount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.DecideKeyPress);
             // 
-            // ReplenishmentForm
+            // SupplementForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,10 +105,10 @@ namespace Homework
             this.Controls.Add(this._textSupplyCount);
             this.Controls.Add(this._cancel);
             this.Controls.Add(this._confirm);
-            this.Controls.Add(this._richTextBox1);
+            this.Controls.Add(this._richTextBox2);
             this.Controls.Add(this._supplyCount);
             this.Controls.Add(this._title);
-            this.Name = "ReplenishmentForm";
+            this.Name = "SupplementForm";
             this.Text = "ReplenishmentForm";
             this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);
@@ -120,7 +120,7 @@ namespace Homework
 
         private System.Windows.Forms.Label _title;
         private System.Windows.Forms.Label _supplyCount;
-        private System.Windows.Forms.RichTextBox _richTextBox1;
+        private System.Windows.Forms.RichTextBox _richTextBox2;
         private System.Windows.Forms.Button _confirm;
         private System.Windows.Forms.Button _cancel;
         private System.Windows.Forms.TextBox _textSupplyCount;

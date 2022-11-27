@@ -119,6 +119,14 @@ namespace MainFormUITest
         }
 
         // test
+        public void SendKeyToTextBox(string name, string text)
+        {
+            ClickElementById(name);
+            Sleep(1);
+            SendKeys.SendWait(text);
+        }
+
+        // test
         public void CloseMessageBox()
         {
             _driver.FindElementByName("確定").Click();
@@ -150,6 +158,15 @@ namespace MainFormUITest
         {
             WindowsElement element = _driver.FindElementByAccessibilityId("65535");
             Assert.AreEqual(text, element.Text);
+        }
+
+        // test
+        public void AssertDataGridViewDataBy(string name, int rowIndex, string columnName, string data)
+        {
+            var dataGridView = _driver.FindElementByAccessibilityId(name);
+            var rowDatas = dataGridView.FindElementByName($"資料列 {rowIndex}").FindElementsByXPath("//*");
+            string result = _driver.FindElementByName($"{columnName} 資料列 {rowIndex}").Text;
+            Assert.AreEqual(data, result);
         }
 
         // test
