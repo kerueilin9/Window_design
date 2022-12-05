@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.9822" branch-rate="0.7082999999999999" version="1.9" timestamp="1670234366" lines-covered="221" lines-valid="225" branches-covered="17" branches-valid="24">
+<coverage line-rate="0.9822" branch-rate="0.7082999999999999" version="1.9" timestamp="1670234978" lines-covered="221" lines-valid="225" branches-covered="17" branches-valid="24">
   <sources>
     <source>C:\Users\kerueilin9\</source>
   </sources>
   <packages>
     <package name="ClassLibrary" line-rate="0.9752" branch-rate="0.7082999999999999" complexity="55">
       <classes>
-        <class name="ClassLibrary.Model" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibrary\Model.cs" line-rate="0.9661" branch-rate="0.6666" complexity="24">
+        <class name="ClassLibrary.Model" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibrary\Model.cs" line-rate="0.9661" branch-rate="0.6666" complexity="24">
           <methods>
             <method name="SetType" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -222,7 +222,7 @@
             <line number="14" hits="6" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Rectangle" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibrary\Rectangle.cs" line-rate="1" branch-rate="1" complexity="10">
+        <class name="ClassLibrary.Rectangle" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibrary\Rectangle.cs" line-rate="1" branch-rate="1" complexity="10">
           <methods>
             <method name="get_X1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -296,7 +296,7 @@
             <line number="42" hits="3" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.ShapeFactory" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibrary\ShapeFactory.cs" line-rate="1" branch-rate="1" complexity="4">
+        <class name="ClassLibrary.ShapeFactory" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibrary\ShapeFactory.cs" line-rate="1" branch-rate="1" complexity="4">
           <methods>
             <method name="CreateShape" signature="(System.String)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
@@ -336,7 +336,7 @@
             <line number="21" hits="14" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Shapes" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibrary\Shapes.cs" line-rate="0.9629000000000001" branch-rate="0.5" complexity="7">
+        <class name="ClassLibrary.Shapes" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibrary\Shapes.cs" line-rate="0.9629000000000001" branch-rate="0.5" complexity="7">
           <methods>
             <method name="CreateShapeHint" signature="(System.String)" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -428,7 +428,7 @@
             <line number="16" hits="16" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Triangle" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibrary\Triangle.cs" line-rate="1" branch-rate="1" complexity="10">
+        <class name="ClassLibrary.Triangle" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibrary\Triangle.cs" line-rate="1" branch-rate="1" complexity="10">
           <methods>
             <method name="get_X1" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -518,7 +518,7 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Tests.ModelTests" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibraryTests\ModelTests.cs" line-rate="1" branch-rate="1" complexity="7">
+        <class name="ClassLibrary.Tests.ModelTests" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibraryTests\ModelTests.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="TestInitialize" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -642,7 +642,7 @@
             <line number="91" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Tests.RectangleTests" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibraryTests\RectangleTests.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="ClassLibrary.Tests.RectangleTests" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibraryTests\RectangleTests.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="TestInitialize" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -688,7 +688,7 @@
             <line number="42" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Tests.ShapeFactoryTests" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibraryTests\ShapeFactoryTests.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="ClassLibrary.Tests.ShapeFactoryTests" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibraryTests\ShapeFactoryTests.cs" line-rate="1" branch-rate="1" complexity="1">
           <methods>
             <method name="CreateShapeTest" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -710,7 +710,7 @@
             <line number="23" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Tests.ShapesTests" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibraryTests\ShapesTests.cs" line-rate="1" branch-rate="1" complexity="5">
+        <class name="ClassLibrary.Tests.ShapesTests" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibraryTests\ShapesTests.cs" line-rate="1" branch-rate="1" complexity="5">
           <methods>
             <method name="TestInitialize" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
@@ -784,7 +784,7 @@
             <line number="62" hits="1" branch="False" />
           </lines>
         </class>
-        <class name="ClassLibrary.Tests.TriangleTests" filename="Desktop\Document\window_design\HW6 - 複製\DrawingForm\ClassLibraryTests\TriangleTests.cs" line-rate="1" branch-rate="1" complexity="3">
+        <class name="ClassLibrary.Tests.TriangleTests" filename="Desktop\Document\window_design\HW6_f\DrawingForm\ClassLibraryTests\TriangleTests.cs" line-rate="1" branch-rate="1" complexity="3">
           <methods>
             <method name="TestInitialize" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>

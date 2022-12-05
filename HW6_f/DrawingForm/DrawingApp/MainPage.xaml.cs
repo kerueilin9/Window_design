@@ -1,4 +1,6 @@
-﻿using System;
+﻿using ClassLibrary;
+using DrawingApp.PresentationModel;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -25,12 +27,13 @@ namespace DrawingApp
         PresentationModel.AppPresentationModel _presentationModel;
         const string TRIANGLE = "Triangle";
         const string RECTANGLE = "Rectangle";
+        //IGraphics _graphics;
 
         public MainPage()
         {
             this.InitializeComponent();
             _model = new ClassLibrary.Model();
-            _presentationModel = new PresentationModel.AppPresentationModel(_model, _canvas);
+            _presentationModel = new PresentationModel.AppPresentationModel(_model, new AppGraphicsAdapter(_canvas));
             _canvas.PointerPressed += HandleCanvasPressed;
             _canvas.PointerReleased += HandleCanvasReleased;
             _canvas.PointerMoved += HandleCanvasMoved;

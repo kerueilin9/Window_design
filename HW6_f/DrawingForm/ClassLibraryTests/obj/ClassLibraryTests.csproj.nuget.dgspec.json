@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj": {}
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj": {
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj",
+        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj",
         "projectName": "ClassLibraryTests",
-        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj",
+        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj",
         "packagesPath": "C:\\Users\\kerueilin9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibraryTests\\obj\\",
+        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibraryTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netcoreapp3.1": {
             "targetAlias": ".NETCoreApp,Version=v3.1",
             "projectReferences": {
-              "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj": {
-                "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj"
+              "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj"
               }
             }
           }
@@ -88,18 +88,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj": {
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj",
         "projectName": "ClassLibrary",
-        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj",
+        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibrary\\ClassLibrary.csproj",
         "packagesPath": "C:\\Users\\kerueilin9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibrary\\obj\\",
+        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -152,7 +152,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
         }
       }
     }

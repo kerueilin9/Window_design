@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\DrawingApp\\DrawingApp.csproj": {}
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\DrawingApp\\DrawingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\DrawingApp\\DrawingApp.csproj": {
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\DrawingApp\\DrawingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\DrawingApp\\DrawingApp.csproj",
+        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\DrawingApp\\DrawingApp.csproj",
         "projectName": "DrawingApp",
-        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\DrawingApp\\DrawingApp.csproj",
+        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\DrawingApp\\DrawingApp.csproj",
         "packagesPath": "C:\\Users\\kerueilin9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\DrawingApp\\obj\\",
+        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\DrawingApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

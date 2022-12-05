@@ -8,15 +8,15 @@ using ClassLibrary;
 
 namespace DrawingApp.PresentationModel
 {
-    class AppPresentationModel
+    public class AppPresentationModel
     {
         Model _model;
         IGraphics _graphics;
 
-        public AppPresentationModel(Model model, Canvas canvas)
+        public AppPresentationModel(Model model, IGraphics graphics)
         {
             this._model = model;
-            _graphics = new AppGraphicsAdapter(canvas);
+            _graphics = graphics;
         }
 
         //Draw

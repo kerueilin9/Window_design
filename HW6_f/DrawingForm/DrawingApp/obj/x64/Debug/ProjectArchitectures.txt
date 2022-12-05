@@ -1,1 +1,1 @@
-C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\DrawingApp.csproj;x64
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\DrawingApp.csproj;x64

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bWrJhgnNNB/hdT70JznXZ8TaW4ptLxMgBSBVYzqYam6ZuaQXPD22Rpme+3/B+Ud9Pu94/oVH58+Gmk8pEeYt/A==",
+  "dgSpecHash": "QM7PUKppGr5epUzRoggqAeTdPry42WSDkt8Un+/whmxXd12U6RwvxaB37F4Gd/Y0v60TZR1udEWB9tgDbxzj4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6 - 複製\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj",
+  "projectFilePath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6_f\\DrawingForm\\ClassLibraryTests\\ClassLibraryTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kerueilin9\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
     "C:\\Users\\kerueilin9\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",

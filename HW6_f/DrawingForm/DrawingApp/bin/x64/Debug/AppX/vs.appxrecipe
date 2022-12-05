@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>d3673825-1d4c-431d-b9e4-7b0bc8c15308</PackageIdentityName>
     <PackageIdentityPublisher>CN=kerueilin9</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\obj\x64\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>DA9729D5AB8AB769D52006498EB10F776E1313CA5A05A2E221083231E6A7BCC0</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>d3673825-1d4c-431d-b9e4-7b0bc8c15308_1.0.0.0_x64__ffnmr6sdw0a8r</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>d3673825-1d4c-431d-b9e4-7b0bc8c15308_ffnmr6sdw0a8r!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-05T09:40:14.833</Modified>
+      <Modified>2022-12-05T10:25:41.525</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.exe">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.exe">
       <PackagePath>entrypoint\DrawingApp.exe</PackagePath>
-      <Modified>2022-12-05T09:40:14.197</Modified>
+      <Modified>2022-12-05T10:25:41.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.2.12\runtimes\win10-x64\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,67 +46,67 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2020-12-01T20:52:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2022-12-02T02:55:45.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2022-09-18T06:10:13.038</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-09-18T06:10:13.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-09-18T06:10:13.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-09-18T06:10:13.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-09-18T06:10:13.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-09-18T06:10:13.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2022-09-18T06:10:13.040</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.xr.xml">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.xr.xml">
       <PackagePath>DrawingApp.xr.xml</PackagePath>
       <Modified>2022-12-02T16:26:42.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-12-05T09:40:14.151</Modified>
+      <Modified>2022-12-05T10:25:41.095</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-12-05T09:40:14.151</Modified>
+      <Modified>2022-12-05T10:25:41.095</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2020-12-01T18:52:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-05T09:40:14.495</Modified>
+      <Modified>2022-12-05T10:20:43.888</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\Core\DrawingApp.exe">
+    <AppxPackagedFile Include="C:\Users\kerueilin9\Desktop\Document\window_design\HW6_f\DrawingForm\DrawingApp\bin\x64\Debug\Core\DrawingApp.exe">
       <PackagePath>DrawingApp.exe</PackagePath>
-      <Modified>2022-12-05T09:40:14.830</Modified>
+      <Modified>2022-12-05T10:25:41.523</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
