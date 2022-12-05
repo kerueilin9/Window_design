@@ -1,0 +1,90 @@
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\App.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\MainPage.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\DrawingApp.xr.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\DrawingApp.exe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\DrawingApp.pdb
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\resources.pri
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\AppxManifest.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\Core\DrawingApp.exe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\DrawingApp.build.appxrecipe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\System.Runtime.dll
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\DrawingApp.csproj.AssemblyReference.cache
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\App.g.i.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\App.g.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\MainPage.g.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\App.xaml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\MainPage.xaml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\App.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\MainPage.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\DrawingApp.csproj.CoreCompileInputs.cache
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\DrawingApp.csproj.CopyComplete
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\DrawingApp.exe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\DrawingApp.pdb
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\priconfig.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\resources.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\pri.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\qualifiers.txt
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\App.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\MainPage.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.xr.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.exe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.pdb
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\resources.pri
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\AppxManifest.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\Core\DrawingApp.exe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\DrawingApp.build.appxrecipe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\System.Runtime.dll
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\DrawingApp.csproj.AssemblyReference.cache
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\App.g.i.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\App.g.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\MainPage.g.i.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\MainPage.g.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\App.xaml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\MainPage.xaml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\App.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\MainPage.xbf
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\DrawingApp.csproj.CoreCompileInputs.cache
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\DrawingApp.csproj.CopyComplete
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\DrawingApp.exe
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\DrawingApp.pdb
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\priconfig.xml
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\resources.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\pri.resfiles
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\qualifiers.txt
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6 - 複製\DrawingForm\DrawingApp\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_637424527200000000.json

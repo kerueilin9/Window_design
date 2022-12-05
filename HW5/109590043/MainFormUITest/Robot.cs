@@ -147,6 +147,13 @@ namespace MainFormUITest
         }
 
         // test
+        public void AssertEnableById(string id, bool state)
+        {
+            WindowsElement element = _driver.FindElementByAccessibilityId(id);
+            Assert.AreEqual(state, element.Enabled);
+        }
+
+        // test
         public void AssertText(string name, string text)
         {
             WindowsElement element = _driver.FindElementByAccessibilityId(name);

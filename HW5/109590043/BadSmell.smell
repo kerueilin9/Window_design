@@ -188,12 +188,27 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
+              <SmellType>A syntax error has been discovered in file C:\Users\kerueilin9\Desktop\Document\window_design\HW5\109590043\MainFormUITest\Robot.cs on line 139.</SmellType>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>MainFormUITest</Project>
+              <File>Robot.cs</File>
+              <Line>139</Line>
+              <StartLine>0</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>0</EndLine>
+              <EndCol>0</EndCol>
+              <Comment />
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>27 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BackPackFormPresentationModel.cs</File>
+              <Project>HW05</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW5\109590043\HW05\PresentationModel\BackPackFormPresentationModel.cs</File>
               <Line>27</Line>
               <StartLine>27</StartLine>
               <StartCol>20</StartCol>
@@ -203,13 +218,13 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>2</Id>
+              <Id>3</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>32 目前物件 Homework.PresentationModel.BackPackFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.BorrowedItem，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.Book 以及 Homework.BorrowedItem.GetDateTimeString() 以及 Homework.BorrowedItem.GetDateTimeString()</HashCode>
               <Severity>Red</Severity>
               <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BackPackFormPresentationModel.cs</File>
+              <Project>HW05</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW5\109590043\HW05\PresentationModel\BackPackFormPresentationModel.cs</File>
               <Line>32</Line>
               <StartLine>31</StartLine>
               <StartCol>0</StartCol>
@@ -219,33 +234,33 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>3</Id>
+              <Id>4</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>238 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
+              <HashCode>237 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
               <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BookBorrowingFormPresentationModel.cs</File>
-              <Line>238</Line>
-              <StartLine>237</StartLine>
+              <Project>HW05</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW5\109590043\HW05\PresentationModel\BookBorrowingFormPresentationModel.cs</File>
+              <Line>237</Line>
+              <StartLine>236</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>238</EndLine>
+              <EndLine>237</EndLine>
               <EndCol>0</EndCol>
               <Comment>目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</Comment>
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>4</Id>
+              <Id>5</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
-              <HashCode>239 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
+              <HashCode>238 目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</HashCode>
               <Severity>Warning</Severity>
               <Weight>1</Weight>
-              <Project>HW04</Project>
-              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW4\109590043\HW04\PresentationModel\BookBorrowingFormPresentationModel.cs</File>
-              <Line>239</Line>
-              <StartLine>238</StartLine>
+              <Project>HW05</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW5\109590043\HW05\PresentationModel\BookBorrowingFormPresentationModel.cs</File>
+              <Line>238</Line>
+              <StartLine>237</StartLine>
               <StartCol>0</StartCol>
-              <EndLine>239</EndLine>
+              <EndLine>238</EndLine>
               <EndCol>0</EndCol>
               <Comment>目前物件 Homework.PresentationModel.BookBorrowingFormPresentationModel，使用物件的方法或屬性次數：0次，Envy到對象物件 Homework.Model，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：Homework.Model.GetBorrowList() 以及 Homework.Model.GetBorrowList()</Comment>
               <Auto>false</Auto>
@@ -257,142 +272,142 @@
             <AnalysisFiles>
               <AnalysisFile>
                 <RelativePath>Book.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BookCategory.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BookItem.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BorrowedItem.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BorrowedList.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BackPackForm.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BackPackForm.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BookBorrowingForm.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BookBorrowingForm.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BookInventoryForm.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BookInventoryForm.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BookManagementForm.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\BookManagementForm.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\MenuForm.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\MenuForm.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\ReplenishmentForm.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Form\ReplenishmentForm.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Model.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BackPackFormPresentationModel.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookBorrowingFormPresentationModel.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookInventoryFormPresentationModel.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookManagementFormPresentationModel.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\MenuFormPresentationModel.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\ReplenishmentFormPresentationModel.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Program.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>ViewOrController</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Properties\Resources.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Properties\Settings.Designer.cs</RelativePath>
-                <ProjectName>HW04</ProjectName>
+                <ProjectName>HW05</ProjectName>
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
@@ -417,68 +432,113 @@
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BookCategoryTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BookItemTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BookTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BorrowedItemTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>BorrowedListTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>ModelTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BackPackFormPresentationModelTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookBorrowingFormPresentationModelTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookInventoryFormPresentationModelTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\BookManagementFormPresentationModelTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>PresentationModel\SupplementFormPresentationModelTests.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
                 <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
-                <ProjectName>HW04Tests</ProjectName>
+                <ProjectName>HW05Tests</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BackPackFormGUIUnitTest.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BookInventoryFormGUIUnitTest.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BookManagementFormGUIUnitTest.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>BorrowingFormGUIUnitTest.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MainFormUITest.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>MenuFormGUIUnitTest.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Properties\AssemblyInfo.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>ReplenishmentFormGUIUnitTest.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>Robot.cs</RelativePath>
+                <ProjectName>MainFormUITest</ProjectName>
+                <AnalysisFileType>Test</AnalysisFileType>
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>3365</ProductionLoc>
-          <TestLoc>2632</TestLoc>
+          <ProductionLoc>3387</ProductionLoc>
+          <TestLoc>3414</TestLoc>
         </CodeReview>
       </Data>
     </div>

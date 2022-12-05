@@ -6,6 +6,9 @@
   <project key="687999947">
     <configuration>DEBUG;TRACE</configuration>
   </project>
+  <project key="-2019829766">
+    <configuration>DEBUG;TRACE</configuration>
+  </project>
   <sourcecode name="DataGridViewNumericUpDownCell.cs" parser="StyleCop.CSharp.CsParser">
     <timestamps>
       <styleCop>2022/09/19 21:37:40.060</styleCop>

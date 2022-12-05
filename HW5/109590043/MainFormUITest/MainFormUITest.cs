@@ -11,10 +11,6 @@ namespace MainFormUITest
     public class MainFormUITest
     {
         private Robot _robot;
-        private const string APP_NAME = "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App";
-        private const string CALCULATOR_TITLE = "小算盤";
-        private const string EXPECTED_VALUE = "顯示是 444";
-        private const string RESULT_CONTROL_NAME = "CalculatorResults";
         private string targetAppPath;
         private const string MENU_FORM = "MenuForm";
         private const string BOOK_BORROWING_FORM = "BookBorrowingForm";
@@ -57,9 +53,7 @@ namespace MainFormUITest
             _robot.CleanUp();
         }
 
-        /// <summary>
-        /// Tests that the result of 123 + 321 should be 444
-        /// </summary>
+        //test
         [TestMethod()]
         public void TestAddButton()
         {
@@ -110,7 +104,6 @@ namespace MainFormUITest
             _robot.ClickButton("加入借書單");
             _robot.ClickButton("確認借書");
             _robot.ClickButton("確定");
-            //_robot.AssertText("_restCount", "剩餘數量：2");
             _robot.SwitchTo(BOOK_INVENTORY_FORM);
             _robot.AssertDataGridViewDataBy("_dataGridView1", 2, "數量", "2");
             _robot.SwitchTo(BOOKPACK_FORM);

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "vC5pEhh4DxLirTPQbQmwO4eH8TXrNpoVcuckIBsXNT7ExivMuOSGlCbwsqGbyE9E65F45FLgfb0HfqBYnKn8gQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\ClassLibrary\\ClassLibrary\\ClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kerueilin9\\.nuget\\packages\\geoapi.core\\1.7.5\\geoapi.core.1.7.5.nupkg.sha512"
+  ],
+  "logs": []
+}

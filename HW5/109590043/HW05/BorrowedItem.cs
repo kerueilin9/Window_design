@@ -25,19 +25,20 @@ namespace Homework
         public BorrowedItem(DateTime dateTime, Book book)
         {
             this.DateTime = dateTime;
-            this.Book = book;
+            //this.Book = book;
+            this._book = book;
         }
 
         public Book Book 
-        { 
-            get 
-            { 
-                return _book; 
-            } 
-            set 
+        {
+            get
             {
-                _book = value; 
-            } 
+                return _book;
+            }
+            set
+            {
+                _book = value;
+            }
         }
 
         public DateTime DateTime 
