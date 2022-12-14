@@ -1,0 +1,2 @@
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\AppTests\AppTests.csproj;x86
+C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\DrawingApp\DrawingApp.csproj;x86

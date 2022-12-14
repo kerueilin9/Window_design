@@ -4,7 +4,7 @@ using ClassLibrary;
 
 namespace DrawingForm.PresentationModel
 {
-    class WindowsFormsGraphicsAdaptor : IGraphics
+    public class WindowsFormsGraphicsAdaptor : IGraphics
     {
         Graphics _graphics;
 

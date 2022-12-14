@@ -46,25 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\ClassLibrary\ClassLibrary\IGraphics.cs">
+    <Compile Include="..\..\DrawingModel\DrawingModel\IGraphics.cs">
       <Link>Model\IGraphics.cs</Link>
     </Compile>
-    <Compile Include="..\..\ClassLibrary\ClassLibrary\Model.cs">
+    <Compile Include="..\..\DrawingModel\DrawingModel\Model.cs">
       <Link>Model\Model.cs</Link>
     </Compile>
-    <Compile Include="..\..\ClassLibrary\ClassLibrary\Rectangle.cs">
+    <Compile Include="..\..\DrawingModel\DrawingModel\Rectangle.cs">
       <Link>Model\Rectangle.cs</Link>
     </Compile>
-    <Compile Include="..\..\ClassLibrary\ClassLibrary\Shape.cs">
+    <Compile Include="..\..\DrawingModel\DrawingModel\Shape.cs">
       <Link>Model\Shape.cs</Link>
     </Compile>
-    <Compile Include="..\..\ClassLibrary\ClassLibrary\ShapeFactory.cs">
+    <Compile Include="..\..\DrawingModel\DrawingModel\ShapeFactory.cs">
       <Link>Model\ShapeFactory.cs</Link>
     </Compile>
-    <Compile Include="..\..\ClassLibrary\ClassLibrary\Shapes.cs">
+    <Compile Include="..\..\DrawingModel\DrawingModel\Shapes.cs">
       <Link>Model\Shapes.cs</Link>
     </Compile>
-    <Compile Include="..\..\ClassLibrary\ClassLibrary\Triangle.cs">
+    <Compile Include="..\..\DrawingModel\DrawingModel\Triangle.cs">
       <Link>Model\Triangle.cs</Link>
     </Compile>
     <Compile Include="DoubleBufferedPanel.cs">

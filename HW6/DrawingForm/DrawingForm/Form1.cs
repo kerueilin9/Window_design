@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DrawingForm.PresentationModel;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,7 +14,7 @@ namespace DrawingForm
     public partial class Form1 : Form
     {
         ClassLibrary.Model _model;
-        PresentationModel.PresentationModel _presentationModel;
+        PresentationModel.FormPresentationModel _presentationModel;
         Panel _canvas = new DoubleBufferedPanel();
         const string TRIANGLE = "Triangle";
         const string RECTANGLE = "Rectangle";
@@ -61,7 +62,7 @@ namespace DrawingForm
             // prepare presentation model and model
             //
             _model = new ClassLibrary.Model();
-            _presentationModel = new PresentationModel.PresentationModel(_model, _canvas);
+            _presentationModel = new PresentationModel.FormPresentationModel(_model);
             _model._modelChanged += HandleModelChanged;
         }
 
@@ -96,7 +97,7 @@ namespace DrawingForm
         //HandleCanvasPaint
         public void HandleCanvasPaint(object sender, System.Windows.Forms.PaintEventArgs e)
         {
-            _presentationModel.Draw(e.Graphics);
+            _presentationModel.Draw(new WindowsFormsGraphicsAdaptor(e.Graphics));
         }
 
         //HandleModelChanged
