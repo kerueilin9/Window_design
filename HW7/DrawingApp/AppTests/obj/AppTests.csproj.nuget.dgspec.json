@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\AppTests\\AppTests.csproj": {}
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\AppTests\\AppTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\AppTests\\AppTests.csproj": {
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\AppTests\\AppTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\AppTests\\AppTests.csproj",
+        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\AppTests\\AppTests.csproj",
         "projectName": "AppTests",
-        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\AppTests\\AppTests.csproj",
+        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\AppTests\\AppTests.csproj",
         "packagesPath": "C:\\Users\\kerueilin9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\AppTests\\obj\\",
+        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\AppTests\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -33,8 +33,8 @@
         "frameworks": {
           "uap10.0.17763": {
             "projectReferences": {
-              "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\DrawingApp.csproj": {
-                "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\DrawingApp.csproj"
+              "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\DrawingApp.csproj": {
+                "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\DrawingApp.csproj"
               }
             }
           }
@@ -95,14 +95,14 @@
         }
       }
     },
-    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\DrawingApp.csproj": {
+    "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\DrawingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
+        "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
         "projectName": "DrawingApp",
-        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
+        "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
         "packagesPath": "C:\\Users\\kerueilin9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\obj\\",
+        "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

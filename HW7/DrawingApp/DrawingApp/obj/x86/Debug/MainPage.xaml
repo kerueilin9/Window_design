@@ -7,10 +7,16 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d" Width="1366" Height="768">
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
-        <Button x:ConnectionId='2' x:Name="_clear" Content="Clear" HorizontalAlignment="Stretch" Height="44" Margin="605,97,605,0" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='3' x:Name="_rectangle" Content="Rectangle" HorizontalAlignment="Stretch" Height="44" Margin="1083,97,99,0" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='4' x:Name="_triangle" Content="Triangle" HorizontalAlignment="Stretch" Height="44" Margin="99,97,1119,0" VerticalAlignment="Top"/>
-        <Canvas x:ConnectionId='5' x:Name="_canvas" Margin="99,195,99,99" Background="#FFFFFFA0"/>
+        <Button x:ConnectionId='2' x:Name="_clear" Content="Clear" HorizontalAlignment="Stretch" Height="44" Margin="1117,92,93,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='3' x:Name="_rectangle" Content="Rectangle" HorizontalAlignment="Stretch" Height="44" Margin="847,92,335,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='4' x:Name="_triangle" Content="Triangle" HorizontalAlignment="Stretch" Height="44" Margin="330,92,888,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='5' x:Name="_line" Content="Line" HorizontalAlignment="Stretch" Height="44" Margin="609,92,609,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='6' x:Name="_undo" Content="Undo" Margin="99,98,0,0" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='7' x:Name="_redo" Content="Redo" Margin="187,98,0,0" VerticalAlignment="Top"/>
+        <Canvas x:ConnectionId='8' x:Name="_canvas" Margin="99,195,99,99" Background="#FFFFFFA0">
+
+        </Canvas>
+        <TextBlock x:ConnectionId='9' x:Name="_label" HorizontalAlignment="Left" Height="67" Margin="683,670,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="585"/>
     </Grid>
 </Page>
 

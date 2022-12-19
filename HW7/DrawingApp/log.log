@@ -276,3 +276,11 @@ C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingApp\debug.log
 2022-12-07 14:58:53Z : PB = 475484160 : Out  : ------ StyleCop.StyleCopCore.FullAnalyze()
 2022-12-07 14:58:53Z : PB = 475484160 : In   : ------ StyleCop.VisualStudio.AnalysisHelper.AnalyzeComplete(sender=[AnalysisThread], e=[EventArgs])
 2022-12-07 14:58:53Z : PB = 475484160 : In   : ------- StyleCop.VisualStudio.AnalysisHelper.AnalyzeCompleteMain(sender=[AnalysisThread], e=[EventArgs])
+Entering constructor for: ReviewPal.ReviewPal2013.DrSmellPackage
+Entering Initialize() of: ReviewPal.ReviewPal2013.DrSmellPackage
+2022-12-19 10:36:39Z : PB = 385409024 : In   : -------------------- StyleCop.StyleCopCore..ctor(environment=<null>, hostTag=<null>)
+2022-12-19 10:36:39Z : PB = 385454080 : Out  : -------------------- StyleCop.StyleCopCore..ctor()
+2022-12-19 10:36:40Z : PB = 386166784 : Out  : ----------------- StyleCop.StyleCopCore.Initialize()
+C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingApp\debug.log
+ResolveFWLinkAccountManager statusCode is redirect: 'True'
+ResolveFWLinkAccountManager resovled fwlink from 'https://go.microsoft.com/fwlink/?LinkID=415837' to 'https://app.vssps.visualstudio.com/'

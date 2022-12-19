@@ -8,6 +8,7 @@ namespace DrawingModel
         private ShapeFactory _shapeFactory;
         private List<Shape> _shapes;
         private Shape _shape;
+        private const string LINE = "Line";
 
         public Shapes()
         {
@@ -34,6 +35,16 @@ namespace DrawingModel
         }
 
         //CreateShape
+        public Shape CreateShape(string type, Shape[] shapes)
+        {
+            int index = 0;
+            _shape = _shapeFactory.CreateShape(type);
+            _shape.FirstShape = shapes[index++];
+            _shape.SecondShape = shapes[index];
+            return _shape;
+        }
+
+        //CreateShape
         public void AddShape(string type, double[] points)
         {
             int index = 0;
@@ -45,11 +56,13 @@ namespace DrawingModel
             _shapes.Add(_shape);
         }
 
+        //AddShapeDirect
         public void AddShapeDirect(Shape shape)
         {
             _shapes.Add(shape);
         }
 
+        //Remove
         public void Remove()
         {
             _shapes.RemoveAt(_shapes.Count - 1);
@@ -59,7 +72,11 @@ namespace DrawingModel
         public void Draw(IGraphics graphics)
         {
             foreach (Shape aLine in _shapes)
-                aLine.Draw(graphics);
+                if (aLine.GetShapeType() == LINE)
+                    aLine.Draw(graphics);
+            foreach (Shape aLine in _shapes)
+                if (aLine.GetShapeType() != LINE)
+                    aLine.Draw(graphics);
         }
 
         //Clear
@@ -72,6 +89,19 @@ namespace DrawingModel
         public List<Shape> GetShapes()
         {
             return this._shapes;
+        }
+
+        //CheckPointContains
+        public Shape CheckPointContains(double pointX, double pointY)
+        {
+            Shape shape = null;
+            for (int i = this._shapes.Count - 1; i >= 0; i--)
+                if (_shapes[i].IsContains(pointX, pointY))
+                {
+                    shape = _shapes[i];
+                    break;
+                }
+            return shape;
         }
     }
 }

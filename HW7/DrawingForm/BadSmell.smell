@@ -185,7 +185,168 @@
     <div class="data">
       <Data id="ReviewPalData">
         <CodeReview xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-          <Reviews />
+          <Reviews>
+            <Smell>
+              <Id>1</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>18 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Warning</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>18</Line>
+              <StartLine>18</StartLine>
+              <StartCol>16</StartCol>
+              <EndLine>18</EndLine>
+              <EndCol>48</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>2</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>20 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>20</Line>
+              <StartLine>20</StartLine>
+              <StartCol>23</StartCol>
+              <EndLine>20</EndLine>
+              <EndCol>58</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>3</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>21 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>21</Line>
+              <StartLine>21</StartLine>
+              <StartCol>23</StartCol>
+              <EndLine>21</EndLine>
+              <EndCol>58</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>4</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>22 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>22</Line>
+              <StartLine>22</StartLine>
+              <StartCol>23</StartCol>
+              <EndLine>22</EndLine>
+              <EndCol>58</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>5</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>23 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>23</Line>
+              <StartLine>23</StartLine>
+              <StartCol>23</StartCol>
+              <EndLine>23</EndLine>
+              <EndCol>58</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>6</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>25 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：10次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>25</Line>
+              <StartLine>24</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>25</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：10次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>7</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>26 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>26</Line>
+              <StartLine>26</StartLine>
+              <StartCol>21</StartCol>
+              <EndLine>26</EndLine>
+              <EndCol>35</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>8</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>28 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>28</Line>
+              <StartLine>28</StartLine>
+              <StartCol>23</StartCol>
+              <EndLine>28</EndLine>
+              <EndCol>58</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>9</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>29 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>29</Line>
+              <StartLine>29</StartLine>
+              <StartCol>23</StartCol>
+              <EndLine>29</EndLine>
+              <EndCol>58</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+            <Smell>
+              <Id>10</Id>
+              <SmellType>Feature Envy(依戀情節)</SmellType>
+              <HashCode>31 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：7次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
+              <Severity>Red</Severity>
+              <Weight>1</Weight>
+              <Project>DrawingForm</Project>
+              <File>C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\Line.cs</File>
+              <Line>31</Line>
+              <StartLine>30</StartLine>
+              <StartCol>0</StartCol>
+              <EndLine>31</EndLine>
+              <EndCol>0</EndCol>
+              <Comment>目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：7次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</Comment>
+              <Auto>false</Auto>
+            </Smell>
+          </Reviews>
           <HashCodeIgnoreList />
           <HashCodeRequestIgnoreList />
           <AnalysisFileManager>
@@ -206,7 +367,32 @@
                 <AnalysisFileType>Designer</AnalysisFileType>
               </AnalysisFile>
               <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\ClearCommand.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\CommandManager.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\DrawCommand.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\ICommand.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
                 <RelativePath>..\..\DrawingModel\DrawingModel\IGraphics.cs</RelativePath>
+                <ProjectName>DrawingForm</ProjectName>
+                <AnalysisFileType>Model</AnalysisFileType>
+              </AnalysisFile>
+              <AnalysisFile>
+                <RelativePath>..\..\DrawingModel\DrawingModel\Line.cs</RelativePath>
                 <ProjectName>DrawingForm</ProjectName>
                 <AnalysisFileType>Model</AnalysisFileType>
               </AnalysisFile>
@@ -282,7 +468,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>682</ProductionLoc>
+          <ProductionLoc>1149</ProductionLoc>
           <TestLoc>37</TestLoc>
         </CodeReview>
       </Data>

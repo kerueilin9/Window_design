@@ -8,20 +8,22 @@ namespace DrawingModel
 {
     class DrawCommand : ICommand
     {
-        Shape _rect;
+        Shape _shape;
         Model _model;
-        public DrawCommand(Model m, Shape r)
+        public DrawCommand(Model model, Shape shape)
         {
-            _rect = r;
-            _model = m;
+            _shape = shape;
+            _model = model;
         }
 
+        //Execute
         public void Execute()
         {
-            _model.DrawShape(_rect);
+            _model.DrawShape(_shape);
         }
 
-        public void UnExecute()
+        //CancelExecute
+        public void CancelExecute()
         {
             _model.DeleteShape();
         }

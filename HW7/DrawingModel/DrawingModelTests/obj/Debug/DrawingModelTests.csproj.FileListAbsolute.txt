@@ -25,3 +25,7 @@ C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingModel\DrawingModel
 C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingModel\DrawingModelTests\obj\Debug\DrawingModelTests.csproj.CopyComplete
 C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingModel\DrawingModelTests\obj\Debug\DrawingModelTests.dll
 C:\Users\kerueilin9\Desktop\Document\window_design\HW6\DrawingModel\DrawingModelTests\obj\Debug\DrawingModelTests.pdb
+C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModelTests\obj\Debug\DrawingModelTests.csproj.AssemblyReference.cache
+C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModelTests\obj\Debug\DrawingModelTests.csproj.CoreCompileInputs.cache
+C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModelTests\obj\Debug\DrawingModelTests.dll
+C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModelTests\obj\Debug\DrawingModelTests.pdb

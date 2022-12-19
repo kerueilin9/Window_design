@@ -13,15 +13,17 @@ namespace DrawingForm
 {
     public partial class Form1 : Form
     {
-        ToolStripButton undo;
-        ToolStripButton redo;
+        ToolStripButton _undo;
+        ToolStripButton _redo;
 
         DrawingModel.Model _model;
         PresentationModel.FormPresentationModel _presentationModel;
         Panel _canvas = new DoubleBufferedPanel();
         const string TRIANGLE = "Triangle";
         const string RECTANGLE = "Rectangle";
+        const string LINE = "Line";
         Button _triangle = new Button();
+        Button _line = new Button();
         Button _rectangle = new Button();
         Button _clear = new Button();
 
@@ -50,28 +52,36 @@ namespace DrawingForm
 
             _rectangle.Text = "Rectangle";
             _rectangle.Dock = DockStyle.Top;
-            _clear.AutoSize = true;
-            _clear.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            _rectangle.AutoSize = true;
+            _rectangle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             _rectangle.Click += ClickRectangle;
             Controls.Add(_rectangle);
 
+            _line.Text = "Line";
+            _line.Dock = DockStyle.Top;
+            _line.AutoSize = true;
+            _line.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            _line.Click += ClickLine;
+            Controls.Add(_line);
+
             _triangle.Text = "Triangle";
             _triangle.Dock = DockStyle.Top;
-            _clear.AutoSize = true;
-            _clear.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            _triangle.AutoSize = true;
+            _triangle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             _triangle.Click += ClickTriangle;
             Controls.Add(_triangle);
+
             //
             // prepare presentation model and model
             //
-            ToolStrip ts = new ToolStrip();
-            ts.Parent = this;
-            undo = new ToolStripButton("Undo", null, UndoHandler);
-            undo.Enabled = false;
-            ts.Items.Add(undo);
-            redo = new ToolStripButton("Redo", null, RedoHandler);
-            redo.Enabled = false;
-            ts.Items.Add(redo);
+            ToolStrip toolStrip = new ToolStrip();
+            toolStrip.Parent = this;
+            _undo = new ToolStripButton("Undo", null, UndoHandler);
+            _undo.Enabled = false;
+            toolStrip.Items.Add(_undo);
+            _redo = new ToolStripButton("Redo", null, RedoHandler);
+            _redo.Enabled = false;
+            toolStrip.Items.Add(_redo);
 
             _model = new DrawingModel.Model();
             _presentationModel = new PresentationModel.FormPresentationModel(_model);
@@ -87,13 +97,14 @@ namespace DrawingForm
             _model.Clear();
             this._triangle.Enabled = true;
             this._rectangle.Enabled = true;
+            this._line.Enabled = true;
         }
 
         //HandleCanvasPressed
         public void HandleCanvasPressed(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             _model.PressedPointer(e.X, e.Y);
-            RefreshUI();
+            RefreshEnabled();
         }
 
         //HandleCanvasReleased
@@ -102,14 +113,15 @@ namespace DrawingForm
             _model.ReleasedPointer(e.X, e.Y);
             this._triangle.Enabled = true;
             this._rectangle.Enabled = true;
-            RefreshUI();
+            this._line.Enabled = _model.GetIsLineEnabled();
+            RefreshEnabled();
         }
 
         //HandleCanvasMoved
         public void HandleCanvasMoved(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             _model.MovedPointer(e.X, e.Y);
-            RefreshUI();
+            RefreshEnabled();
         }
 
         //HandleCanvasPaint
@@ -122,6 +134,7 @@ namespace DrawingForm
         public void HandleModelChanged()
         {
             Invalidate(true);
+            this._shapePosition.Text = _model.GetSelectedPosition();
         }
 
         //ClickRectangle
@@ -130,6 +143,16 @@ namespace DrawingForm
             _model.SetType(RECTANGLE);
             this._rectangle.Enabled = false;
             this._triangle.Enabled = true;
+            this._line.Enabled = true;
+        }
+
+        //ClickLine
+        public void ClickLine(object sender, System.EventArgs e)
+        {
+            _model.SetType(LINE);
+            this._rectangle.Enabled = true;
+            this._triangle.Enabled = true;
+            this._line.Enabled = false;
         }
 
         //ClickTriangle
@@ -138,6 +161,7 @@ namespace DrawingForm
             _model.SetType(TRIANGLE);
             this._triangle.Enabled = false;
             this._rectangle.Enabled = true;
+            this._line.Enabled = true;
         }
 
         //FormLoad
@@ -146,22 +170,25 @@ namespace DrawingForm
 
         }
 
+        //UndoHandler
         void UndoHandler(Object sender, EventArgs e)
         {
             _model.Undo();
-            RefreshUI();
+            RefreshEnabled();
         }
 
+        //RedoHandler
         void RedoHandler(Object sender, EventArgs e)
         {
             _model.Redo();
-            RefreshUI();
+            RefreshEnabled();
         }
 
-        void RefreshUI()    // 更新redo與undo是否為enabled
+        //RefreshUI
+        void RefreshEnabled()
         {
-            redo.Enabled = _model.IsRedoEnabled;
-            undo.Enabled = _model.IsUndoEnabled;
+            _redo.Enabled = _model.IsRedoEnabled;
+            _undo.Enabled = _model.IsUndoEnabled;
             Invalidate();
         }
     }

@@ -1,10 +1,6 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ClassLibrary;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ClassLibrary.Tests
+namespace DrawingModel.Tests
 {
     [TestClass()]
     public class ShapeFactoryTests

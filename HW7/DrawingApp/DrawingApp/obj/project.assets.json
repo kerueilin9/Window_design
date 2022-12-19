@@ -8165,11 +8165,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
+      "projectUniqueName": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
       "projectName": "DrawingApp",
-      "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
+      "projectPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\DrawingApp.csproj",
       "packagesPath": "C:\\Users\\kerueilin9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW6\\DrawingApp\\DrawingApp\\obj\\",
+      "outputPath": "C:\\Users\\kerueilin9\\Desktop\\Document\\window_design\\HW7\\DrawingApp\\DrawingApp\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

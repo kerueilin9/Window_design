@@ -4,33 +4,69 @@ using System.Text;
 
 namespace DrawingModel
 {
-    public interface Shape
+    public abstract class Shape
     {
+        private double _largeX;
+        private double _smallX;
+        private double _largeY;
+        private double _smallY;
+
         //Draw
-        void Draw(IGraphics graphics);
+        abstract public void Draw(IGraphics graphics);
 
         //GetShapeType
-        string GetShapeType();
+        abstract public string GetShapeType();
 
-        double X1
+        //IsContains
+        virtual public bool IsContains(double x1, double y1)
+        {
+            _largeX = this.X1 > this.X2 ? this.X1 : this.X2;
+            _smallX = this.X1 > this.X2 ? this.X2 : this.X1;
+            _largeY = this.Y1 > this.Y2 ? this.Y1 : this.Y2;
+            _smallY = this.Y1 > this.Y2 ? this.Y2 : this.Y1;
+            return x1 >= _smallX && x1 <= _largeX && y1 >= _smallY && y1 <= _largeY;
+        }
+
+        //DrawSelected
+        virtual public void DrawSelected(IGraphics graphics)
+        {
+            graphics.DrawSelected(this._smallX, this._smallY, this._largeX, this._largeY);
+        }
+
+        //GetSelectedPosition
+        abstract public string GetSelectedPosition();
+
+        public double X1
         {
             get;
             set;
         }
 
-        double X2
+        public double X2
         {
             get;
             set;
         }
 
-        double Y1
+        public double Y1
         {
             get;
             set;
         }
 
-        double Y2
+        public double Y2
+        {
+            get;
+            set;
+        }
+
+        public Shape FirstShape
+        {
+            get;
+            set;
+        }
+
+        public Shape SecondShape
         {
             get;
             set;

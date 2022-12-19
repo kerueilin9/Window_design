@@ -1,6 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ClassLibrary;
+using DrawingModel;
 using Moq;
 
 namespace DrawingApp.PresentationModel.Tests

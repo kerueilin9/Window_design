@@ -8,39 +8,42 @@ namespace DrawingModel
 {
     class CommandManager
     {
-        Stack<ICommand> undo = new Stack<ICommand>();
-        Stack<ICommand> redo = new Stack<ICommand>();
+        Stack<ICommand> _undo = new Stack<ICommand>();
+        Stack<ICommand> _redo = new Stack<ICommand>();
 
-        public void Execute(ICommand cmd)
+        //Execute
+        public void Execute(ICommand command)
         {
-            cmd.Execute();
-            undo.Push(cmd);    // push command 進 undo stack
-            redo.Clear();      // 清除redo stack
+            command.Execute();
+            _undo.Push(command);
+            _redo.Clear();
         }
 
+        //Undo
         public void Undo()
         {
-            if (undo.Count <= 0)
-                throw new Exception("Cannot Undo exception\n");
-            ICommand cmd = undo.Pop();
-            redo.Push(cmd);
-            cmd.UnExecute();
+            if (_undo.Count <= 0)
+                throw new Exception("");
+            ICommand command = _undo.Pop();
+            _redo.Push(command);
+            command.CancelExecute();
         }
 
+        //Redo
         public void Redo()
         {
-            if (redo.Count <= 0)
-                throw new Exception("Cannot Redo exception\n");
-            ICommand cmd = redo.Pop();
-            undo.Push(cmd);
-            cmd.Execute();
+            if (_redo.Count <= 0)
+                throw new Exception("");
+            ICommand command = _redo.Pop();
+            _undo.Push(command);
+            command.Execute();
         }
 
         public bool IsRedoEnabled
         {
             get
             {
-                return redo.Count != 0;
+                return _redo.Count != 0;
             }
         }
 
@@ -48,7 +51,7 @@ namespace DrawingModel
         {
             get
             {
-                return undo.Count != 0;
+                return _undo.Count != 0;
             }
         }
     }

@@ -2,7 +2,7 @@
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Shapes;
 using Windows.UI.Xaml.Media;
-using ClassLibrary;
+using DrawingModel;
 
 namespace DrawingApp.PresentationModel
 {
@@ -24,46 +24,80 @@ namespace DrawingApp.PresentationModel
         //DrawLine
         public void DrawLine(double x1, double y1, double x2, double y2)
         {
-            Windows.UI.Xaml.Shapes.Line line = new Windows.UI.Xaml.Shapes.Line();
-            line.X1 = x1;
-            line.Y1 = y1;
-            line.X2 = x2;
-            line.Y2 = y2;
-            line.Stroke = new SolidColorBrush(Colors.Black);
-            _canvas.Children.Add(line);
+            const int HALF = 2;
+            Windows.Foundation.Point point1 = new Windows.Foundation.Point((float)x1, (float)y1);
+            Windows.Foundation.Point point2 = new Windows.Foundation.Point((float)(x1 + x2) / HALF, (float)y1);
+            Windows.Foundation.Point point3 = new Windows.Foundation.Point((float)(x1 + x2) / HALF, (float)y2);
+            Windows.Foundation.Point point4 = new Windows.Foundation.Point((float)x2, (float)y2);
+            PointCollection points = new PointCollection();
+            points.Add(point1);
+            points.Add(point2);
+            points.Add(point3);
+            points.Add(point4);
+            Polyline polyline = new Polyline();
+            polyline.Points = points;
+            polyline.Stroke = new SolidColorBrush(Colors.Black);
+            _canvas.Children.Add(polyline);
         }
 
         //DrawRectangle
         public void DrawRectangle(double x1, double y1, double x2, double y2)
         {
-            Polyline lines = new Polyline();
             Windows.Foundation.Point point1 = new Windows.Foundation.Point((float)x1, (float)y1);
             Windows.Foundation.Point point2 = new Windows.Foundation.Point((float)x1, (float)y2);
             Windows.Foundation.Point point3 = new Windows.Foundation.Point((float)x2, (float)y2);
             Windows.Foundation.Point point4 = new Windows.Foundation.Point((float)x2, (float)y1);
-            lines.Points.Add(point1);
-            lines.Points.Add(point2);
-            lines.Points.Add(point3);
-            lines.Points.Add(point4);
-            lines.Points.Add(point1);
-            lines.Stroke = new SolidColorBrush(Colors.Black);
-            _canvas.Children.Add(lines);
+            PointCollection points = new PointCollection();
+            points.Add(point1);
+            points.Add(point2);
+            points.Add(point3);
+            points.Add(point4);
+            Polygon polygon = new Polygon();
+            polygon.Points = points;
+            polygon.Fill = new SolidColorBrush(Colors.Yellow);
+            polygon.Stroke = new SolidColorBrush(Colors.Black);
+            _canvas.Children.Add(polygon);
         }
 
         //DrawTriangle
         public void DrawTriangle(double x1, double y1, double x2, double y2)
         {
             const int HALF = 2;
-            Polyline lines = new Polyline();
             Windows.Foundation.Point point1 = new Windows.Foundation.Point((float)(x1 + x2) / HALF, (float)y1);
             Windows.Foundation.Point point2 = new Windows.Foundation.Point((float)x1, (float)y2);
             Windows.Foundation.Point point3 = new Windows.Foundation.Point((float)x2, (float)y2);
-            lines.Points.Add(point1);
-            lines.Points.Add(point2);
-            lines.Points.Add(point3);
-            lines.Points.Add(point1);
-            lines.Stroke = new SolidColorBrush(Colors.Black);
-            _canvas.Children.Add(lines);
+            PointCollection points = new PointCollection();
+            points.Add(point1);
+            points.Add(point2);
+            points.Add(point3);
+            Polygon polygon = new Polygon();
+            polygon.Points = points;
+            polygon.Fill = new SolidColorBrush(Colors.Red);
+            polygon.Stroke = new SolidColorBrush(Colors.Black);
+            _canvas.Children.Add(polygon);
+        }
+
+        //DrawSelected
+        public void DrawSelected(double x1, double y1, double x2, double y2)
+        {
+            Windows.Foundation.Point point1 = new Windows.Foundation.Point((float)x1, (float)y1);
+            Windows.Foundation.Point point2 = new Windows.Foundation.Point((float)x1, (float)y2);
+            Windows.Foundation.Point point3 = new Windows.Foundation.Point((float)x2, (float)y2);
+            Windows.Foundation.Point point4 = new Windows.Foundation.Point((float)x2, (float)y1);
+            PointCollection points = new PointCollection();
+            points.Add(point1);
+            points.Add(point2);
+            points.Add(point3);
+            points.Add(point4);
+            DoubleCollection doubles = new DoubleCollection();
+            doubles.Add(3);
+            doubles.Add(3);
+            Polygon polygon = new Polygon();
+            polygon.Points = points;
+            polygon.StrokeDashArray = doubles;
+            polygon.StrokeThickness = 3;
+            polygon.Stroke = new SolidColorBrush(Colors.Red);
+            _canvas.Children.Add(polygon);
         }
     }
 }

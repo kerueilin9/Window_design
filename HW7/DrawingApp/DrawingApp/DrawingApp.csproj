@@ -116,8 +116,23 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\DrawingModel\DrawingModel\ClearCommand.cs">
+      <Link>Model\ClearCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\DrawingModel\DrawingModel\CommandManager.cs">
+      <Link>Model\CommandManager.cs</Link>
+    </Compile>
+    <Compile Include="..\..\DrawingModel\DrawingModel\DrawCommand.cs">
+      <Link>Model\DrawCommand.cs</Link>
+    </Compile>
+    <Compile Include="..\..\DrawingModel\DrawingModel\ICommand.cs">
+      <Link>Model\ICommand.cs</Link>
+    </Compile>
     <Compile Include="..\..\DrawingModel\DrawingModel\IGraphics.cs">
       <Link>Model\IGraphics.cs</Link>
+    </Compile>
+    <Compile Include="..\..\DrawingModel\DrawingModel\Line.cs">
+      <Link>Model\Line.cs</Link>
     </Compile>
     <Compile Include="..\..\DrawingModel\DrawingModel\Model.cs">
       <Link>Model\Model.cs</Link>

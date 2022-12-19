@@ -8,37 +8,23 @@ namespace DrawingModel
     {
         const string RECTANGLE = "Rectangle";
 
-        public double X1
-        {
-            get;
-            set;
-        }
-        public double Y1
-        {
-            get;
-            set;
-        }
-        public double X2
-        {
-            get;
-            set;
-        }
-        public double Y2
-        {
-            get;
-            set;
-        }
-
         //Draw
-        public void Draw(IGraphics graphics)
+        public override void Draw(IGraphics graphics)
         {
             graphics.DrawRectangle(X1, Y1, X2, Y2);
         }
 
         //GetShapeType
-        public string GetShapeType()
+        public override string GetShapeType()
         {
             return RECTANGLE;
+        }
+
+        //GetSelectedPosition
+        public override string GetSelectedPosition()
+        {
+            const string LABEL = "{0}({1}, {2}, {3}, {4})";
+            return string.Format(LABEL, RECTANGLE, this.X1, this.Y1, this.X2, this.Y2);
         }
     }
 }

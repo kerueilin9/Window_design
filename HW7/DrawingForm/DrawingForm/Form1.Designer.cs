@@ -29,21 +29,37 @@ namespace DrawingForm
         /// </summary>
         private void InitializeComponent()
         {
+            this._shapePosition = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // _shapePosition
+            // 
+            this._shapePosition.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this._shapePosition.AutoSize = true;
+            this._shapePosition.BackColor = System.Drawing.Color.Transparent;
+            this._shapePosition.Location = new System.Drawing.Point(522, 406);
+            this._shapePosition.Name = "_shapePosition";
+            this._shapePosition.Size = new System.Drawing.Size(69, 15);
+            this._shapePosition.TabIndex = 0;
+            this._shapePosition.Text = "Selected：";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this._shapePosition);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.FormLoad);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Label _shapePosition;
     }
 }
 

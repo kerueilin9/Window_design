@@ -14,5 +14,11 @@ namespace DrawingModel
 
         //DrawTriangle
         void DrawTriangle(double x1, double y1, double x2, double y2);
+
+        //DrawSelected
+        void DrawSelected(double x1, double y1, double x2, double y2);
+
+        //DrawLine
+        void DrawLine(double x1, double y1, double x2, double y2);
     }
 }

@@ -1,11 +1,7 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using ClassLibrary;
-using System;
-using System.Collections.Generic;
-using System.Text;
 using Moq;
 
-namespace ClassLibrary.Tests
+namespace DrawingModel.Tests
 {
     [TestClass()]
     public class RectangleTests
