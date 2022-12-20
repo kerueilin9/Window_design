@@ -82,15 +82,14 @@ namespace DrawingModel
         public void ReleasedPointer(double x2, double y2)
         {
             _isLineEnable = true;
-            if (_isPressed && _type == LINE)
+            if (_isPressed && _type == LINE) 
+            {
                 if (_shapes.CheckPointContains(x2, y2) != null)
                 {
-                    Shape[] shapes = new Shape[] { _firstShape, _shapes.CheckPointContains(x2, y2) };
-                    _commandManager.Execute(new DrawCommand(this, _shapes.CreateShape(_type, shapes)));
-                    _type = "";
+                    CreateLineCommand(x2, y2);
                 } else
                     _isLineEnable = false;
-            else if (_isPressed && _type != "")
+            } else if (_isPressed && _type != "")
             {
                 double[] points = new double[] { _firstPointX, _firstPointY, x2, y2 };
                 _commandManager.Execute(new DrawCommand(this, _shapes.CreateShape(_type, points)));
@@ -98,6 +97,14 @@ namespace DrawingModel
             }
             _isPressed = false;
             NotifyModelChanged();
+        }
+
+        //CreateLineCommand
+        private void CreateLineCommand(double x2, double y2)
+        {
+            Shape[] shapes = new Shape[] { _firstShape, _shapes.CheckPointContains(x2, y2) };
+            _commandManager.Execute(new DrawCommand(this, _shapes.CreateShape(_type, shapes)));
+            _type = "";
         }
 
         //GetSelectedPosition
@@ -197,7 +204,7 @@ namespace DrawingModel
         }
 
         //GetIsLineEnabled
-        public bool GetIsLineEnabled()
+        public bool IsLineEnabled()
         {
             return _isLineEnable;
         }

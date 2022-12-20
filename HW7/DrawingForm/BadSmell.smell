@@ -188,118 +188,6 @@
           <Reviews>
             <Smell>
               <Id>1</Id>
-              <SmellType>ICS(縮排與換行-5)</SmellType>
-              <HashCode>IndentAndNewLine5.ReleasedPointer.            else if (_isPressed &amp;&amp; _type != "")</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>93</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(縮排與換行-5) 程式碼依內容階層深度縮排</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>2</Id>
-              <SmellType>ICS(縮排與換行-5)</SmellType>
-              <HashCode>IndentAndNewLine5.ReleasedPointer.            {</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>94</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(縮排與換行-5) 程式碼依內容階層深度縮排</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>3</Id>
-              <SmellType>ICS(縮排與換行-5)</SmellType>
-              <HashCode>IndentAndNewLine5.ReleasedPointer.                double[] points = new double[] { _firstPointX, _firstPointY, x2, y2 };</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>95</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(縮排與換行-5) 程式碼依內容階層深度縮排</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>4</Id>
-              <SmellType>ICS(縮排與換行-5)</SmellType>
-              <HashCode>IndentAndNewLine5.ReleasedPointer.                _commandManager.Execute(new DrawCommand(this, _shapes.CreateShape(_type, points)));</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>96</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(縮排與換行-5) 程式碼依內容階層深度縮排</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>5</Id>
-              <SmellType>ICS(縮排與換行-5)</SmellType>
-              <HashCode>IndentAndNewLine5.ReleasedPointer.                _type = "";</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>97</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(縮排與換行-5) 程式碼依內容階層深度縮排</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>6</Id>
-              <SmellType>ICS(縮排與換行-5)</SmellType>
-              <HashCode>IndentAndNewLine5.ReleasedPointer.            }</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>98</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(縮排與換行-5) 程式碼依內容階層深度縮排</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>7</Id>
-              <SmellType>ICS(函式-3)</SmellType>
-              <HashCode>Method3.Model.GetIsLineEnabled</HashCode>
-              <Severity>Red</Severity>
-              <Weight>1</Weight>
-              <Project>DrawingForm</Project>
-              <File>Model.cs</File>
-              <Line>200</Line>
-              <StartLine>0</StartLine>
-              <StartCol>0</StartCol>
-              <EndLine>0</EndLine>
-              <EndCol>0</EndCol>
-              <Comment>ICS(函式-3) Getter 除了取得 bool 值使用 IsXXX()之外，其餘一律使用 GetXXX()</Comment>
-              <Auto>false</Auto>
-            </Smell>
-            <Smell>
-              <Id>8</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>76 目前物件 DrawingModel.Shapes，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape.Draw(DrawingModel.IGraphics) 以及 DrawingModel.Shape.GetShapeType()</HashCode>
               <Severity>Warning</Severity>
@@ -315,7 +203,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>9</Id>
+              <Id>2</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>79 目前物件 DrawingModel.Shapes，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape.Draw(DrawingModel.IGraphics) 以及 DrawingModel.Shape.GetShapeType()</HashCode>
               <Severity>Warning</Severity>
@@ -331,7 +219,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>10</Id>
+              <Id>3</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>18 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：2次，使用到的方法或屬性為以下：DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Warning</Severity>
@@ -347,7 +235,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>11</Id>
+              <Id>4</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>20 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -363,7 +251,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>12</Id>
+              <Id>5</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>21 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -379,7 +267,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>13</Id>
+              <Id>6</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>22 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -395,7 +283,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>14</Id>
+              <Id>7</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>23 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：4次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -411,7 +299,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>15</Id>
+              <Id>8</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>25 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：10次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -427,7 +315,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>16</Id>
+              <Id>9</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>26 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：3次，使用到的方法或屬性為以下：DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -443,7 +331,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>17</Id>
+              <Id>10</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>28 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -459,7 +347,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>18</Id>
+              <Id>11</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>29 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：5次，使用到的方法或屬性為以下：DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -475,7 +363,7 @@
               <Auto>false</Auto>
             </Smell>
             <Smell>
-              <Id>19</Id>
+              <Id>12</Id>
               <SmellType>Feature Envy(依戀情節)</SmellType>
               <HashCode>31 目前物件 DrawingModel.Line，使用物件的方法或屬性次數：0次，Envy到對象物件 DrawingModel.Shape，使用物件方法或屬性次數：7次，使用到的方法或屬性為以下：DrawingModel.Shape.X1 以及 DrawingModel.Shape.X2 以及 DrawingModel.Shape.Y1 以及 DrawingModel.Shape.Y2 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.FirstShape 以及 DrawingModel.Shape.SecondShape</HashCode>
               <Severity>Red</Severity>
@@ -612,7 +500,7 @@
               </AnalysisFile>
             </AnalysisFiles>
           </AnalysisFileManager>
-          <ProductionLoc>1166</ProductionLoc>
+          <ProductionLoc>1174</ProductionLoc>
           <TestLoc>37</TestLoc>
         </CodeReview>
       </Data>

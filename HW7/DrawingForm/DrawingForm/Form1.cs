@@ -98,6 +98,7 @@ namespace DrawingForm
             this._triangle.Enabled = true;
             this._rectangle.Enabled = true;
             this._line.Enabled = true;
+            RefreshEnabled();
         }
 
         //HandleCanvasPressed
@@ -113,7 +114,7 @@ namespace DrawingForm
             _model.ReleasedPointer(e.X, e.Y);
             this._triangle.Enabled = true;
             this._rectangle.Enabled = true;
-            this._line.Enabled = _model.GetIsLineEnabled();
+            this._line.Enabled = _model.IsLineEnabled();
             RefreshEnabled();
         }
 

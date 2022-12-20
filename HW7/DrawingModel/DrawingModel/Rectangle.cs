@@ -24,7 +24,7 @@ namespace DrawingModel
         public override string GetSelectedPosition()
         {
             const string LABEL = "{0}({1}, {2}, {3}, {4})";
-            return string.Format(LABEL, RECTANGLE, this.X1, this.Y1, this.X2, this.Y2);
+            return string.Format(LABEL, RECTANGLE, this._smallX, this._smallY, this._largeX, this._largeY);
         }
     }
 }

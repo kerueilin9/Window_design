@@ -6,10 +6,10 @@ namespace DrawingModel
 {
     public abstract class Shape
     {
-        private double _largeX;
-        private double _smallX;
-        private double _largeY;
-        private double _smallY;
+        protected double _largeX;
+        protected double _smallX;
+        protected double _largeY;
+        protected double _smallY;
 
         //Draw
         abstract public void Draw(IGraphics graphics);

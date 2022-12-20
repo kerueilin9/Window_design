@@ -55,6 +55,7 @@ namespace DrawingApp
             this._triangle.IsEnabled = true;
             this._line.IsEnabled = true;
             this._rectangle.IsEnabled = true;
+            RefreshEnabled();
         }
 
         //HandleCanvasPressed
@@ -70,7 +71,7 @@ namespace DrawingApp
             _model.ReleasedPointer(e.GetCurrentPoint(_canvas).Position.X, e.GetCurrentPoint(_canvas).Position.Y);
             this._triangle.IsEnabled = true;
             this._rectangle.IsEnabled = true;
-            this._line.IsEnabled = _model.GetIsLineEnabled();
+            this._line.IsEnabled = _model.IsLineEnabled();
             RefreshEnabled();
         }
 
