@@ -42,19 +42,7 @@ namespace DrawingModel
             _shape.FirstShape = shapes[index++];
             _shape.SecondShape = shapes[index];
             return _shape;
-        }
-
-        //CreateShape
-        public void AddShape(string type, double[] points)
-        {
-            int index = 0;
-            _shape = _shapeFactory.CreateShape(type);
-            _shape.X1 = points[index++];
-            _shape.Y1 = points[index++];
-            _shape.X2 = points[index++];
-            _shape.Y2 = points[index++];
-            _shapes.Add(_shape);
-        }
+        }   
 
         //AddShapeDirect
         public void AddShapeDirect(Shape shape)

@@ -8,3 +8,9 @@ C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel
 C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\obj\Debug\DrawingModel.csproj.CoreCompileInputs.cache
 C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\obj\Debug\DrawingModel.dll
 C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingModel\DrawingModel\obj\Debug\DrawingModel.pdb
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingModel\DrawingModel\bin\Debug\DrawingModel.dll
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingModel\DrawingModel\bin\Debug\DrawingModel.pdb
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingModel\DrawingModel\obj\Debug\DrawingModel.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingModel\DrawingModel\obj\Debug\DrawingModel.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingModel\DrawingModel\obj\Debug\DrawingModel.dll
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingModel\DrawingModel\obj\Debug\DrawingModel.pdb
