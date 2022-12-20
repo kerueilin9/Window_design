@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DrawingModel
 {
-    interface ICommand
+    public interface ICommand
     {
         //Execute
         void Execute();

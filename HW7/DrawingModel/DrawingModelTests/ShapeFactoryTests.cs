@@ -7,6 +7,7 @@ namespace DrawingModel.Tests
     {
         const string TRIANGLE = "Triangle";
         const string RECTANGLE = "Rectangle";
+        const string LINE = "Line";
 
         //Test
         [TestMethod()]
@@ -16,6 +17,7 @@ namespace DrawingModel.Tests
             Assert.AreEqual(null, shapeFactory.CreateShape(""));
             Assert.AreEqual(TRIANGLE, shapeFactory.CreateShape(TRIANGLE).GetShapeType());
             Assert.AreEqual(RECTANGLE, shapeFactory.CreateShape(RECTANGLE).GetShapeType());
+            Assert.AreEqual(LINE, shapeFactory.CreateShape(LINE).GetShapeType());
         }
     }
 }

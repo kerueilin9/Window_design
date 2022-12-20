@@ -35,5 +35,14 @@ namespace DrawingModel.Tests
         {
             Assert.AreEqual(RECTANGLE, _rectangle.GetShapeType());
         }
+
+        //Test
+        [TestMethod()]
+        public void GetSelectedPositionTest()
+        {
+            const string SAMPLE = "Selectde：Rectangle(500, 400, 600, 500)";
+            _rectangle.IsContains(550, 450);
+            Assert.AreEqual(SAMPLE, _rectangle.GetSelectedPosition());
+        }
     }
 }
