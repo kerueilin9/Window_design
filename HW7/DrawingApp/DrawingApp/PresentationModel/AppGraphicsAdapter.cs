@@ -98,6 +98,24 @@ namespace DrawingApp.PresentationModel
             polygon.StrokeThickness = 3;
             polygon.Stroke = new SolidColorBrush(Colors.Red);
             _canvas.Children.Add(polygon);
+            const double WIDTH = 6;
+            const double RADIUS = WIDTH / 2;
+            _canvas.Children.Add(CreateEllipse(x1 - RADIUS, y1 - RADIUS, WIDTH, WIDTH));
+            _canvas.Children.Add(CreateEllipse(x1 - RADIUS, y2 - RADIUS, WIDTH, WIDTH));
+            _canvas.Children.Add(CreateEllipse(x2 - RADIUS, y1 - RADIUS, WIDTH, WIDTH));
+            _canvas.Children.Add(CreateEllipse(x2 - RADIUS, y2 - RADIUS, WIDTH, WIDTH));
+        }
+
+        private Windows.UI.Xaml.Shapes.Ellipse CreateEllipse(double x1, double y1, double width, double height)
+        {
+            Ellipse ellipse = new Ellipse();
+            ellipse.Stroke = new SolidColorBrush(Colors.Black);
+            ellipse.Fill = new SolidColorBrush(Colors.White);
+            ellipse.Width = width;
+            ellipse.Height = height;
+            Canvas.SetLeft(ellipse, x1);
+            Canvas.SetTop(ellipse, y1);
+            return ellipse;
         }
     }
 }
