@@ -75,5 +75,48 @@ namespace DrawingFormUITest
             _robot.ClickButton(LINE);
             _robot.DragAndDrop(CANVAS, 100, 100, 300, 100);
         }
+
+        //DragAndDrop
+        [TestMethod]
+        [Obsolete]
+        public void TestClear()
+        {
+            _robot.ClickButton(RECTANGLE);
+            _robot.DragAndDrop(CANVAS, 50, 50, 200, 200);
+            _robot.ClickOnCanvas(CANVAS, 100, 100);
+            _robot.AssertText(LABEL, "Selectde：Rectangle(50, 50, 200, 200)");
+            _robot.ClickButton(TRIANGLE);
+            _robot.DragAndDrop(CANVAS, 250, 50, 400, 200);
+            _robot.ClickOnCanvas(CANVAS, 300, 100);
+            _robot.AssertText(LABEL, "Selectde：Triangle(250, 50, 400, 200)");
+            _robot.ClickButton(LINE);
+            _robot.DragAndDrop(CANVAS, 100, 100, 300, 100);
+            _robot.ClickButton("Clear");
+        }
+
+        //DragAndDrop
+        [TestMethod]
+        [Obsolete]
+        public void TestDrawHouse()
+        {
+            _robot.ClickButton(TRIANGLE);
+            _robot.DragAndDrop(CANVAS, 250, 50, 400, 125);
+            _robot.ClickButton(RECTANGLE);
+            _robot.DragAndDrop(CANVAS, 250, 125, 400, 200);
+            _robot.ClickButton(TRIANGLE);
+            _robot.DragAndDrop(CANVAS, 50, 50, 150, 125);
+            _robot.ClickButton(RECTANGLE);
+            _robot.DragAndDrop(CANVAS, 50, 125, 150, 200);
+            _robot.ClickButton(LINE);
+            _robot.DragAndDrop(CANVAS, 100, 150, 300, 150);
+            _robot.ClickOnCanvas(CANVAS, 100, 100);
+            _robot.AssertText(LABEL, "Selectde：Triangle(50, 50, 150, 125)");
+            _robot.ClickOnCanvas(CANVAS, 100, 150);
+            _robot.AssertText(LABEL, "Selectde：Rectangle(50, 125, 150, 200)");
+            _robot.ClickOnCanvas(CANVAS, 300, 100);
+            _robot.AssertText(LABEL, "Selectde：Triangle(250, 50, 400, 125)");
+            _robot.ClickOnCanvas(CANVAS, 300, 150);
+            _robot.AssertText(LABEL, "Selectde：Rectangle(250, 125, 400, 200)");
+        }
     }
 }
