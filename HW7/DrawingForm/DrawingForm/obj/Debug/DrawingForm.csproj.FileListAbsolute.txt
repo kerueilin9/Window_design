@@ -18,3 +18,13 @@ C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingForm\DrawingForm\o
 C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingForm\DrawingForm\bin\Debug\DrawingForm.exe.config
 C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingForm\DrawingForm\bin\Debug\DrawingForm.exe
 C:\Users\kerueilin9\Desktop\Document\window_design\HW7\DrawingForm\DrawingForm\bin\Debug\DrawingForm.pdb
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\bin\Debug\DrawingForm.exe.config
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\bin\Debug\DrawingForm.exe
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\bin\Debug\DrawingForm.pdb
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\obj\Debug\DrawingForm.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\obj\Debug\DrawingForm.Form1.resources
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\obj\Debug\DrawingForm.Properties.Resources.resources
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\obj\Debug\DrawingForm.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\obj\Debug\DrawingForm.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\obj\Debug\DrawingForm.exe
+C:\Users\USER\Desktop\Document\Window_design\HW7\DrawingForm\DrawingForm\obj\Debug\DrawingForm.pdb
